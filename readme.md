@@ -1,0 +1,1 @@
+![ERD for the project](/public/images/UI-Project-ERD.png)

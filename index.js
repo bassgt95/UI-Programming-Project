@@ -1,6 +1,11 @@
 const express = require("express");
 const app = express();
+const mongoose = require('mongoose');
 const path = require('path');
+
+mongoose.connect(process.env.dbURL)
+    .then(console.log("DB Connected!"));
+    .catch (error => console.log(error));
 
 app.use(express.json());
 

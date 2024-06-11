@@ -1,0 +1,3440 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', 'mongodb' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongodb
+8 silly fetchNamedPackageData mongodb
+9 silly mapToRegistry name mongodb
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mongodb',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mongodb',
+12 silly mapToRegistry   name: 'mongodb',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+14 verbose request uri https://registry.npmjs.org/mongodb
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:24:24 PM
+17 verbose request id 8157841ccf26fc93
+18 verbose etag W/"a63fdd863b7c7dfbf7891836f8bc5fc1"
+19 verbose lastModified Sat, 08 Jun 2024 00:13:30 GMT
+20 http request GET https://registry.npmjs.org/mongodb
+21 http 304 https://registry.npmjs.org/mongodb
+22 verbose headers { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '891e1fcecac11811-EWR',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'access-control-allow-origin': '*',
+22 verbose headers   age: '106',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"a63fdd863b7c7dfbf7891836f8bc5fc1"',
+22 verbose headers   'last-modified': 'Sat, 08 Jun 2024 00:13:30 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '891e1fcecac11811-EWR',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'access-control-allow-origin': '*',
+23 silly get     age: '106',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"a63fdd863b7c7dfbf7891836f8bc5fc1"',
+23 silly get     'last-modified': 'Sat, 08 Jun 2024 00:13:30 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/mongodb from cache
+25 verbose get saving mongodb to /Users/grahambass/.npm/registry.npmjs.org/mongodb/.cache.json
+26 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule mongodb@6.7.0 checking installable status
+40 silly cache add args [ 'mongodb', null ]
+41 verbose cache add spec mongodb
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'mongodb',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'mongodb',
+42 silly cache add   name: 'mongodb',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed mongodb@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for mongodb
+45 info addNameTag [ 'mongodb', 'latest' ]
+46 silly mapToRegistry name mongodb
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'mongodb',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'mongodb',
+49 silly mapToRegistry   name: 'mongodb',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+51 verbose addNameTag registry:https://registry.npmjs.org/mongodb not in flight; fetching
+52 verbose get https://registry.npmjs.org/mongodb not expired, no request
+53 silly addNameTag next cb for mongodb with tag latest
+54 silly addNamed mongodb@6.7.0
+55 verbose addNamed "6.7.0" is a plain semver version for mongodb
+56 silly cache afterAdd mongodb@6.7.0
+57 verbose afterAdd /Users/grahambass/.npm/mongodb/6.7.0/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/grahambass/.npm/mongodb/6.7.0/package/package.json written
+60 silly fetchNamedPackageData bson
+61 silly mapToRegistry name bson
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'bson',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'bson',
+64 silly mapToRegistry   name: 'bson',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/bson
+66 silly fetchNamedPackageData @mongodb-js/saslprep
+67 silly mapToRegistry name @mongodb-js/saslprep
+68 silly mapToRegistry scope (from package name) @mongodb-js
+69 verbose mapToRegistry no registry URL found in name for scope @mongodb-js
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: '@mongodb-js/saslprep',
+72 silly mapToRegistry   scope: '@mongodb-js',
+72 silly mapToRegistry   escapedName: '@mongodb-js%2fsaslprep',
+72 silly mapToRegistry   name: '@mongodb-js/saslprep',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/@mongodb-js%2fsaslprep
+74 silly fetchNamedPackageData mongodb-connection-string-url
+75 silly mapToRegistry name mongodb-connection-string-url
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'mongodb-connection-string-url',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'mongodb-connection-string-url',
+78 silly mapToRegistry   name: 'mongodb-connection-string-url',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/mongodb-connection-string-url
+80 verbose request uri https://registry.npmjs.org/@mongodb-js%2fsaslprep
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 10:24:24 PM
+83 verbose etag W/"b64863a7de01a71007a6ba5c7407245d"
+84 verbose lastModified Fri, 07 Jun 2024 15:43:48 GMT
+85 http request GET https://registry.npmjs.org/@mongodb-js%2fsaslprep
+86 verbose request uri https://registry.npmjs.org/mongodb-connection-string-url
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 10:24:24 PM
+89 verbose etag W/"219ba2cc061db438def80ea70b888844"
+90 verbose lastModified Fri, 07 Jun 2024 15:41:29 GMT
+91 http request GET https://registry.npmjs.org/mongodb-connection-string-url
+92 verbose request uri https://registry.npmjs.org/bson
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 10:24:24 PM
+95 verbose etag W/"f1e362f93c14cfc9da2eadc53152e0b3"
+96 verbose lastModified Thu, 02 May 2024 18:37:48 GMT
+97 http request GET https://registry.npmjs.org/bson
+98 http 304 https://registry.npmjs.org/@mongodb-js%2fsaslprep
+99 verbose headers { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'cf-ray': '891e1fd11cd21811-EWR',
+99 verbose headers   'cf-cache-status': 'HIT',
+99 verbose headers   'access-control-allow-origin': '*',
+99 verbose headers   age: '227',
+99 verbose headers   'cache-control': 'public, max-age=300',
+99 verbose headers   etag: '"b64863a7de01a71007a6ba5c7407245d"',
+99 verbose headers   'last-modified': 'Fri, 07 Jun 2024 15:43:48 GMT',
+99 verbose headers   vary: 'Accept-Encoding',
+99 verbose headers   server: 'cloudflare' }
+100 silly get cb [ 304,
+100 silly get   { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+100 silly get     connection: 'keep-alive',
+100 silly get     'cf-ray': '891e1fd11cd21811-EWR',
+100 silly get     'cf-cache-status': 'HIT',
+100 silly get     'access-control-allow-origin': '*',
+100 silly get     age: '227',
+100 silly get     'cache-control': 'public, max-age=300',
+100 silly get     etag: '"b64863a7de01a71007a6ba5c7407245d"',
+100 silly get     'last-modified': 'Fri, 07 Jun 2024 15:43:48 GMT',
+100 silly get     vary: 'Accept-Encoding',
+100 silly get     server: 'cloudflare' } ]
+101 verbose etag https://registry.npmjs.org/@mongodb-js%2fsaslprep from cache
+102 verbose get saving @mongodb-js/saslprep to /Users/grahambass/.npm/registry.npmjs.org/_40mongodb-js_252fsaslprep/.cache.json
+103 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+104 silly pickManifestFromRegistryMetadata spec >=1.1.5 <2.0.0 tag latest versions [ '1.1.0', '1.1.1', '1.1.3', '1.1.4', '1.1.5', '1.1.6', '1.1.7' ]
+105 silly resolveWithNewModule @mongodb-js/saslprep@1.1.7 checking installable status
+106 silly cache add args [ '@mongodb-js/saslprep@^1.1.5', null ]
+107 verbose cache add spec @mongodb-js/saslprep@^1.1.5
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: '@mongodb-js/saslprep@^1.1.5',
+108 silly cache add   scope: '@mongodb-js',
+108 silly cache add   escapedName: '@mongodb-js%2fsaslprep',
+108 silly cache add   name: '@mongodb-js/saslprep',
+108 silly cache add   rawSpec: '^1.1.5',
+108 silly cache add   spec: '>=1.1.5 <2.0.0',
+108 silly cache add   type: 'range' }
+109 silly addNamed @mongodb-js/saslprep@>=1.1.5 <2.0.0
+110 verbose addNamed ">=1.1.5 <2.0.0" is a valid semver range for @mongodb-js/saslprep
+111 silly addNameRange { name: '@mongodb-js/saslprep',
+111 silly addNameRange   range: '>=1.1.5 <2.0.0',
+111 silly addNameRange   hasData: false }
+112 silly mapToRegistry name @mongodb-js/saslprep
+113 silly mapToRegistry scope (from package name) @mongodb-js
+114 verbose mapToRegistry no registry URL found in name for scope @mongodb-js
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: '@mongodb-js/saslprep',
+117 silly mapToRegistry   scope: '@mongodb-js',
+117 silly mapToRegistry   escapedName: '@mongodb-js%2fsaslprep',
+117 silly mapToRegistry   name: '@mongodb-js/saslprep',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/@mongodb-js%2fsaslprep
+119 verbose addNameRange registry:https://registry.npmjs.org/@mongodb-js%2fsaslprep not in flight; fetching
+120 verbose get https://registry.npmjs.org/@mongodb-js%2fsaslprep not expired, no request
+121 silly addNameRange number 2 { name: '@mongodb-js/saslprep',
+121 silly addNameRange   range: '>=1.1.5 <2.0.0',
+121 silly addNameRange   hasData: true }
+122 silly addNameRange versions [ '@mongodb-js/saslprep',
+122 silly addNameRange   [ '1.1.0', '1.1.1', '1.1.3', '1.1.4', '1.1.5', '1.1.6', '1.1.7' ] ]
+123 silly pickManifestFromRegistryMetadata spec >=1.1.5 <2.0.0 tag latest versions [ '1.1.0', '1.1.1', '1.1.3', '1.1.4', '1.1.5', '1.1.6', '1.1.7' ]
+124 silly addNamed @mongodb-js/saslprep@latest
+125 verbose addNamed "latest" is being treated as a dist-tag for @mongodb-js/saslprep
+126 info addNameTag [ '@mongodb-js/saslprep', 'latest' ]
+127 silly mapToRegistry name @mongodb-js/saslprep
+128 silly mapToRegistry scope (from package name) @mongodb-js
+129 verbose mapToRegistry no registry URL found in name for scope @mongodb-js
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry data Result {
+132 silly mapToRegistry   raw: '@mongodb-js/saslprep',
+132 silly mapToRegistry   scope: '@mongodb-js',
+132 silly mapToRegistry   escapedName: '@mongodb-js%2fsaslprep',
+132 silly mapToRegistry   name: '@mongodb-js/saslprep',
+132 silly mapToRegistry   rawSpec: '',
+132 silly mapToRegistry   spec: 'latest',
+132 silly mapToRegistry   type: 'tag' }
+133 silly mapToRegistry uri https://registry.npmjs.org/@mongodb-js%2fsaslprep
+134 verbose addNameTag registry:https://registry.npmjs.org/@mongodb-js%2fsaslprep already in flight; waiting
+135 silly addNameTag next cb for @mongodb-js/saslprep with tag latest
+136 silly addNamed @mongodb-js/saslprep@1.1.7
+137 verbose addNamed "1.1.7" is a plain semver version for @mongodb-js/saslprep
+138 silly cache afterAdd @mongodb-js/saslprep@1.1.7
+139 verbose afterAdd /Users/grahambass/.npm/@mongodb-js/saslprep/1.1.7/package/package.json not in flight; writing
+140 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+141 verbose afterAdd /Users/grahambass/.npm/@mongodb-js/saslprep/1.1.7/package/package.json written
+142 http 304 https://registry.npmjs.org/bson
+143 verbose headers { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'cf-ray': '891e1fd188c919e3-EWR',
+143 verbose headers   'cf-cache-status': 'HIT',
+143 verbose headers   'access-control-allow-origin': '*',
+143 verbose headers   age: '101',
+143 verbose headers   'cache-control': 'public, max-age=300',
+143 verbose headers   etag: '"f1e362f93c14cfc9da2eadc53152e0b3"',
+143 verbose headers   'last-modified': 'Thu, 02 May 2024 18:37:48 GMT',
+143 verbose headers   vary: 'Accept-Encoding',
+143 verbose headers   server: 'cloudflare' }
+144 silly get cb [ 304,
+144 silly get   { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+144 silly get     connection: 'keep-alive',
+144 silly get     'cf-ray': '891e1fd188c919e3-EWR',
+144 silly get     'cf-cache-status': 'HIT',
+144 silly get     'access-control-allow-origin': '*',
+144 silly get     age: '101',
+144 silly get     'cache-control': 'public, max-age=300',
+144 silly get     etag: '"f1e362f93c14cfc9da2eadc53152e0b3"',
+144 silly get     'last-modified': 'Thu, 02 May 2024 18:37:48 GMT',
+144 silly get     vary: 'Accept-Encoding',
+144 silly get     server: 'cloudflare' } ]
+145 verbose etag https://registry.npmjs.org/bson from cache
+146 verbose get saving bson to /Users/grahambass/.npm/registry.npmjs.org/bson/.cache.json
+147 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+148 http 304 https://registry.npmjs.org/mongodb-connection-string-url
+149 verbose headers { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+149 verbose headers   connection: 'keep-alive',
+149 verbose headers   'cf-ray': '891e1fd18ff942c1-EWR',
+149 verbose headers   'cf-cache-status': 'HIT',
+149 verbose headers   'access-control-allow-origin': '*',
+149 verbose headers   age: '101',
+149 verbose headers   'cache-control': 'public, max-age=300',
+149 verbose headers   etag: '"219ba2cc061db438def80ea70b888844"',
+149 verbose headers   'last-modified': 'Fri, 07 Jun 2024 15:41:29 GMT',
+149 verbose headers   vary: 'Accept-Encoding',
+149 verbose headers   server: 'cloudflare' }
+150 silly get cb [ 304,
+150 silly get   { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+150 silly get     connection: 'keep-alive',
+150 silly get     'cf-ray': '891e1fd18ff942c1-EWR',
+150 silly get     'cf-cache-status': 'HIT',
+150 silly get     'access-control-allow-origin': '*',
+150 silly get     age: '101',
+150 silly get     'cache-control': 'public, max-age=300',
+150 silly get     etag: '"219ba2cc061db438def80ea70b888844"',
+150 silly get     'last-modified': 'Fri, 07 Jun 2024 15:41:29 GMT',
+150 silly get     vary: 'Accept-Encoding',
+150 silly get     server: 'cloudflare' } ]
+151 verbose etag https://registry.npmjs.org/mongodb-connection-string-url from cache
+152 verbose get saving mongodb-connection-string-url to /Users/grahambass/.npm/registry.npmjs.org/mongodb-connection-string-url/.cache.json
+153 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+154 silly pickManifestFromRegistryMetadata spec >=6.7.0 <7.0.0 tag latest versions [ '0.0.1',
+154 silly pickManifestFromRegistryMetadata   '0.0.2',
+154 silly pickManifestFromRegistryMetadata   '0.0.3',
+154 silly pickManifestFromRegistryMetadata   '0.0.4',
+154 silly pickManifestFromRegistryMetadata   '0.0.5',
+154 silly pickManifestFromRegistryMetadata   '0.0.6',
+154 silly pickManifestFromRegistryMetadata   '0.0.7',
+154 silly pickManifestFromRegistryMetadata   '0.0.8',
+154 silly pickManifestFromRegistryMetadata   '0.0.9',
+154 silly pickManifestFromRegistryMetadata   '0.1.0',
+154 silly pickManifestFromRegistryMetadata   '0.1.1',
+154 silly pickManifestFromRegistryMetadata   '0.1.3',
+154 silly pickManifestFromRegistryMetadata   '0.1.4',
+154 silly pickManifestFromRegistryMetadata   '0.1.5',
+154 silly pickManifestFromRegistryMetadata   '0.1.6',
+154 silly pickManifestFromRegistryMetadata   '0.1.7',
+154 silly pickManifestFromRegistryMetadata   '0.1.8',
+154 silly pickManifestFromRegistryMetadata   '0.1.9',
+154 silly pickManifestFromRegistryMetadata   '0.2.0',
+154 silly pickManifestFromRegistryMetadata   '0.2.1',
+154 silly pickManifestFromRegistryMetadata   '0.2.2',
+154 silly pickManifestFromRegistryMetadata   '0.2.3',
+154 silly pickManifestFromRegistryMetadata   '0.2.4',
+154 silly pickManifestFromRegistryMetadata   '0.2.5',
+154 silly pickManifestFromRegistryMetadata   '0.2.6',
+154 silly pickManifestFromRegistryMetadata   '0.2.7',
+154 silly pickManifestFromRegistryMetadata   '0.2.8',
+154 silly pickManifestFromRegistryMetadata   '0.2.9',
+154 silly pickManifestFromRegistryMetadata   '0.2.10',
+154 silly pickManifestFromRegistryMetadata   '0.2.11',
+154 silly pickManifestFromRegistryMetadata   '0.2.12',
+154 silly pickManifestFromRegistryMetadata   '0.2.13',
+154 silly pickManifestFromRegistryMetadata   '0.2.14',
+154 silly pickManifestFromRegistryMetadata   '0.2.15',
+154 silly pickManifestFromRegistryMetadata   '0.2.16',
+154 silly pickManifestFromRegistryMetadata   '0.2.17',
+154 silly pickManifestFromRegistryMetadata   '0.2.18',
+154 silly pickManifestFromRegistryMetadata   '0.2.19',
+154 silly pickManifestFromRegistryMetadata   '0.2.20',
+154 silly pickManifestFromRegistryMetadata   '0.2.21',
+154 silly pickManifestFromRegistryMetadata   '0.3.0',
+154 silly pickManifestFromRegistryMetadata   '0.3.1',
+154 silly pickManifestFromRegistryMetadata   '0.3.2',
+154 silly pickManifestFromRegistryMetadata   '0.4.0',
+154 silly pickManifestFromRegistryMetadata   '0.4.1',
+154 silly pickManifestFromRegistryMetadata   '0.4.2',
+154 silly pickManifestFromRegistryMetadata   '0.4.3',
+154 silly pickManifestFromRegistryMetadata   '0.4.4',
+154 silly pickManifestFromRegistryMetadata   '0.4.5',
+154 silly pickManifestFromRegistryMetadata   '0.4.6',
+154 silly pickManifestFromRegistryMetadata   '0.4.7',
+154 silly pickManifestFromRegistryMetadata   '0.4.8',
+154 silly pickManifestFromRegistryMetadata   '0.2.22',
+154 silly pickManifestFromRegistryMetadata   '0.4.10',
+154 silly pickManifestFromRegistryMetadata   '0.4.12',
+154 silly pickManifestFromRegistryMetadata   '0.4.13',
+154 silly pickManifestFromRegistryMetadata   '0.4.14',
+154 silly pickManifestFromRegistryMetadata   '0.4.15',
+154 silly pickManifestFromRegistryMetadata   '0.4.16',
+154 silly pickManifestFromRegistryMetadata   '0.4.17',
+154 silly pickManifestFromRegistryMetadata   '0.4.18',
+154 silly pickManifestFromRegistryMetadata   '0.4.19',
+154 silly pickManifestFromRegistryMetadata   '0.4.20',
+154 silly pickManifestFromRegistryMetadata   '0.4.21',
+154 silly pickManifestFromRegistryMetadata   '0.4.22',
+154 silly pickManifestFromRegistryMetadata   '0.4.23',
+154 silly pickManifestFromRegistryMetadata   '0.5.0',
+154 silly pickManifestFromRegistryMetadata   '0.5.1',
+154 silly pickManifestFromRegistryMetadata   '0.5.2',
+154 silly pickManifestFromRegistryMetadata   '0.5.3',
+154 silly pickManifestFromRegistryMetadata   '0.5.4',
+154 silly pickManifestFromRegistryMetadata   '0.5.5',
+154 silly pickManifestFromRegistryMetadata   '0.5.6',
+154 silly pickManifestFromRegistryMetadata   '0.5.7',
+154 silly pickManifestFromRegistryMetadata   '1.0.0',
+154 silly pickManifestFromRegistryMetadata   '1.0.1',
+154 silly pickManifestFromRegistryMetadata   '1.0.2',
+154 silly pickManifestFromRegistryMetadata   '1.0.3',
+154 silly pickManifestFromRegistryMetadata   '1.0.4',
+154 silly pickManifestFromRegistryMetadata   '2.0.0',
+154 silly pickManifestFromRegistryMetadata   '1.0.5',
+154 silly pickManifestFromRegistryMetadata   '2.0.1',
+154 silly pickManifestFromRegistryMetadata   '2.0.2',
+154 silly pickManifestFromRegistryMetadata   '1.0.6',
+154 silly pickManifestFromRegistryMetadata   '2.0.3',
+154 silly pickManifestFromRegistryMetadata   '2.0.4',
+154 silly pickManifestFromRegistryMetadata   '2.0.5',
+154 silly pickManifestFromRegistryMetadata   '2.0.6',
+154 silly pickManifestFromRegistryMetadata   '2.0.7',
+154 silly pickManifestFromRegistryMetadata   '1.0.7',
+154 silly pickManifestFromRegistryMetadata   '2.0.8',
+154 silly pickManifestFromRegistryMetadata   '1.0.8',
+154 silly pickManifestFromRegistryMetadata   '1.0.9',
+154 silly pickManifestFromRegistryMetadata   '3.0.0',
+154 silly pickManifestFromRegistryMetadata   '3.0.1',
+154 silly pickManifestFromRegistryMetadata   '3.0.2',
+154 silly pickManifestFromRegistryMetadata   '1.1.0',
+154 silly pickManifestFromRegistryMetadata   '4.0.0-rc1',
+154 silly pickManifestFromRegistryMetadata   '4.0.0-rc2',
+154 silly pickManifestFromRegistryMetadata   '4.0.0-rc3',
+154 silly pickManifestFromRegistryMetadata   ... 61 more items ]
+155 silly resolveWithNewModule bson@6.7.0 checking installable status
+156 silly cache add args [ 'bson@^6.7.0', null ]
+157 verbose cache add spec bson@^6.7.0
+158 silly cache add parsed spec Result {
+158 silly cache add   raw: 'bson@^6.7.0',
+158 silly cache add   scope: null,
+158 silly cache add   escapedName: 'bson',
+158 silly cache add   name: 'bson',
+158 silly cache add   rawSpec: '^6.7.0',
+158 silly cache add   spec: '>=6.7.0 <7.0.0',
+158 silly cache add   type: 'range' }
+159 silly addNamed bson@>=6.7.0 <7.0.0
+160 verbose addNamed ">=6.7.0 <7.0.0" is a valid semver range for bson
+161 silly addNameRange { name: 'bson', range: '>=6.7.0 <7.0.0', hasData: false }
+162 silly mapToRegistry name bson
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry data Result {
+165 silly mapToRegistry   raw: 'bson',
+165 silly mapToRegistry   scope: null,
+165 silly mapToRegistry   escapedName: 'bson',
+165 silly mapToRegistry   name: 'bson',
+165 silly mapToRegistry   rawSpec: '',
+165 silly mapToRegistry   spec: 'latest',
+165 silly mapToRegistry   type: 'tag' }
+166 silly mapToRegistry uri https://registry.npmjs.org/bson
+167 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+168 verbose get https://registry.npmjs.org/bson not expired, no request
+169 silly addNameRange number 2 { name: 'bson', range: '>=6.7.0 <7.0.0', hasData: true }
+170 silly addNameRange versions [ 'bson',
+170 silly addNameRange   [ '0.0.1',
+170 silly addNameRange     '0.0.2',
+170 silly addNameRange     '0.0.3',
+170 silly addNameRange     '0.0.4',
+170 silly addNameRange     '0.0.5',
+170 silly addNameRange     '0.0.6',
+170 silly addNameRange     '0.0.7',
+170 silly addNameRange     '0.0.8',
+170 silly addNameRange     '0.0.9',
+170 silly addNameRange     '0.1.0',
+170 silly addNameRange     '0.1.1',
+170 silly addNameRange     '0.1.3',
+170 silly addNameRange     '0.1.4',
+170 silly addNameRange     '0.1.5',
+170 silly addNameRange     '0.1.6',
+170 silly addNameRange     '0.1.7',
+170 silly addNameRange     '0.1.8',
+170 silly addNameRange     '0.1.9',
+170 silly addNameRange     '0.2.0',
+170 silly addNameRange     '0.2.1',
+170 silly addNameRange     '0.2.2',
+170 silly addNameRange     '0.2.3',
+170 silly addNameRange     '0.2.4',
+170 silly addNameRange     '0.2.5',
+170 silly addNameRange     '0.2.6',
+170 silly addNameRange     '0.2.7',
+170 silly addNameRange     '0.2.8',
+170 silly addNameRange     '0.2.9',
+170 silly addNameRange     '0.2.10',
+170 silly addNameRange     '0.2.11',
+170 silly addNameRange     '0.2.12',
+170 silly addNameRange     '0.2.13',
+170 silly addNameRange     '0.2.14',
+170 silly addNameRange     '0.2.15',
+170 silly addNameRange     '0.2.16',
+170 silly addNameRange     '0.2.17',
+170 silly addNameRange     '0.2.18',
+170 silly addNameRange     '0.2.19',
+170 silly addNameRange     '0.2.20',
+170 silly addNameRange     '0.2.21',
+170 silly addNameRange     '0.3.0',
+170 silly addNameRange     '0.3.1',
+170 silly addNameRange     '0.3.2',
+170 silly addNameRange     '0.4.0',
+170 silly addNameRange     '0.4.1',
+170 silly addNameRange     '0.4.2',
+170 silly addNameRange     '0.4.3',
+170 silly addNameRange     '0.4.4',
+170 silly addNameRange     '0.4.5',
+170 silly addNameRange     '0.4.6',
+170 silly addNameRange     '0.4.7',
+170 silly addNameRange     '0.4.8',
+170 silly addNameRange     '0.2.22',
+170 silly addNameRange     '0.4.10',
+170 silly addNameRange     '0.4.12',
+170 silly addNameRange     '0.4.13',
+170 silly addNameRange     '0.4.14',
+170 silly addNameRange     '0.4.15',
+170 silly addNameRange     '0.4.16',
+170 silly addNameRange     '0.4.17',
+170 silly addNameRange     '0.4.18',
+170 silly addNameRange     '0.4.19',
+170 silly addNameRange     '0.4.20',
+170 silly addNameRange     '0.4.21',
+170 silly addNameRange     '0.4.22',
+170 silly addNameRange     '0.4.23',
+170 silly addNameRange     '0.5.0',
+170 silly addNameRange     '0.5.1',
+170 silly addNameRange     '0.5.2',
+170 silly addNameRange     '0.5.3',
+170 silly addNameRange     '0.5.4',
+170 silly addNameRange     '0.5.5',
+170 silly addNameRange     '0.5.6',
+170 silly addNameRange     '0.5.7',
+170 silly addNameRange     '1.0.0',
+170 silly addNameRange     '1.0.1',
+170 silly addNameRange     '1.0.2',
+170 silly addNameRange     '1.0.3',
+170 silly addNameRange     '1.0.4',
+170 silly addNameRange     '2.0.0',
+170 silly addNameRange     '1.0.5',
+170 silly addNameRange     '2.0.1',
+170 silly addNameRange     '2.0.2',
+170 silly addNameRange     '1.0.6',
+170 silly addNameRange     '2.0.3',
+170 silly addNameRange     '2.0.4',
+170 silly addNameRange     '2.0.5',
+170 silly addNameRange     '2.0.6',
+170 silly addNameRange     '2.0.7',
+170 silly addNameRange     '1.0.7',
+170 silly addNameRange     '2.0.8',
+170 silly addNameRange     '1.0.8',
+170 silly addNameRange     '1.0.9',
+170 silly addNameRange     '3.0.0',
+170 silly addNameRange     '3.0.1',
+170 silly addNameRange     '3.0.2',
+170 silly addNameRange     '1.1.0',
+170 silly addNameRange     '4.0.0-rc1',
+170 silly addNameRange     '4.0.0-rc2',
+170 silly addNameRange     '4.0.0-rc3',
+170 silly addNameRange     ... 61 more items ] ]
+171 silly pickManifestFromRegistryMetadata spec >=6.7.0 <7.0.0 tag latest versions [ '0.0.1',
+171 silly pickManifestFromRegistryMetadata   '0.0.2',
+171 silly pickManifestFromRegistryMetadata   '0.0.3',
+171 silly pickManifestFromRegistryMetadata   '0.0.4',
+171 silly pickManifestFromRegistryMetadata   '0.0.5',
+171 silly pickManifestFromRegistryMetadata   '0.0.6',
+171 silly pickManifestFromRegistryMetadata   '0.0.7',
+171 silly pickManifestFromRegistryMetadata   '0.0.8',
+171 silly pickManifestFromRegistryMetadata   '0.0.9',
+171 silly pickManifestFromRegistryMetadata   '0.1.0',
+171 silly pickManifestFromRegistryMetadata   '0.1.1',
+171 silly pickManifestFromRegistryMetadata   '0.1.3',
+171 silly pickManifestFromRegistryMetadata   '0.1.4',
+171 silly pickManifestFromRegistryMetadata   '0.1.5',
+171 silly pickManifestFromRegistryMetadata   '0.1.6',
+171 silly pickManifestFromRegistryMetadata   '0.1.7',
+171 silly pickManifestFromRegistryMetadata   '0.1.8',
+171 silly pickManifestFromRegistryMetadata   '0.1.9',
+171 silly pickManifestFromRegistryMetadata   '0.2.0',
+171 silly pickManifestFromRegistryMetadata   '0.2.1',
+171 silly pickManifestFromRegistryMetadata   '0.2.2',
+171 silly pickManifestFromRegistryMetadata   '0.2.3',
+171 silly pickManifestFromRegistryMetadata   '0.2.4',
+171 silly pickManifestFromRegistryMetadata   '0.2.5',
+171 silly pickManifestFromRegistryMetadata   '0.2.6',
+171 silly pickManifestFromRegistryMetadata   '0.2.7',
+171 silly pickManifestFromRegistryMetadata   '0.2.8',
+171 silly pickManifestFromRegistryMetadata   '0.2.9',
+171 silly pickManifestFromRegistryMetadata   '0.2.10',
+171 silly pickManifestFromRegistryMetadata   '0.2.11',
+171 silly pickManifestFromRegistryMetadata   '0.2.12',
+171 silly pickManifestFromRegistryMetadata   '0.2.13',
+171 silly pickManifestFromRegistryMetadata   '0.2.14',
+171 silly pickManifestFromRegistryMetadata   '0.2.15',
+171 silly pickManifestFromRegistryMetadata   '0.2.16',
+171 silly pickManifestFromRegistryMetadata   '0.2.17',
+171 silly pickManifestFromRegistryMetadata   '0.2.18',
+171 silly pickManifestFromRegistryMetadata   '0.2.19',
+171 silly pickManifestFromRegistryMetadata   '0.2.20',
+171 silly pickManifestFromRegistryMetadata   '0.2.21',
+171 silly pickManifestFromRegistryMetadata   '0.3.0',
+171 silly pickManifestFromRegistryMetadata   '0.3.1',
+171 silly pickManifestFromRegistryMetadata   '0.3.2',
+171 silly pickManifestFromRegistryMetadata   '0.4.0',
+171 silly pickManifestFromRegistryMetadata   '0.4.1',
+171 silly pickManifestFromRegistryMetadata   '0.4.2',
+171 silly pickManifestFromRegistryMetadata   '0.4.3',
+171 silly pickManifestFromRegistryMetadata   '0.4.4',
+171 silly pickManifestFromRegistryMetadata   '0.4.5',
+171 silly pickManifestFromRegistryMetadata   '0.4.6',
+171 silly pickManifestFromRegistryMetadata   '0.4.7',
+171 silly pickManifestFromRegistryMetadata   '0.4.8',
+171 silly pickManifestFromRegistryMetadata   '0.2.22',
+171 silly pickManifestFromRegistryMetadata   '0.4.10',
+171 silly pickManifestFromRegistryMetadata   '0.4.12',
+171 silly pickManifestFromRegistryMetadata   '0.4.13',
+171 silly pickManifestFromRegistryMetadata   '0.4.14',
+171 silly pickManifestFromRegistryMetadata   '0.4.15',
+171 silly pickManifestFromRegistryMetadata   '0.4.16',
+171 silly pickManifestFromRegistryMetadata   '0.4.17',
+171 silly pickManifestFromRegistryMetadata   '0.4.18',
+171 silly pickManifestFromRegistryMetadata   '0.4.19',
+171 silly pickManifestFromRegistryMetadata   '0.4.20',
+171 silly pickManifestFromRegistryMetadata   '0.4.21',
+171 silly pickManifestFromRegistryMetadata   '0.4.22',
+171 silly pickManifestFromRegistryMetadata   '0.4.23',
+171 silly pickManifestFromRegistryMetadata   '0.5.0',
+171 silly pickManifestFromRegistryMetadata   '0.5.1',
+171 silly pickManifestFromRegistryMetadata   '0.5.2',
+171 silly pickManifestFromRegistryMetadata   '0.5.3',
+171 silly pickManifestFromRegistryMetadata   '0.5.4',
+171 silly pickManifestFromRegistryMetadata   '0.5.5',
+171 silly pickManifestFromRegistryMetadata   '0.5.6',
+171 silly pickManifestFromRegistryMetadata   '0.5.7',
+171 silly pickManifestFromRegistryMetadata   '1.0.0',
+171 silly pickManifestFromRegistryMetadata   '1.0.1',
+171 silly pickManifestFromRegistryMetadata   '1.0.2',
+171 silly pickManifestFromRegistryMetadata   '1.0.3',
+171 silly pickManifestFromRegistryMetadata   '1.0.4',
+171 silly pickManifestFromRegistryMetadata   '2.0.0',
+171 silly pickManifestFromRegistryMetadata   '1.0.5',
+171 silly pickManifestFromRegistryMetadata   '2.0.1',
+171 silly pickManifestFromRegistryMetadata   '2.0.2',
+171 silly pickManifestFromRegistryMetadata   '1.0.6',
+171 silly pickManifestFromRegistryMetadata   '2.0.3',
+171 silly pickManifestFromRegistryMetadata   '2.0.4',
+171 silly pickManifestFromRegistryMetadata   '2.0.5',
+171 silly pickManifestFromRegistryMetadata   '2.0.6',
+171 silly pickManifestFromRegistryMetadata   '2.0.7',
+171 silly pickManifestFromRegistryMetadata   '1.0.7',
+171 silly pickManifestFromRegistryMetadata   '2.0.8',
+171 silly pickManifestFromRegistryMetadata   '1.0.8',
+171 silly pickManifestFromRegistryMetadata   '1.0.9',
+171 silly pickManifestFromRegistryMetadata   '3.0.0',
+171 silly pickManifestFromRegistryMetadata   '3.0.1',
+171 silly pickManifestFromRegistryMetadata   '3.0.2',
+171 silly pickManifestFromRegistryMetadata   '1.1.0',
+171 silly pickManifestFromRegistryMetadata   '4.0.0-rc1',
+171 silly pickManifestFromRegistryMetadata   '4.0.0-rc2',
+171 silly pickManifestFromRegistryMetadata   '4.0.0-rc3',
+171 silly pickManifestFromRegistryMetadata   ... 61 more items ]
+172 silly addNamed bson@latest
+173 verbose addNamed "latest" is being treated as a dist-tag for bson
+174 info addNameTag [ 'bson', 'latest' ]
+175 silly mapToRegistry name bson
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry data Result {
+178 silly mapToRegistry   raw: 'bson',
+178 silly mapToRegistry   scope: null,
+178 silly mapToRegistry   escapedName: 'bson',
+178 silly mapToRegistry   name: 'bson',
+178 silly mapToRegistry   rawSpec: '',
+178 silly mapToRegistry   spec: 'latest',
+178 silly mapToRegistry   type: 'tag' }
+179 silly mapToRegistry uri https://registry.npmjs.org/bson
+180 verbose addNameTag registry:https://registry.npmjs.org/bson already in flight; waiting
+181 silly addNameTag next cb for bson with tag latest
+182 silly addNamed bson@6.7.0
+183 verbose addNamed "6.7.0" is a plain semver version for bson
+184 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '1.0.0',
+184 silly pickManifestFromRegistryMetadata   '1.0.1',
+184 silly pickManifestFromRegistryMetadata   '1.0.2',
+184 silly pickManifestFromRegistryMetadata   '1.1.0',
+184 silly pickManifestFromRegistryMetadata   '1.1.1',
+184 silly pickManifestFromRegistryMetadata   '1.1.2',
+184 silly pickManifestFromRegistryMetadata   '2.0.0',
+184 silly pickManifestFromRegistryMetadata   '2.1.0',
+184 silly pickManifestFromRegistryMetadata   '2.2.0',
+184 silly pickManifestFromRegistryMetadata   '2.3.0',
+184 silly pickManifestFromRegistryMetadata   '2.3.1',
+184 silly pickManifestFromRegistryMetadata   '2.3.2',
+184 silly pickManifestFromRegistryMetadata   '2.4.0',
+184 silly pickManifestFromRegistryMetadata   '2.4.1',
+184 silly pickManifestFromRegistryMetadata   '2.4.2',
+184 silly pickManifestFromRegistryMetadata   '2.5.0',
+184 silly pickManifestFromRegistryMetadata   '2.5.1',
+184 silly pickManifestFromRegistryMetadata   '2.5.2',
+184 silly pickManifestFromRegistryMetadata   '2.5.3',
+184 silly pickManifestFromRegistryMetadata   '2.5.4',
+184 silly pickManifestFromRegistryMetadata   '2.6.0',
+184 silly pickManifestFromRegistryMetadata   '3.0.0',
+184 silly pickManifestFromRegistryMetadata   '3.0.1' ]
+185 silly resolveWithNewModule mongodb-connection-string-url@3.0.1 checking installable status
+186 silly cache add args [ 'mongodb-connection-string-url@^3.0.0', null ]
+187 verbose cache add spec mongodb-connection-string-url@^3.0.0
+188 silly cache add parsed spec Result {
+188 silly cache add   raw: 'mongodb-connection-string-url@^3.0.0',
+188 silly cache add   scope: null,
+188 silly cache add   escapedName: 'mongodb-connection-string-url',
+188 silly cache add   name: 'mongodb-connection-string-url',
+188 silly cache add   rawSpec: '^3.0.0',
+188 silly cache add   spec: '>=3.0.0 <4.0.0',
+188 silly cache add   type: 'range' }
+189 silly addNamed mongodb-connection-string-url@>=3.0.0 <4.0.0
+190 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for mongodb-connection-string-url
+191 silly addNameRange { name: 'mongodb-connection-string-url',
+191 silly addNameRange   range: '>=3.0.0 <4.0.0',
+191 silly addNameRange   hasData: false }
+192 silly mapToRegistry name mongodb-connection-string-url
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npmjs.org/
+195 silly mapToRegistry data Result {
+195 silly mapToRegistry   raw: 'mongodb-connection-string-url',
+195 silly mapToRegistry   scope: null,
+195 silly mapToRegistry   escapedName: 'mongodb-connection-string-url',
+195 silly mapToRegistry   name: 'mongodb-connection-string-url',
+195 silly mapToRegistry   rawSpec: '',
+195 silly mapToRegistry   spec: 'latest',
+195 silly mapToRegistry   type: 'tag' }
+196 silly mapToRegistry uri https://registry.npmjs.org/mongodb-connection-string-url
+197 verbose addNameRange registry:https://registry.npmjs.org/mongodb-connection-string-url not in flight; fetching
+198 verbose get https://registry.npmjs.org/mongodb-connection-string-url not expired, no request
+199 silly addNameRange number 2 { name: 'mongodb-connection-string-url',
+199 silly addNameRange   range: '>=3.0.0 <4.0.0',
+199 silly addNameRange   hasData: true }
+200 silly addNameRange versions [ 'mongodb-connection-string-url',
+200 silly addNameRange   [ '1.0.0',
+200 silly addNameRange     '1.0.1',
+200 silly addNameRange     '1.0.2',
+200 silly addNameRange     '1.1.0',
+200 silly addNameRange     '1.1.1',
+200 silly addNameRange     '1.1.2',
+200 silly addNameRange     '2.0.0',
+200 silly addNameRange     '2.1.0',
+200 silly addNameRange     '2.2.0',
+200 silly addNameRange     '2.3.0',
+200 silly addNameRange     '2.3.1',
+200 silly addNameRange     '2.3.2',
+200 silly addNameRange     '2.4.0',
+200 silly addNameRange     '2.4.1',
+200 silly addNameRange     '2.4.2',
+200 silly addNameRange     '2.5.0',
+200 silly addNameRange     '2.5.1',
+200 silly addNameRange     '2.5.2',
+200 silly addNameRange     '2.5.3',
+200 silly addNameRange     '2.5.4',
+200 silly addNameRange     '2.6.0',
+200 silly addNameRange     '3.0.0',
+200 silly addNameRange     '3.0.1' ] ]
+201 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '1.0.0',
+201 silly pickManifestFromRegistryMetadata   '1.0.1',
+201 silly pickManifestFromRegistryMetadata   '1.0.2',
+201 silly pickManifestFromRegistryMetadata   '1.1.0',
+201 silly pickManifestFromRegistryMetadata   '1.1.1',
+201 silly pickManifestFromRegistryMetadata   '1.1.2',
+201 silly pickManifestFromRegistryMetadata   '2.0.0',
+201 silly pickManifestFromRegistryMetadata   '2.1.0',
+201 silly pickManifestFromRegistryMetadata   '2.2.0',
+201 silly pickManifestFromRegistryMetadata   '2.3.0',
+201 silly pickManifestFromRegistryMetadata   '2.3.1',
+201 silly pickManifestFromRegistryMetadata   '2.3.2',
+201 silly pickManifestFromRegistryMetadata   '2.4.0',
+201 silly pickManifestFromRegistryMetadata   '2.4.1',
+201 silly pickManifestFromRegistryMetadata   '2.4.2',
+201 silly pickManifestFromRegistryMetadata   '2.5.0',
+201 silly pickManifestFromRegistryMetadata   '2.5.1',
+201 silly pickManifestFromRegistryMetadata   '2.5.2',
+201 silly pickManifestFromRegistryMetadata   '2.5.3',
+201 silly pickManifestFromRegistryMetadata   '2.5.4',
+201 silly pickManifestFromRegistryMetadata   '2.6.0',
+201 silly pickManifestFromRegistryMetadata   '3.0.0',
+201 silly pickManifestFromRegistryMetadata   '3.0.1' ]
+202 silly addNamed mongodb-connection-string-url@latest
+203 verbose addNamed "latest" is being treated as a dist-tag for mongodb-connection-string-url
+204 info addNameTag [ 'mongodb-connection-string-url', 'latest' ]
+205 silly mapToRegistry name mongodb-connection-string-url
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'mongodb-connection-string-url',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'mongodb-connection-string-url',
+208 silly mapToRegistry   name: 'mongodb-connection-string-url',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://registry.npmjs.org/mongodb-connection-string-url
+210 verbose addNameTag registry:https://registry.npmjs.org/mongodb-connection-string-url already in flight; waiting
+211 silly addNameTag next cb for mongodb-connection-string-url with tag latest
+212 silly addNamed mongodb-connection-string-url@3.0.1
+213 verbose addNamed "3.0.1" is a plain semver version for mongodb-connection-string-url
+214 silly cache afterAdd bson@6.7.0
+215 verbose afterAdd /Users/grahambass/.npm/bson/6.7.0/package/package.json not in flight; writing
+216 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+217 silly cache afterAdd mongodb-connection-string-url@3.0.1
+218 verbose afterAdd /Users/grahambass/.npm/mongodb-connection-string-url/3.0.1/package/package.json not in flight; writing
+219 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+220 verbose afterAdd /Users/grahambass/.npm/bson/6.7.0/package/package.json written
+221 verbose afterAdd /Users/grahambass/.npm/mongodb-connection-string-url/3.0.1/package/package.json written
+222 silly fetchNamedPackageData sparse-bitfield
+223 silly mapToRegistry name sparse-bitfield
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: 'sparse-bitfield',
+226 silly mapToRegistry   scope: null,
+226 silly mapToRegistry   escapedName: 'sparse-bitfield',
+226 silly mapToRegistry   name: 'sparse-bitfield',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri https://registry.npmjs.org/sparse-bitfield
+228 verbose request uri https://registry.npmjs.org/sparse-bitfield
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 10:24:25 PM
+231 verbose etag W/"ec9075c701d245a17e4124235c3de850"
+232 verbose lastModified Sun, 26 Jun 2022 22:36:40 GMT
+233 http request GET https://registry.npmjs.org/sparse-bitfield
+234 http 304 https://registry.npmjs.org/sparse-bitfield
+235 verbose headers { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'cf-ray': '891e1fd28ddc1811-EWR',
+235 verbose headers   'cf-cache-status': 'HIT',
+235 verbose headers   'access-control-allow-origin': '*',
+235 verbose headers   age: '100',
+235 verbose headers   'cache-control': 'public, max-age=300',
+235 verbose headers   etag: '"ec9075c701d245a17e4124235c3de850"',
+235 verbose headers   'last-modified': 'Sun, 26 Jun 2022 22:36:40 GMT',
+235 verbose headers   vary: 'Accept-Encoding',
+235 verbose headers   server: 'cloudflare' }
+236 silly get cb [ 304,
+236 silly get   { date: 'Tue, 11 Jun 2024 02:20:50 GMT',
+236 silly get     connection: 'keep-alive',
+236 silly get     'cf-ray': '891e1fd28ddc1811-EWR',
+236 silly get     'cf-cache-status': 'HIT',
+236 silly get     'access-control-allow-origin': '*',
+236 silly get     age: '100',
+236 silly get     'cache-control': 'public, max-age=300',
+236 silly get     etag: '"ec9075c701d245a17e4124235c3de850"',
+236 silly get     'last-modified': 'Sun, 26 Jun 2022 22:36:40 GMT',
+236 silly get     vary: 'Accept-Encoding',
+236 silly get     server: 'cloudflare' } ]
+237 verbose etag https://registry.npmjs.org/sparse-bitfield from cache
+238 verbose get saving sparse-bitfield to /Users/grahambass/.npm/registry.npmjs.org/sparse-bitfield/.cache.json
+239 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+240 silly pickManifestFromRegistryMetadata spec >=3.0.3 <4.0.0 tag latest versions [ '1.0.0',
+240 silly pickManifestFromRegistryMetadata   '2.0.0',
+240 silly pickManifestFromRegistryMetadata   '2.0.1',
+240 silly pickManifestFromRegistryMetadata   '2.0.2',
+240 silly pickManifestFromRegistryMetadata   '2.1.0',
+240 silly pickManifestFromRegistryMetadata   '2.2.0',
+240 silly pickManifestFromRegistryMetadata   '3.0.0',
+240 silly pickManifestFromRegistryMetadata   '3.0.1',
+240 silly pickManifestFromRegistryMetadata   '3.0.2',
+240 silly pickManifestFromRegistryMetadata   '3.0.3' ]
+241 silly resolveWithNewModule sparse-bitfield@3.0.3 checking installable status
+242 silly cache add args [ 'sparse-bitfield@^3.0.3', null ]
+243 verbose cache add spec sparse-bitfield@^3.0.3
+244 silly cache add parsed spec Result {
+244 silly cache add   raw: 'sparse-bitfield@^3.0.3',
+244 silly cache add   scope: null,
+244 silly cache add   escapedName: 'sparse-bitfield',
+244 silly cache add   name: 'sparse-bitfield',
+244 silly cache add   rawSpec: '^3.0.3',
+244 silly cache add   spec: '>=3.0.3 <4.0.0',
+244 silly cache add   type: 'range' }
+245 silly addNamed sparse-bitfield@>=3.0.3 <4.0.0
+246 verbose addNamed ">=3.0.3 <4.0.0" is a valid semver range for sparse-bitfield
+247 silly addNameRange { name: 'sparse-bitfield',
+247 silly addNameRange   range: '>=3.0.3 <4.0.0',
+247 silly addNameRange   hasData: false }
+248 silly mapToRegistry name sparse-bitfield
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry data Result {
+251 silly mapToRegistry   raw: 'sparse-bitfield',
+251 silly mapToRegistry   scope: null,
+251 silly mapToRegistry   escapedName: 'sparse-bitfield',
+251 silly mapToRegistry   name: 'sparse-bitfield',
+251 silly mapToRegistry   rawSpec: '',
+251 silly mapToRegistry   spec: 'latest',
+251 silly mapToRegistry   type: 'tag' }
+252 silly mapToRegistry uri https://registry.npmjs.org/sparse-bitfield
+253 verbose addNameRange registry:https://registry.npmjs.org/sparse-bitfield not in flight; fetching
+254 verbose get https://registry.npmjs.org/sparse-bitfield not expired, no request
+255 silly addNameRange number 2 { name: 'sparse-bitfield',
+255 silly addNameRange   range: '>=3.0.3 <4.0.0',
+255 silly addNameRange   hasData: true }
+256 silly addNameRange versions [ 'sparse-bitfield',
+256 silly addNameRange   [ '1.0.0',
+256 silly addNameRange     '2.0.0',
+256 silly addNameRange     '2.0.1',
+256 silly addNameRange     '2.0.2',
+256 silly addNameRange     '2.1.0',
+256 silly addNameRange     '2.2.0',
+256 silly addNameRange     '3.0.0',
+256 silly addNameRange     '3.0.1',
+256 silly addNameRange     '3.0.2',
+256 silly addNameRange     '3.0.3' ] ]
+257 silly pickManifestFromRegistryMetadata spec >=3.0.3 <4.0.0 tag latest versions [ '1.0.0',
+257 silly pickManifestFromRegistryMetadata   '2.0.0',
+257 silly pickManifestFromRegistryMetadata   '2.0.1',
+257 silly pickManifestFromRegistryMetadata   '2.0.2',
+257 silly pickManifestFromRegistryMetadata   '2.1.0',
+257 silly pickManifestFromRegistryMetadata   '2.2.0',
+257 silly pickManifestFromRegistryMetadata   '3.0.0',
+257 silly pickManifestFromRegistryMetadata   '3.0.1',
+257 silly pickManifestFromRegistryMetadata   '3.0.2',
+257 silly pickManifestFromRegistryMetadata   '3.0.3' ]
+258 silly addNamed sparse-bitfield@latest
+259 verbose addNamed "latest" is being treated as a dist-tag for sparse-bitfield
+260 info addNameTag [ 'sparse-bitfield', 'latest' ]
+261 silly mapToRegistry name sparse-bitfield
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry data Result {
+264 silly mapToRegistry   raw: 'sparse-bitfield',
+264 silly mapToRegistry   scope: null,
+264 silly mapToRegistry   escapedName: 'sparse-bitfield',
+264 silly mapToRegistry   name: 'sparse-bitfield',
+264 silly mapToRegistry   rawSpec: '',
+264 silly mapToRegistry   spec: 'latest',
+264 silly mapToRegistry   type: 'tag' }
+265 silly mapToRegistry uri https://registry.npmjs.org/sparse-bitfield
+266 verbose addNameTag registry:https://registry.npmjs.org/sparse-bitfield already in flight; waiting
+267 silly addNameTag next cb for sparse-bitfield with tag latest
+268 silly addNamed sparse-bitfield@3.0.3
+269 verbose addNamed "3.0.3" is a plain semver version for sparse-bitfield
+270 silly cache afterAdd sparse-bitfield@3.0.3
+271 verbose afterAdd /Users/grahambass/.npm/sparse-bitfield/3.0.3/package/package.json not in flight; writing
+272 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+273 verbose afterAdd /Users/grahambass/.npm/sparse-bitfield/3.0.3/package/package.json written
+274 silly fetchNamedPackageData memory-pager
+275 silly mapToRegistry name memory-pager
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry https://registry.npmjs.org/
+278 silly mapToRegistry data Result {
+278 silly mapToRegistry   raw: 'memory-pager',
+278 silly mapToRegistry   scope: null,
+278 silly mapToRegistry   escapedName: 'memory-pager',
+278 silly mapToRegistry   name: 'memory-pager',
+278 silly mapToRegistry   rawSpec: '',
+278 silly mapToRegistry   spec: 'latest',
+278 silly mapToRegistry   type: 'tag' }
+279 silly mapToRegistry uri https://registry.npmjs.org/memory-pager
+280 verbose request uri https://registry.npmjs.org/memory-pager
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 10:24:25 PM
+283 verbose etag W/"47aee91f910981766646ddbd7047969c"
+284 verbose lastModified Sun, 19 Jun 2022 17:46:27 GMT
+285 http request GET https://registry.npmjs.org/memory-pager
+286 http 304 https://registry.npmjs.org/memory-pager
+287 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+287 verbose headers   connection: 'keep-alive',
+287 verbose headers   'cf-ray': '891e1fd2ea3619e3-EWR',
+287 verbose headers   'cf-cache-status': 'HIT',
+287 verbose headers   'access-control-allow-origin': '*',
+287 verbose headers   age: '293',
+287 verbose headers   'cache-control': 'public, max-age=300',
+287 verbose headers   etag: '"47aee91f910981766646ddbd7047969c"',
+287 verbose headers   'last-modified': 'Sun, 19 Jun 2022 17:46:27 GMT',
+287 verbose headers   vary: 'Accept-Encoding',
+287 verbose headers   server: 'cloudflare' }
+288 silly get cb [ 304,
+288 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+288 silly get     connection: 'keep-alive',
+288 silly get     'cf-ray': '891e1fd2ea3619e3-EWR',
+288 silly get     'cf-cache-status': 'HIT',
+288 silly get     'access-control-allow-origin': '*',
+288 silly get     age: '293',
+288 silly get     'cache-control': 'public, max-age=300',
+288 silly get     etag: '"47aee91f910981766646ddbd7047969c"',
+288 silly get     'last-modified': 'Sun, 19 Jun 2022 17:46:27 GMT',
+288 silly get     vary: 'Accept-Encoding',
+288 silly get     server: 'cloudflare' } ]
+289 verbose etag https://registry.npmjs.org/memory-pager from cache
+290 verbose get saving memory-pager to /Users/grahambass/.npm/registry.npmjs.org/memory-pager/.cache.json
+291 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+292 silly pickManifestFromRegistryMetadata spec >=1.0.2 <2.0.0 tag latest versions [ '1.0.0',
+292 silly pickManifestFromRegistryMetadata   '1.0.1',
+292 silly pickManifestFromRegistryMetadata   '1.0.2',
+292 silly pickManifestFromRegistryMetadata   '1.0.3',
+292 silly pickManifestFromRegistryMetadata   '1.1.0',
+292 silly pickManifestFromRegistryMetadata   '1.2.0',
+292 silly pickManifestFromRegistryMetadata   '1.3.0',
+292 silly pickManifestFromRegistryMetadata   '1.3.1',
+292 silly pickManifestFromRegistryMetadata   '1.4.0',
+292 silly pickManifestFromRegistryMetadata   '1.5.0' ]
+293 silly resolveWithNewModule memory-pager@1.5.0 checking installable status
+294 silly cache add args [ 'memory-pager@^1.0.2', null ]
+295 verbose cache add spec memory-pager@^1.0.2
+296 silly cache add parsed spec Result {
+296 silly cache add   raw: 'memory-pager@^1.0.2',
+296 silly cache add   scope: null,
+296 silly cache add   escapedName: 'memory-pager',
+296 silly cache add   name: 'memory-pager',
+296 silly cache add   rawSpec: '^1.0.2',
+296 silly cache add   spec: '>=1.0.2 <2.0.0',
+296 silly cache add   type: 'range' }
+297 silly addNamed memory-pager@>=1.0.2 <2.0.0
+298 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for memory-pager
+299 silly addNameRange { name: 'memory-pager', range: '>=1.0.2 <2.0.0', hasData: false }
+300 silly mapToRegistry name memory-pager
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry data Result {
+303 silly mapToRegistry   raw: 'memory-pager',
+303 silly mapToRegistry   scope: null,
+303 silly mapToRegistry   escapedName: 'memory-pager',
+303 silly mapToRegistry   name: 'memory-pager',
+303 silly mapToRegistry   rawSpec: '',
+303 silly mapToRegistry   spec: 'latest',
+303 silly mapToRegistry   type: 'tag' }
+304 silly mapToRegistry uri https://registry.npmjs.org/memory-pager
+305 verbose addNameRange registry:https://registry.npmjs.org/memory-pager not in flight; fetching
+306 verbose get https://registry.npmjs.org/memory-pager not expired, no request
+307 silly addNameRange number 2 { name: 'memory-pager', range: '>=1.0.2 <2.0.0', hasData: true }
+308 silly addNameRange versions [ 'memory-pager',
+308 silly addNameRange   [ '1.0.0',
+308 silly addNameRange     '1.0.1',
+308 silly addNameRange     '1.0.2',
+308 silly addNameRange     '1.0.3',
+308 silly addNameRange     '1.1.0',
+308 silly addNameRange     '1.2.0',
+308 silly addNameRange     '1.3.0',
+308 silly addNameRange     '1.3.1',
+308 silly addNameRange     '1.4.0',
+308 silly addNameRange     '1.5.0' ] ]
+309 silly pickManifestFromRegistryMetadata spec >=1.0.2 <2.0.0 tag latest versions [ '1.0.0',
+309 silly pickManifestFromRegistryMetadata   '1.0.1',
+309 silly pickManifestFromRegistryMetadata   '1.0.2',
+309 silly pickManifestFromRegistryMetadata   '1.0.3',
+309 silly pickManifestFromRegistryMetadata   '1.1.0',
+309 silly pickManifestFromRegistryMetadata   '1.2.0',
+309 silly pickManifestFromRegistryMetadata   '1.3.0',
+309 silly pickManifestFromRegistryMetadata   '1.3.1',
+309 silly pickManifestFromRegistryMetadata   '1.4.0',
+309 silly pickManifestFromRegistryMetadata   '1.5.0' ]
+310 silly addNamed memory-pager@latest
+311 verbose addNamed "latest" is being treated as a dist-tag for memory-pager
+312 info addNameTag [ 'memory-pager', 'latest' ]
+313 silly mapToRegistry name memory-pager
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry data Result {
+316 silly mapToRegistry   raw: 'memory-pager',
+316 silly mapToRegistry   scope: null,
+316 silly mapToRegistry   escapedName: 'memory-pager',
+316 silly mapToRegistry   name: 'memory-pager',
+316 silly mapToRegistry   rawSpec: '',
+316 silly mapToRegistry   spec: 'latest',
+316 silly mapToRegistry   type: 'tag' }
+317 silly mapToRegistry uri https://registry.npmjs.org/memory-pager
+318 verbose addNameTag registry:https://registry.npmjs.org/memory-pager already in flight; waiting
+319 silly addNameTag next cb for memory-pager with tag latest
+320 silly addNamed memory-pager@1.5.0
+321 verbose addNamed "1.5.0" is a plain semver version for memory-pager
+322 silly cache afterAdd memory-pager@1.5.0
+323 verbose afterAdd /Users/grahambass/.npm/memory-pager/1.5.0/package/package.json not in flight; writing
+324 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+325 verbose afterAdd /Users/grahambass/.npm/memory-pager/1.5.0/package/package.json written
+326 silly fetchNamedPackageData whatwg-url
+327 silly mapToRegistry name whatwg-url
+328 silly mapToRegistry using default registry
+329 silly mapToRegistry registry https://registry.npmjs.org/
+330 silly mapToRegistry data Result {
+330 silly mapToRegistry   raw: 'whatwg-url',
+330 silly mapToRegistry   scope: null,
+330 silly mapToRegistry   escapedName: 'whatwg-url',
+330 silly mapToRegistry   name: 'whatwg-url',
+330 silly mapToRegistry   rawSpec: '',
+330 silly mapToRegistry   spec: 'latest',
+330 silly mapToRegistry   type: 'tag' }
+331 silly mapToRegistry uri https://registry.npmjs.org/whatwg-url
+332 silly fetchNamedPackageData @types/whatwg-url
+333 silly mapToRegistry name @types/whatwg-url
+334 silly mapToRegistry scope (from package name) @types
+335 verbose mapToRegistry no registry URL found in name for scope @types
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry data Result {
+338 silly mapToRegistry   raw: '@types/whatwg-url',
+338 silly mapToRegistry   scope: '@types',
+338 silly mapToRegistry   escapedName: '@types%2fwhatwg-url',
+338 silly mapToRegistry   name: '@types/whatwg-url',
+338 silly mapToRegistry   rawSpec: '',
+338 silly mapToRegistry   spec: 'latest',
+338 silly mapToRegistry   type: 'tag' }
+339 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwhatwg-url
+340 verbose request uri https://registry.npmjs.org/whatwg-url
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 10:24:25 PM
+343 verbose etag W/"7caf06f627c3163a127e5e12cd38c076"
+344 verbose lastModified Sun, 05 Nov 2023 14:19:00 GMT
+345 http request GET https://registry.npmjs.org/whatwg-url
+346 verbose request uri https://registry.npmjs.org/@types%2fwhatwg-url
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 10:24:25 PM
+349 verbose etag W/"33dfa9fb1b39523f4f28b562ef135456"
+350 verbose lastModified Sat, 18 May 2024 21:07:07 GMT
+351 http request GET https://registry.npmjs.org/@types%2fwhatwg-url
+352 http 304 https://registry.npmjs.org/whatwg-url
+353 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'cf-ray': '891e1fd36a0d42c1-EWR',
+353 verbose headers   'cf-cache-status': 'HIT',
+353 verbose headers   'access-control-allow-origin': '*',
+353 verbose headers   age: '107',
+353 verbose headers   'cache-control': 'public, max-age=300',
+353 verbose headers   etag: '"7caf06f627c3163a127e5e12cd38c076"',
+353 verbose headers   'last-modified': 'Sun, 05 Nov 2023 14:19:00 GMT',
+353 verbose headers   vary: 'Accept-Encoding',
+353 verbose headers   server: 'cloudflare' }
+354 silly get cb [ 304,
+354 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+354 silly get     connection: 'keep-alive',
+354 silly get     'cf-ray': '891e1fd36a0d42c1-EWR',
+354 silly get     'cf-cache-status': 'HIT',
+354 silly get     'access-control-allow-origin': '*',
+354 silly get     age: '107',
+354 silly get     'cache-control': 'public, max-age=300',
+354 silly get     etag: '"7caf06f627c3163a127e5e12cd38c076"',
+354 silly get     'last-modified': 'Sun, 05 Nov 2023 14:19:00 GMT',
+354 silly get     vary: 'Accept-Encoding',
+354 silly get     server: 'cloudflare' } ]
+355 verbose etag https://registry.npmjs.org/whatwg-url from cache
+356 verbose get saving whatwg-url to /Users/grahambass/.npm/registry.npmjs.org/whatwg-url/.cache.json
+357 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+358 silly pickManifestFromRegistryMetadata spec >=13.0.0 <14.0.0 tag latest versions [ '0.0.1',
+358 silly pickManifestFromRegistryMetadata   '0.1.0',
+358 silly pickManifestFromRegistryMetadata   '0.2.0',
+358 silly pickManifestFromRegistryMetadata   '0.2.1',
+358 silly pickManifestFromRegistryMetadata   '0.3.0',
+358 silly pickManifestFromRegistryMetadata   '0.3.1',
+358 silly pickManifestFromRegistryMetadata   '0.4.0',
+358 silly pickManifestFromRegistryMetadata   '0.4.1',
+358 silly pickManifestFromRegistryMetadata   '0.4.2',
+358 silly pickManifestFromRegistryMetadata   '0.5.0',
+358 silly pickManifestFromRegistryMetadata   '0.6.0',
+358 silly pickManifestFromRegistryMetadata   '0.6.1',
+358 silly pickManifestFromRegistryMetadata   '0.6.2',
+358 silly pickManifestFromRegistryMetadata   '0.6.4',
+358 silly pickManifestFromRegistryMetadata   '0.6.5',
+358 silly pickManifestFromRegistryMetadata   '1.0.0',
+358 silly pickManifestFromRegistryMetadata   '1.0.1',
+358 silly pickManifestFromRegistryMetadata   '2.0.0',
+358 silly pickManifestFromRegistryMetadata   '2.0.1',
+358 silly pickManifestFromRegistryMetadata   '3.0.0',
+358 silly pickManifestFromRegistryMetadata   '3.1.0',
+358 silly pickManifestFromRegistryMetadata   '4.0.0',
+358 silly pickManifestFromRegistryMetadata   '4.1.0',
+358 silly pickManifestFromRegistryMetadata   '4.1.1',
+358 silly pickManifestFromRegistryMetadata   '4.2.0',
+358 silly pickManifestFromRegistryMetadata   '4.3.0',
+358 silly pickManifestFromRegistryMetadata   '4.4.0',
+358 silly pickManifestFromRegistryMetadata   '4.5.0',
+358 silly pickManifestFromRegistryMetadata   '4.5.1',
+358 silly pickManifestFromRegistryMetadata   '4.6.0',
+358 silly pickManifestFromRegistryMetadata   '4.7.0',
+358 silly pickManifestFromRegistryMetadata   '4.7.1',
+358 silly pickManifestFromRegistryMetadata   '4.8.0',
+358 silly pickManifestFromRegistryMetadata   '5.0.0',
+358 silly pickManifestFromRegistryMetadata   '6.0.0',
+358 silly pickManifestFromRegistryMetadata   '6.0.1',
+358 silly pickManifestFromRegistryMetadata   '6.1.0',
+358 silly pickManifestFromRegistryMetadata   '6.2.0',
+358 silly pickManifestFromRegistryMetadata   '6.2.1',
+358 silly pickManifestFromRegistryMetadata   '6.3.0',
+358 silly pickManifestFromRegistryMetadata   '6.4.0',
+358 silly pickManifestFromRegistryMetadata   '6.4.1',
+358 silly pickManifestFromRegistryMetadata   '6.5.0',
+358 silly pickManifestFromRegistryMetadata   '7.0.0',
+358 silly pickManifestFromRegistryMetadata   '7.1.0',
+358 silly pickManifestFromRegistryMetadata   '8.0.0',
+358 silly pickManifestFromRegistryMetadata   '8.1.0',
+358 silly pickManifestFromRegistryMetadata   '8.2.0',
+358 silly pickManifestFromRegistryMetadata   '8.2.1',
+358 silly pickManifestFromRegistryMetadata   '8.2.2',
+358 silly pickManifestFromRegistryMetadata   '8.3.0',
+358 silly pickManifestFromRegistryMetadata   '8.4.0',
+358 silly pickManifestFromRegistryMetadata   '8.5.0',
+358 silly pickManifestFromRegistryMetadata   '8.6.0',
+358 silly pickManifestFromRegistryMetadata   '8.7.0',
+358 silly pickManifestFromRegistryMetadata   '9.0.0',
+358 silly pickManifestFromRegistryMetadata   '9.1.0',
+358 silly pickManifestFromRegistryMetadata   '10.0.0',
+358 silly pickManifestFromRegistryMetadata   '11.0.0',
+358 silly pickManifestFromRegistryMetadata   '12.0.0',
+358 silly pickManifestFromRegistryMetadata   '12.0.1',
+358 silly pickManifestFromRegistryMetadata   '13.0.0',
+358 silly pickManifestFromRegistryMetadata   '14.0.0' ]
+359 silly resolveWithNewModule whatwg-url@13.0.0 checking installable status
+360 silly cache add args [ 'whatwg-url@^13.0.0', null ]
+361 verbose cache add spec whatwg-url@^13.0.0
+362 silly cache add parsed spec Result {
+362 silly cache add   raw: 'whatwg-url@^13.0.0',
+362 silly cache add   scope: null,
+362 silly cache add   escapedName: 'whatwg-url',
+362 silly cache add   name: 'whatwg-url',
+362 silly cache add   rawSpec: '^13.0.0',
+362 silly cache add   spec: '>=13.0.0 <14.0.0',
+362 silly cache add   type: 'range' }
+363 silly addNamed whatwg-url@>=13.0.0 <14.0.0
+364 verbose addNamed ">=13.0.0 <14.0.0" is a valid semver range for whatwg-url
+365 silly addNameRange { name: 'whatwg-url', range: '>=13.0.0 <14.0.0', hasData: false }
+366 silly mapToRegistry name whatwg-url
+367 silly mapToRegistry using default registry
+368 silly mapToRegistry registry https://registry.npmjs.org/
+369 silly mapToRegistry data Result {
+369 silly mapToRegistry   raw: 'whatwg-url',
+369 silly mapToRegistry   scope: null,
+369 silly mapToRegistry   escapedName: 'whatwg-url',
+369 silly mapToRegistry   name: 'whatwg-url',
+369 silly mapToRegistry   rawSpec: '',
+369 silly mapToRegistry   spec: 'latest',
+369 silly mapToRegistry   type: 'tag' }
+370 silly mapToRegistry uri https://registry.npmjs.org/whatwg-url
+371 verbose addNameRange registry:https://registry.npmjs.org/whatwg-url not in flight; fetching
+372 verbose get https://registry.npmjs.org/whatwg-url not expired, no request
+373 silly addNameRange number 2 { name: 'whatwg-url', range: '>=13.0.0 <14.0.0', hasData: true }
+374 silly addNameRange versions [ 'whatwg-url',
+374 silly addNameRange   [ '0.0.1',
+374 silly addNameRange     '0.1.0',
+374 silly addNameRange     '0.2.0',
+374 silly addNameRange     '0.2.1',
+374 silly addNameRange     '0.3.0',
+374 silly addNameRange     '0.3.1',
+374 silly addNameRange     '0.4.0',
+374 silly addNameRange     '0.4.1',
+374 silly addNameRange     '0.4.2',
+374 silly addNameRange     '0.5.0',
+374 silly addNameRange     '0.6.0',
+374 silly addNameRange     '0.6.1',
+374 silly addNameRange     '0.6.2',
+374 silly addNameRange     '0.6.4',
+374 silly addNameRange     '0.6.5',
+374 silly addNameRange     '1.0.0',
+374 silly addNameRange     '1.0.1',
+374 silly addNameRange     '2.0.0',
+374 silly addNameRange     '2.0.1',
+374 silly addNameRange     '3.0.0',
+374 silly addNameRange     '3.1.0',
+374 silly addNameRange     '4.0.0',
+374 silly addNameRange     '4.1.0',
+374 silly addNameRange     '4.1.1',
+374 silly addNameRange     '4.2.0',
+374 silly addNameRange     '4.3.0',
+374 silly addNameRange     '4.4.0',
+374 silly addNameRange     '4.5.0',
+374 silly addNameRange     '4.5.1',
+374 silly addNameRange     '4.6.0',
+374 silly addNameRange     '4.7.0',
+374 silly addNameRange     '4.7.1',
+374 silly addNameRange     '4.8.0',
+374 silly addNameRange     '5.0.0',
+374 silly addNameRange     '6.0.0',
+374 silly addNameRange     '6.0.1',
+374 silly addNameRange     '6.1.0',
+374 silly addNameRange     '6.2.0',
+374 silly addNameRange     '6.2.1',
+374 silly addNameRange     '6.3.0',
+374 silly addNameRange     '6.4.0',
+374 silly addNameRange     '6.4.1',
+374 silly addNameRange     '6.5.0',
+374 silly addNameRange     '7.0.0',
+374 silly addNameRange     '7.1.0',
+374 silly addNameRange     '8.0.0',
+374 silly addNameRange     '8.1.0',
+374 silly addNameRange     '8.2.0',
+374 silly addNameRange     '8.2.1',
+374 silly addNameRange     '8.2.2',
+374 silly addNameRange     '8.3.0',
+374 silly addNameRange     '8.4.0',
+374 silly addNameRange     '8.5.0',
+374 silly addNameRange     '8.6.0',
+374 silly addNameRange     '8.7.0',
+374 silly addNameRange     '9.0.0',
+374 silly addNameRange     '9.1.0',
+374 silly addNameRange     '10.0.0',
+374 silly addNameRange     '11.0.0',
+374 silly addNameRange     '12.0.0',
+374 silly addNameRange     '12.0.1',
+374 silly addNameRange     '13.0.0',
+374 silly addNameRange     '14.0.0' ] ]
+375 silly pickManifestFromRegistryMetadata spec >=13.0.0 <14.0.0 tag latest versions [ '0.0.1',
+375 silly pickManifestFromRegistryMetadata   '0.1.0',
+375 silly pickManifestFromRegistryMetadata   '0.2.0',
+375 silly pickManifestFromRegistryMetadata   '0.2.1',
+375 silly pickManifestFromRegistryMetadata   '0.3.0',
+375 silly pickManifestFromRegistryMetadata   '0.3.1',
+375 silly pickManifestFromRegistryMetadata   '0.4.0',
+375 silly pickManifestFromRegistryMetadata   '0.4.1',
+375 silly pickManifestFromRegistryMetadata   '0.4.2',
+375 silly pickManifestFromRegistryMetadata   '0.5.0',
+375 silly pickManifestFromRegistryMetadata   '0.6.0',
+375 silly pickManifestFromRegistryMetadata   '0.6.1',
+375 silly pickManifestFromRegistryMetadata   '0.6.2',
+375 silly pickManifestFromRegistryMetadata   '0.6.4',
+375 silly pickManifestFromRegistryMetadata   '0.6.5',
+375 silly pickManifestFromRegistryMetadata   '1.0.0',
+375 silly pickManifestFromRegistryMetadata   '1.0.1',
+375 silly pickManifestFromRegistryMetadata   '2.0.0',
+375 silly pickManifestFromRegistryMetadata   '2.0.1',
+375 silly pickManifestFromRegistryMetadata   '3.0.0',
+375 silly pickManifestFromRegistryMetadata   '3.1.0',
+375 silly pickManifestFromRegistryMetadata   '4.0.0',
+375 silly pickManifestFromRegistryMetadata   '4.1.0',
+375 silly pickManifestFromRegistryMetadata   '4.1.1',
+375 silly pickManifestFromRegistryMetadata   '4.2.0',
+375 silly pickManifestFromRegistryMetadata   '4.3.0',
+375 silly pickManifestFromRegistryMetadata   '4.4.0',
+375 silly pickManifestFromRegistryMetadata   '4.5.0',
+375 silly pickManifestFromRegistryMetadata   '4.5.1',
+375 silly pickManifestFromRegistryMetadata   '4.6.0',
+375 silly pickManifestFromRegistryMetadata   '4.7.0',
+375 silly pickManifestFromRegistryMetadata   '4.7.1',
+375 silly pickManifestFromRegistryMetadata   '4.8.0',
+375 silly pickManifestFromRegistryMetadata   '5.0.0',
+375 silly pickManifestFromRegistryMetadata   '6.0.0',
+375 silly pickManifestFromRegistryMetadata   '6.0.1',
+375 silly pickManifestFromRegistryMetadata   '6.1.0',
+375 silly pickManifestFromRegistryMetadata   '6.2.0',
+375 silly pickManifestFromRegistryMetadata   '6.2.1',
+375 silly pickManifestFromRegistryMetadata   '6.3.0',
+375 silly pickManifestFromRegistryMetadata   '6.4.0',
+375 silly pickManifestFromRegistryMetadata   '6.4.1',
+375 silly pickManifestFromRegistryMetadata   '6.5.0',
+375 silly pickManifestFromRegistryMetadata   '7.0.0',
+375 silly pickManifestFromRegistryMetadata   '7.1.0',
+375 silly pickManifestFromRegistryMetadata   '8.0.0',
+375 silly pickManifestFromRegistryMetadata   '8.1.0',
+375 silly pickManifestFromRegistryMetadata   '8.2.0',
+375 silly pickManifestFromRegistryMetadata   '8.2.1',
+375 silly pickManifestFromRegistryMetadata   '8.2.2',
+375 silly pickManifestFromRegistryMetadata   '8.3.0',
+375 silly pickManifestFromRegistryMetadata   '8.4.0',
+375 silly pickManifestFromRegistryMetadata   '8.5.0',
+375 silly pickManifestFromRegistryMetadata   '8.6.0',
+375 silly pickManifestFromRegistryMetadata   '8.7.0',
+375 silly pickManifestFromRegistryMetadata   '9.0.0',
+375 silly pickManifestFromRegistryMetadata   '9.1.0',
+375 silly pickManifestFromRegistryMetadata   '10.0.0',
+375 silly pickManifestFromRegistryMetadata   '11.0.0',
+375 silly pickManifestFromRegistryMetadata   '12.0.0',
+375 silly pickManifestFromRegistryMetadata   '12.0.1',
+375 silly pickManifestFromRegistryMetadata   '13.0.0',
+375 silly pickManifestFromRegistryMetadata   '14.0.0' ]
+376 silly addNamed whatwg-url@13.0.0
+377 verbose addNamed "13.0.0" is a plain semver version for whatwg-url
+378 silly cache afterAdd whatwg-url@13.0.0
+379 verbose afterAdd /Users/grahambass/.npm/whatwg-url/13.0.0/package/package.json not in flight; writing
+380 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+381 verbose afterAdd /Users/grahambass/.npm/whatwg-url/13.0.0/package/package.json written
+382 http 304 https://registry.npmjs.org/@types%2fwhatwg-url
+383 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+383 verbose headers   connection: 'keep-alive',
+383 verbose headers   'cf-ray': '891e1fd35e9f1811-EWR',
+383 verbose headers   'cf-cache-status': 'REVALIDATED',
+383 verbose headers   'access-control-allow-origin': '*',
+383 verbose headers   'cache-control': 'public, max-age=300',
+383 verbose headers   etag: '"33dfa9fb1b39523f4f28b562ef135456"',
+383 verbose headers   'last-modified': 'Sat, 18 May 2024 21:07:07 GMT',
+383 verbose headers   vary: 'Accept-Encoding',
+383 verbose headers   server: 'cloudflare' }
+384 silly get cb [ 304,
+384 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+384 silly get     connection: 'keep-alive',
+384 silly get     'cf-ray': '891e1fd35e9f1811-EWR',
+384 silly get     'cf-cache-status': 'REVALIDATED',
+384 silly get     'access-control-allow-origin': '*',
+384 silly get     'cache-control': 'public, max-age=300',
+384 silly get     etag: '"33dfa9fb1b39523f4f28b562ef135456"',
+384 silly get     'last-modified': 'Sat, 18 May 2024 21:07:07 GMT',
+384 silly get     vary: 'Accept-Encoding',
+384 silly get     server: 'cloudflare' } ]
+385 verbose etag https://registry.npmjs.org/@types%2fwhatwg-url from cache
+386 verbose get saving @types/whatwg-url to /Users/grahambass/.npm/registry.npmjs.org/_40types_252fwhatwg-url/.cache.json
+387 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+388 silly pickManifestFromRegistryMetadata spec >=11.0.2 <12.0.0 tag latest versions [ '6.4.0',
+388 silly pickManifestFromRegistryMetadata   '8.0.0',
+388 silly pickManifestFromRegistryMetadata   '8.2.0',
+388 silly pickManifestFromRegistryMetadata   '8.2.1',
+388 silly pickManifestFromRegistryMetadata   '8.2.2',
+388 silly pickManifestFromRegistryMetadata   '11.0.0',
+388 silly pickManifestFromRegistryMetadata   '11.0.1',
+388 silly pickManifestFromRegistryMetadata   '11.0.2',
+388 silly pickManifestFromRegistryMetadata   '11.0.3',
+388 silly pickManifestFromRegistryMetadata   '11.0.4',
+388 silly pickManifestFromRegistryMetadata   '11.0.5' ]
+389 silly resolveWithNewModule @types/whatwg-url@11.0.5 checking installable status
+390 silly cache add args [ '@types/whatwg-url@^11.0.2', null ]
+391 verbose cache add spec @types/whatwg-url@^11.0.2
+392 silly cache add parsed spec Result {
+392 silly cache add   raw: '@types/whatwg-url@^11.0.2',
+392 silly cache add   scope: '@types',
+392 silly cache add   escapedName: '@types%2fwhatwg-url',
+392 silly cache add   name: '@types/whatwg-url',
+392 silly cache add   rawSpec: '^11.0.2',
+392 silly cache add   spec: '>=11.0.2 <12.0.0',
+392 silly cache add   type: 'range' }
+393 silly addNamed @types/whatwg-url@>=11.0.2 <12.0.0
+394 verbose addNamed ">=11.0.2 <12.0.0" is a valid semver range for @types/whatwg-url
+395 silly addNameRange { name: '@types/whatwg-url',
+395 silly addNameRange   range: '>=11.0.2 <12.0.0',
+395 silly addNameRange   hasData: false }
+396 silly mapToRegistry name @types/whatwg-url
+397 silly mapToRegistry scope (from package name) @types
+398 verbose mapToRegistry no registry URL found in name for scope @types
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry data Result {
+401 silly mapToRegistry   raw: '@types/whatwg-url',
+401 silly mapToRegistry   scope: '@types',
+401 silly mapToRegistry   escapedName: '@types%2fwhatwg-url',
+401 silly mapToRegistry   name: '@types/whatwg-url',
+401 silly mapToRegistry   rawSpec: '',
+401 silly mapToRegistry   spec: 'latest',
+401 silly mapToRegistry   type: 'tag' }
+402 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwhatwg-url
+403 verbose addNameRange registry:https://registry.npmjs.org/@types%2fwhatwg-url not in flight; fetching
+404 verbose get https://registry.npmjs.org/@types%2fwhatwg-url not expired, no request
+405 silly addNameRange number 2 { name: '@types/whatwg-url',
+405 silly addNameRange   range: '>=11.0.2 <12.0.0',
+405 silly addNameRange   hasData: true }
+406 silly addNameRange versions [ '@types/whatwg-url',
+406 silly addNameRange   [ '6.4.0',
+406 silly addNameRange     '8.0.0',
+406 silly addNameRange     '8.2.0',
+406 silly addNameRange     '8.2.1',
+406 silly addNameRange     '8.2.2',
+406 silly addNameRange     '11.0.0',
+406 silly addNameRange     '11.0.1',
+406 silly addNameRange     '11.0.2',
+406 silly addNameRange     '11.0.3',
+406 silly addNameRange     '11.0.4',
+406 silly addNameRange     '11.0.5' ] ]
+407 silly pickManifestFromRegistryMetadata spec >=11.0.2 <12.0.0 tag latest versions [ '6.4.0',
+407 silly pickManifestFromRegistryMetadata   '8.0.0',
+407 silly pickManifestFromRegistryMetadata   '8.2.0',
+407 silly pickManifestFromRegistryMetadata   '8.2.1',
+407 silly pickManifestFromRegistryMetadata   '8.2.2',
+407 silly pickManifestFromRegistryMetadata   '11.0.0',
+407 silly pickManifestFromRegistryMetadata   '11.0.1',
+407 silly pickManifestFromRegistryMetadata   '11.0.2',
+407 silly pickManifestFromRegistryMetadata   '11.0.3',
+407 silly pickManifestFromRegistryMetadata   '11.0.4',
+407 silly pickManifestFromRegistryMetadata   '11.0.5' ]
+408 silly addNamed @types/whatwg-url@latest
+409 verbose addNamed "latest" is being treated as a dist-tag for @types/whatwg-url
+410 info addNameTag [ '@types/whatwg-url', 'latest' ]
+411 silly mapToRegistry name @types/whatwg-url
+412 silly mapToRegistry scope (from package name) @types
+413 verbose mapToRegistry no registry URL found in name for scope @types
+414 silly mapToRegistry using default registry
+415 silly mapToRegistry registry https://registry.npmjs.org/
+416 silly mapToRegistry data Result {
+416 silly mapToRegistry   raw: '@types/whatwg-url',
+416 silly mapToRegistry   scope: '@types',
+416 silly mapToRegistry   escapedName: '@types%2fwhatwg-url',
+416 silly mapToRegistry   name: '@types/whatwg-url',
+416 silly mapToRegistry   rawSpec: '',
+416 silly mapToRegistry   spec: 'latest',
+416 silly mapToRegistry   type: 'tag' }
+417 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwhatwg-url
+418 verbose addNameTag registry:https://registry.npmjs.org/@types%2fwhatwg-url already in flight; waiting
+419 silly addNameTag next cb for @types/whatwg-url with tag latest
+420 silly addNamed @types/whatwg-url@11.0.5
+421 verbose addNamed "11.0.5" is a plain semver version for @types/whatwg-url
+422 silly cache afterAdd @types/whatwg-url@11.0.5
+423 verbose afterAdd /Users/grahambass/.npm/@types/whatwg-url/11.0.5/package/package.json not in flight; writing
+424 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+425 verbose afterAdd /Users/grahambass/.npm/@types/whatwg-url/11.0.5/package/package.json written
+426 silly fetchNamedPackageData @types/webidl-conversions
+427 silly mapToRegistry name @types/webidl-conversions
+428 silly mapToRegistry scope (from package name) @types
+429 verbose mapToRegistry no registry URL found in name for scope @types
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry data Result {
+432 silly mapToRegistry   raw: '@types/webidl-conversions',
+432 silly mapToRegistry   scope: '@types',
+432 silly mapToRegistry   escapedName: '@types%2fwebidl-conversions',
+432 silly mapToRegistry   name: '@types/webidl-conversions',
+432 silly mapToRegistry   rawSpec: '',
+432 silly mapToRegistry   spec: 'latest',
+432 silly mapToRegistry   type: 'tag' }
+433 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwebidl-conversions
+434 verbose request uri https://registry.npmjs.org/@types%2fwebidl-conversions
+435 verbose request no auth needed
+436 info attempt registry request try #1 at 10:24:25 PM
+437 verbose etag W/"9beaf7b1f269e83b6b71847891f7a64e"
+438 verbose lastModified Mon, 11 Mar 2024 10:20:53 GMT
+439 http request GET https://registry.npmjs.org/@types%2fwebidl-conversions
+440 http 304 https://registry.npmjs.org/@types%2fwebidl-conversions
+441 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+441 verbose headers   connection: 'keep-alive',
+441 verbose headers   'cf-ray': '891e1fd7aeb919e3-EWR',
+441 verbose headers   'cf-cache-status': 'HIT',
+441 verbose headers   'access-control-allow-origin': '*',
+441 verbose headers   age: '292',
+441 verbose headers   'cache-control': 'public, max-age=300',
+441 verbose headers   etag: '"9beaf7b1f269e83b6b71847891f7a64e"',
+441 verbose headers   'last-modified': 'Mon, 11 Mar 2024 10:20:53 GMT',
+441 verbose headers   vary: 'Accept-Encoding',
+441 verbose headers   server: 'cloudflare' }
+442 silly get cb [ 304,
+442 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+442 silly get     connection: 'keep-alive',
+442 silly get     'cf-ray': '891e1fd7aeb919e3-EWR',
+442 silly get     'cf-cache-status': 'HIT',
+442 silly get     'access-control-allow-origin': '*',
+442 silly get     age: '292',
+442 silly get     'cache-control': 'public, max-age=300',
+442 silly get     etag: '"9beaf7b1f269e83b6b71847891f7a64e"',
+442 silly get     'last-modified': 'Mon, 11 Mar 2024 10:20:53 GMT',
+442 silly get     vary: 'Accept-Encoding',
+442 silly get     server: 'cloudflare' } ]
+443 verbose etag https://registry.npmjs.org/@types%2fwebidl-conversions from cache
+444 verbose get saving @types/webidl-conversions to /Users/grahambass/.npm/registry.npmjs.org/_40types_252fwebidl-conversions/.cache.json
+445 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+446 silly pickManifestFromRegistryMetadata spec * tag latest versions [ '4.0.0',
+446 silly pickManifestFromRegistryMetadata   '5.0.0',
+446 silly pickManifestFromRegistryMetadata   '6.0.0',
+446 silly pickManifestFromRegistryMetadata   '6.0.1',
+446 silly pickManifestFromRegistryMetadata   '6.1.0',
+446 silly pickManifestFromRegistryMetadata   '6.1.1',
+446 silly pickManifestFromRegistryMetadata   '7.0.0',
+446 silly pickManifestFromRegistryMetadata   '7.0.1',
+446 silly pickManifestFromRegistryMetadata   '7.0.2',
+446 silly pickManifestFromRegistryMetadata   '7.0.3' ]
+447 silly resolveWithNewModule @types/webidl-conversions@7.0.3 checking installable status
+448 silly cache add args [ '@types/webidl-conversions@*', null ]
+449 verbose cache add spec @types/webidl-conversions@*
+450 silly cache add parsed spec Result {
+450 silly cache add   raw: '@types/webidl-conversions@*',
+450 silly cache add   scope: '@types',
+450 silly cache add   escapedName: '@types%2fwebidl-conversions',
+450 silly cache add   name: '@types/webidl-conversions',
+450 silly cache add   rawSpec: '*',
+450 silly cache add   spec: '*',
+450 silly cache add   type: 'range' }
+451 silly addNamed @types/webidl-conversions@*
+452 verbose addNamed "*" is a valid semver range for @types/webidl-conversions
+453 silly addNameRange { name: '@types/webidl-conversions', range: '*', hasData: false }
+454 silly mapToRegistry name @types/webidl-conversions
+455 silly mapToRegistry scope (from package name) @types
+456 verbose mapToRegistry no registry URL found in name for scope @types
+457 silly mapToRegistry using default registry
+458 silly mapToRegistry registry https://registry.npmjs.org/
+459 silly mapToRegistry data Result {
+459 silly mapToRegistry   raw: '@types/webidl-conversions',
+459 silly mapToRegistry   scope: '@types',
+459 silly mapToRegistry   escapedName: '@types%2fwebidl-conversions',
+459 silly mapToRegistry   name: '@types/webidl-conversions',
+459 silly mapToRegistry   rawSpec: '',
+459 silly mapToRegistry   spec: 'latest',
+459 silly mapToRegistry   type: 'tag' }
+460 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwebidl-conversions
+461 verbose addNameRange registry:https://registry.npmjs.org/@types%2fwebidl-conversions not in flight; fetching
+462 verbose get https://registry.npmjs.org/@types%2fwebidl-conversions not expired, no request
+463 silly addNameRange number 2 { name: '@types/webidl-conversions', range: '*', hasData: true }
+464 silly addNameRange versions [ '@types/webidl-conversions',
+464 silly addNameRange   [ '4.0.0',
+464 silly addNameRange     '5.0.0',
+464 silly addNameRange     '6.0.0',
+464 silly addNameRange     '6.0.1',
+464 silly addNameRange     '6.1.0',
+464 silly addNameRange     '6.1.1',
+464 silly addNameRange     '7.0.0',
+464 silly addNameRange     '7.0.1',
+464 silly addNameRange     '7.0.2',
+464 silly addNameRange     '7.0.3' ] ]
+465 silly pickManifestFromRegistryMetadata spec * tag latest versions [ '4.0.0',
+465 silly pickManifestFromRegistryMetadata   '5.0.0',
+465 silly pickManifestFromRegistryMetadata   '6.0.0',
+465 silly pickManifestFromRegistryMetadata   '6.0.1',
+465 silly pickManifestFromRegistryMetadata   '6.1.0',
+465 silly pickManifestFromRegistryMetadata   '6.1.1',
+465 silly pickManifestFromRegistryMetadata   '7.0.0',
+465 silly pickManifestFromRegistryMetadata   '7.0.1',
+465 silly pickManifestFromRegistryMetadata   '7.0.2',
+465 silly pickManifestFromRegistryMetadata   '7.0.3' ]
+466 silly addNamed @types/webidl-conversions@latest
+467 verbose addNamed "latest" is being treated as a dist-tag for @types/webidl-conversions
+468 info addNameTag [ '@types/webidl-conversions', 'latest' ]
+469 silly mapToRegistry name @types/webidl-conversions
+470 silly mapToRegistry scope (from package name) @types
+471 verbose mapToRegistry no registry URL found in name for scope @types
+472 silly mapToRegistry using default registry
+473 silly mapToRegistry registry https://registry.npmjs.org/
+474 silly mapToRegistry data Result {
+474 silly mapToRegistry   raw: '@types/webidl-conversions',
+474 silly mapToRegistry   scope: '@types',
+474 silly mapToRegistry   escapedName: '@types%2fwebidl-conversions',
+474 silly mapToRegistry   name: '@types/webidl-conversions',
+474 silly mapToRegistry   rawSpec: '',
+474 silly mapToRegistry   spec: 'latest',
+474 silly mapToRegistry   type: 'tag' }
+475 silly mapToRegistry uri https://registry.npmjs.org/@types%2fwebidl-conversions
+476 verbose addNameTag registry:https://registry.npmjs.org/@types%2fwebidl-conversions already in flight; waiting
+477 silly addNameTag next cb for @types/webidl-conversions with tag latest
+478 silly addNamed @types/webidl-conversions@7.0.3
+479 verbose addNamed "7.0.3" is a plain semver version for @types/webidl-conversions
+480 silly cache afterAdd @types/webidl-conversions@7.0.3
+481 verbose afterAdd /Users/grahambass/.npm/@types/webidl-conversions/7.0.3/package/package.json not in flight; writing
+482 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+483 verbose afterAdd /Users/grahambass/.npm/@types/webidl-conversions/7.0.3/package/package.json written
+484 silly fetchNamedPackageData tr46
+485 silly mapToRegistry name tr46
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npmjs.org/
+488 silly mapToRegistry data Result {
+488 silly mapToRegistry   raw: 'tr46',
+488 silly mapToRegistry   scope: null,
+488 silly mapToRegistry   escapedName: 'tr46',
+488 silly mapToRegistry   name: 'tr46',
+488 silly mapToRegistry   rawSpec: '',
+488 silly mapToRegistry   spec: 'latest',
+488 silly mapToRegistry   type: 'tag' }
+489 silly mapToRegistry uri https://registry.npmjs.org/tr46
+490 silly fetchNamedPackageData webidl-conversions
+491 silly mapToRegistry name webidl-conversions
+492 silly mapToRegistry using default registry
+493 silly mapToRegistry registry https://registry.npmjs.org/
+494 silly mapToRegistry data Result {
+494 silly mapToRegistry   raw: 'webidl-conversions',
+494 silly mapToRegistry   scope: null,
+494 silly mapToRegistry   escapedName: 'webidl-conversions',
+494 silly mapToRegistry   name: 'webidl-conversions',
+494 silly mapToRegistry   rawSpec: '',
+494 silly mapToRegistry   spec: 'latest',
+494 silly mapToRegistry   type: 'tag' }
+495 silly mapToRegistry uri https://registry.npmjs.org/webidl-conversions
+496 verbose request uri https://registry.npmjs.org/tr46
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 10:24:25 PM
+499 verbose etag W/"575ffa7754535977f50c9cef7fdda1c7"
+500 verbose lastModified Sun, 05 Nov 2023 04:55:11 GMT
+501 http request GET https://registry.npmjs.org/tr46
+502 verbose request uri https://registry.npmjs.org/webidl-conversions
+503 verbose request no auth needed
+504 info attempt registry request try #1 at 10:24:25 PM
+505 verbose etag W/"d1826742ecdf3fdd15e3e9411e8bcf45"
+506 verbose lastModified Tue, 28 Jun 2022 23:27:49 GMT
+507 http request GET https://registry.npmjs.org/webidl-conversions
+508 http 304 https://registry.npmjs.org/webidl-conversions
+509 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+509 verbose headers   connection: 'keep-alive',
+509 verbose headers   'cf-ray': '891e1fd81ada1811-EWR',
+509 verbose headers   'cf-cache-status': 'HIT',
+509 verbose headers   'access-control-allow-origin': '*',
+509 verbose headers   age: '59',
+509 verbose headers   'cache-control': 'public, max-age=300',
+509 verbose headers   etag: '"d1826742ecdf3fdd15e3e9411e8bcf45"',
+509 verbose headers   'last-modified': 'Tue, 28 Jun 2022 23:27:49 GMT',
+509 verbose headers   vary: 'Accept-Encoding',
+509 verbose headers   server: 'cloudflare' }
+510 silly get cb [ 304,
+510 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+510 silly get     connection: 'keep-alive',
+510 silly get     'cf-ray': '891e1fd81ada1811-EWR',
+510 silly get     'cf-cache-status': 'HIT',
+510 silly get     'access-control-allow-origin': '*',
+510 silly get     age: '59',
+510 silly get     'cache-control': 'public, max-age=300',
+510 silly get     etag: '"d1826742ecdf3fdd15e3e9411e8bcf45"',
+510 silly get     'last-modified': 'Tue, 28 Jun 2022 23:27:49 GMT',
+510 silly get     vary: 'Accept-Encoding',
+510 silly get     server: 'cloudflare' } ]
+511 verbose etag https://registry.npmjs.org/webidl-conversions from cache
+512 verbose get saving webidl-conversions to /Users/grahambass/.npm/registry.npmjs.org/webidl-conversions/.cache.json
+513 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+514 http 304 https://registry.npmjs.org/tr46
+515 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+515 verbose headers   connection: 'keep-alive',
+515 verbose headers   'cf-ray': '891e1fd81ede42c1-EWR',
+515 verbose headers   'cf-cache-status': 'HIT',
+515 verbose headers   'access-control-allow-origin': '*',
+515 verbose headers   age: '74',
+515 verbose headers   'cache-control': 'public, max-age=300',
+515 verbose headers   etag: '"575ffa7754535977f50c9cef7fdda1c7"',
+515 verbose headers   'last-modified': 'Sun, 05 Nov 2023 04:55:11 GMT',
+515 verbose headers   vary: 'Accept-Encoding',
+515 verbose headers   server: 'cloudflare' }
+516 silly get cb [ 304,
+516 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+516 silly get     connection: 'keep-alive',
+516 silly get     'cf-ray': '891e1fd81ede42c1-EWR',
+516 silly get     'cf-cache-status': 'HIT',
+516 silly get     'access-control-allow-origin': '*',
+516 silly get     age: '74',
+516 silly get     'cache-control': 'public, max-age=300',
+516 silly get     etag: '"575ffa7754535977f50c9cef7fdda1c7"',
+516 silly get     'last-modified': 'Sun, 05 Nov 2023 04:55:11 GMT',
+516 silly get     vary: 'Accept-Encoding',
+516 silly get     server: 'cloudflare' } ]
+517 verbose etag https://registry.npmjs.org/tr46 from cache
+518 verbose get saving tr46 to /Users/grahambass/.npm/registry.npmjs.org/tr46/.cache.json
+519 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+520 silly pickManifestFromRegistryMetadata spec >=7.0.0 <8.0.0 tag latest versions [ '1.0.0',
+520 silly pickManifestFromRegistryMetadata   '1.0.1',
+520 silly pickManifestFromRegistryMetadata   '1.1.0',
+520 silly pickManifestFromRegistryMetadata   '1.2.0',
+520 silly pickManifestFromRegistryMetadata   '1.2.1',
+520 silly pickManifestFromRegistryMetadata   '2.0.0',
+520 silly pickManifestFromRegistryMetadata   '2.0.1',
+520 silly pickManifestFromRegistryMetadata   '3.0.0',
+520 silly pickManifestFromRegistryMetadata   '3.0.1',
+520 silly pickManifestFromRegistryMetadata   '4.0.0',
+520 silly pickManifestFromRegistryMetadata   '4.0.1',
+520 silly pickManifestFromRegistryMetadata   '4.0.2',
+520 silly pickManifestFromRegistryMetadata   '5.0.0',
+520 silly pickManifestFromRegistryMetadata   '6.0.0',
+520 silly pickManifestFromRegistryMetadata   '6.1.0',
+520 silly pickManifestFromRegistryMetadata   '7.0.0' ]
+521 silly resolveWithNewModule webidl-conversions@7.0.0 checking installable status
+522 silly cache add args [ 'webidl-conversions@^7.0.0', null ]
+523 verbose cache add spec webidl-conversions@^7.0.0
+524 silly cache add parsed spec Result {
+524 silly cache add   raw: 'webidl-conversions@^7.0.0',
+524 silly cache add   scope: null,
+524 silly cache add   escapedName: 'webidl-conversions',
+524 silly cache add   name: 'webidl-conversions',
+524 silly cache add   rawSpec: '^7.0.0',
+524 silly cache add   spec: '>=7.0.0 <8.0.0',
+524 silly cache add   type: 'range' }
+525 silly addNamed webidl-conversions@>=7.0.0 <8.0.0
+526 verbose addNamed ">=7.0.0 <8.0.0" is a valid semver range for webidl-conversions
+527 silly addNameRange { name: 'webidl-conversions',
+527 silly addNameRange   range: '>=7.0.0 <8.0.0',
+527 silly addNameRange   hasData: false }
+528 silly mapToRegistry name webidl-conversions
+529 silly mapToRegistry using default registry
+530 silly mapToRegistry registry https://registry.npmjs.org/
+531 silly mapToRegistry data Result {
+531 silly mapToRegistry   raw: 'webidl-conversions',
+531 silly mapToRegistry   scope: null,
+531 silly mapToRegistry   escapedName: 'webidl-conversions',
+531 silly mapToRegistry   name: 'webidl-conversions',
+531 silly mapToRegistry   rawSpec: '',
+531 silly mapToRegistry   spec: 'latest',
+531 silly mapToRegistry   type: 'tag' }
+532 silly mapToRegistry uri https://registry.npmjs.org/webidl-conversions
+533 verbose addNameRange registry:https://registry.npmjs.org/webidl-conversions not in flight; fetching
+534 verbose get https://registry.npmjs.org/webidl-conversions not expired, no request
+535 silly addNameRange number 2 { name: 'webidl-conversions',
+535 silly addNameRange   range: '>=7.0.0 <8.0.0',
+535 silly addNameRange   hasData: true }
+536 silly addNameRange versions [ 'webidl-conversions',
+536 silly addNameRange   [ '1.0.0',
+536 silly addNameRange     '1.0.1',
+536 silly addNameRange     '1.1.0',
+536 silly addNameRange     '1.2.0',
+536 silly addNameRange     '1.2.1',
+536 silly addNameRange     '2.0.0',
+536 silly addNameRange     '2.0.1',
+536 silly addNameRange     '3.0.0',
+536 silly addNameRange     '3.0.1',
+536 silly addNameRange     '4.0.0',
+536 silly addNameRange     '4.0.1',
+536 silly addNameRange     '4.0.2',
+536 silly addNameRange     '5.0.0',
+536 silly addNameRange     '6.0.0',
+536 silly addNameRange     '6.1.0',
+536 silly addNameRange     '7.0.0' ] ]
+537 silly pickManifestFromRegistryMetadata spec >=7.0.0 <8.0.0 tag latest versions [ '1.0.0',
+537 silly pickManifestFromRegistryMetadata   '1.0.1',
+537 silly pickManifestFromRegistryMetadata   '1.1.0',
+537 silly pickManifestFromRegistryMetadata   '1.2.0',
+537 silly pickManifestFromRegistryMetadata   '1.2.1',
+537 silly pickManifestFromRegistryMetadata   '2.0.0',
+537 silly pickManifestFromRegistryMetadata   '2.0.1',
+537 silly pickManifestFromRegistryMetadata   '3.0.0',
+537 silly pickManifestFromRegistryMetadata   '3.0.1',
+537 silly pickManifestFromRegistryMetadata   '4.0.0',
+537 silly pickManifestFromRegistryMetadata   '4.0.1',
+537 silly pickManifestFromRegistryMetadata   '4.0.2',
+537 silly pickManifestFromRegistryMetadata   '5.0.0',
+537 silly pickManifestFromRegistryMetadata   '6.0.0',
+537 silly pickManifestFromRegistryMetadata   '6.1.0',
+537 silly pickManifestFromRegistryMetadata   '7.0.0' ]
+538 silly addNamed webidl-conversions@latest
+539 verbose addNamed "latest" is being treated as a dist-tag for webidl-conversions
+540 info addNameTag [ 'webidl-conversions', 'latest' ]
+541 silly mapToRegistry name webidl-conversions
+542 silly mapToRegistry using default registry
+543 silly mapToRegistry registry https://registry.npmjs.org/
+544 silly mapToRegistry data Result {
+544 silly mapToRegistry   raw: 'webidl-conversions',
+544 silly mapToRegistry   scope: null,
+544 silly mapToRegistry   escapedName: 'webidl-conversions',
+544 silly mapToRegistry   name: 'webidl-conversions',
+544 silly mapToRegistry   rawSpec: '',
+544 silly mapToRegistry   spec: 'latest',
+544 silly mapToRegistry   type: 'tag' }
+545 silly mapToRegistry uri https://registry.npmjs.org/webidl-conversions
+546 verbose addNameTag registry:https://registry.npmjs.org/webidl-conversions already in flight; waiting
+547 silly addNameTag next cb for webidl-conversions with tag latest
+548 silly addNamed webidl-conversions@7.0.0
+549 verbose addNamed "7.0.0" is a plain semver version for webidl-conversions
+550 silly pickManifestFromRegistryMetadata spec >=4.1.1 <5.0.0 tag latest versions [ '0.0.1',
+550 silly pickManifestFromRegistryMetadata   '0.0.2',
+550 silly pickManifestFromRegistryMetadata   '0.0.3',
+550 silly pickManifestFromRegistryMetadata   '1.0.0',
+550 silly pickManifestFromRegistryMetadata   '1.0.1',
+550 silly pickManifestFromRegistryMetadata   '2.0.0',
+550 silly pickManifestFromRegistryMetadata   '2.0.1',
+550 silly pickManifestFromRegistryMetadata   '2.0.2',
+550 silly pickManifestFromRegistryMetadata   '2.1.0',
+550 silly pickManifestFromRegistryMetadata   '3.0.0',
+550 silly pickManifestFromRegistryMetadata   '4.0.0',
+550 silly pickManifestFromRegistryMetadata   '4.1.0',
+550 silly pickManifestFromRegistryMetadata   '4.1.1',
+550 silly pickManifestFromRegistryMetadata   '5.0.0' ]
+551 silly resolveWithNewModule tr46@4.1.1 checking installable status
+552 silly cache add args [ 'tr46@^4.1.1', null ]
+553 verbose cache add spec tr46@^4.1.1
+554 silly cache add parsed spec Result {
+554 silly cache add   raw: 'tr46@^4.1.1',
+554 silly cache add   scope: null,
+554 silly cache add   escapedName: 'tr46',
+554 silly cache add   name: 'tr46',
+554 silly cache add   rawSpec: '^4.1.1',
+554 silly cache add   spec: '>=4.1.1 <5.0.0',
+554 silly cache add   type: 'range' }
+555 silly addNamed tr46@>=4.1.1 <5.0.0
+556 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for tr46
+557 silly addNameRange { name: 'tr46', range: '>=4.1.1 <5.0.0', hasData: false }
+558 silly mapToRegistry name tr46
+559 silly mapToRegistry using default registry
+560 silly mapToRegistry registry https://registry.npmjs.org/
+561 silly mapToRegistry data Result {
+561 silly mapToRegistry   raw: 'tr46',
+561 silly mapToRegistry   scope: null,
+561 silly mapToRegistry   escapedName: 'tr46',
+561 silly mapToRegistry   name: 'tr46',
+561 silly mapToRegistry   rawSpec: '',
+561 silly mapToRegistry   spec: 'latest',
+561 silly mapToRegistry   type: 'tag' }
+562 silly mapToRegistry uri https://registry.npmjs.org/tr46
+563 verbose addNameRange registry:https://registry.npmjs.org/tr46 not in flight; fetching
+564 silly cache afterAdd webidl-conversions@7.0.0
+565 verbose afterAdd /Users/grahambass/.npm/webidl-conversions/7.0.0/package/package.json not in flight; writing
+566 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+567 verbose get https://registry.npmjs.org/tr46 not expired, no request
+568 silly addNameRange number 2 { name: 'tr46', range: '>=4.1.1 <5.0.0', hasData: true }
+569 silly addNameRange versions [ 'tr46',
+569 silly addNameRange   [ '0.0.1',
+569 silly addNameRange     '0.0.2',
+569 silly addNameRange     '0.0.3',
+569 silly addNameRange     '1.0.0',
+569 silly addNameRange     '1.0.1',
+569 silly addNameRange     '2.0.0',
+569 silly addNameRange     '2.0.1',
+569 silly addNameRange     '2.0.2',
+569 silly addNameRange     '2.1.0',
+569 silly addNameRange     '3.0.0',
+569 silly addNameRange     '4.0.0',
+569 silly addNameRange     '4.1.0',
+569 silly addNameRange     '4.1.1',
+569 silly addNameRange     '5.0.0' ] ]
+570 silly pickManifestFromRegistryMetadata spec >=4.1.1 <5.0.0 tag latest versions [ '0.0.1',
+570 silly pickManifestFromRegistryMetadata   '0.0.2',
+570 silly pickManifestFromRegistryMetadata   '0.0.3',
+570 silly pickManifestFromRegistryMetadata   '1.0.0',
+570 silly pickManifestFromRegistryMetadata   '1.0.1',
+570 silly pickManifestFromRegistryMetadata   '2.0.0',
+570 silly pickManifestFromRegistryMetadata   '2.0.1',
+570 silly pickManifestFromRegistryMetadata   '2.0.2',
+570 silly pickManifestFromRegistryMetadata   '2.1.0',
+570 silly pickManifestFromRegistryMetadata   '3.0.0',
+570 silly pickManifestFromRegistryMetadata   '4.0.0',
+570 silly pickManifestFromRegistryMetadata   '4.1.0',
+570 silly pickManifestFromRegistryMetadata   '4.1.1',
+570 silly pickManifestFromRegistryMetadata   '5.0.0' ]
+571 silly addNamed tr46@4.1.1
+572 verbose addNamed "4.1.1" is a plain semver version for tr46
+573 silly cache afterAdd tr46@4.1.1
+574 verbose afterAdd /Users/grahambass/.npm/tr46/4.1.1/package/package.json not in flight; writing
+575 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+576 verbose afterAdd /Users/grahambass/.npm/webidl-conversions/7.0.0/package/package.json written
+577 verbose afterAdd /Users/grahambass/.npm/tr46/4.1.1/package/package.json written
+578 silly fetchNamedPackageData punycode
+579 silly mapToRegistry name punycode
+580 silly mapToRegistry using default registry
+581 silly mapToRegistry registry https://registry.npmjs.org/
+582 silly mapToRegistry data Result {
+582 silly mapToRegistry   raw: 'punycode',
+582 silly mapToRegistry   scope: null,
+582 silly mapToRegistry   escapedName: 'punycode',
+582 silly mapToRegistry   name: 'punycode',
+582 silly mapToRegistry   rawSpec: '',
+582 silly mapToRegistry   spec: 'latest',
+582 silly mapToRegistry   type: 'tag' }
+583 silly mapToRegistry uri https://registry.npmjs.org/punycode
+584 verbose request uri https://registry.npmjs.org/punycode
+585 verbose request no auth needed
+586 info attempt registry request try #1 at 10:24:26 PM
+587 verbose etag W/"843639c847604dafa6a05016f4d3a6a0"
+588 verbose lastModified Mon, 30 Oct 2023 18:28:34 GMT
+589 http request GET https://registry.npmjs.org/punycode
+590 http 304 https://registry.npmjs.org/punycode
+591 verbose headers { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+591 verbose headers   connection: 'keep-alive',
+591 verbose headers   'cf-ray': '891e1fd88f7119e3-EWR',
+591 verbose headers   'cf-cache-status': 'HIT',
+591 verbose headers   'access-control-allow-origin': '*',
+591 verbose headers   age: '129',
+591 verbose headers   'cache-control': 'public, max-age=300',
+591 verbose headers   etag: '"843639c847604dafa6a05016f4d3a6a0"',
+591 verbose headers   'last-modified': 'Mon, 30 Oct 2023 18:28:34 GMT',
+591 verbose headers   vary: 'Accept-Encoding',
+591 verbose headers   server: 'cloudflare' }
+592 silly get cb [ 304,
+592 silly get   { date: 'Tue, 11 Jun 2024 02:20:51 GMT',
+592 silly get     connection: 'keep-alive',
+592 silly get     'cf-ray': '891e1fd88f7119e3-EWR',
+592 silly get     'cf-cache-status': 'HIT',
+592 silly get     'access-control-allow-origin': '*',
+592 silly get     age: '129',
+592 silly get     'cache-control': 'public, max-age=300',
+592 silly get     etag: '"843639c847604dafa6a05016f4d3a6a0"',
+592 silly get     'last-modified': 'Mon, 30 Oct 2023 18:28:34 GMT',
+592 silly get     vary: 'Accept-Encoding',
+592 silly get     server: 'cloudflare' } ]
+593 verbose etag https://registry.npmjs.org/punycode from cache
+594 verbose get saving punycode to /Users/grahambass/.npm/registry.npmjs.org/punycode/.cache.json
+595 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+596 silly pickManifestFromRegistryMetadata spec >=2.3.0 <3.0.0 tag latest versions [ '0.0.1',
+596 silly pickManifestFromRegistryMetadata   '0.0.2',
+596 silly pickManifestFromRegistryMetadata   '0.0.1337',
+596 silly pickManifestFromRegistryMetadata   '0.1.0',
+596 silly pickManifestFromRegistryMetadata   '0.1.1',
+596 silly pickManifestFromRegistryMetadata   '0.1.2',
+596 silly pickManifestFromRegistryMetadata   '0.2.0',
+596 silly pickManifestFromRegistryMetadata   '0.2.1',
+596 silly pickManifestFromRegistryMetadata   '0.2.2',
+596 silly pickManifestFromRegistryMetadata   '0.3.0',
+596 silly pickManifestFromRegistryMetadata   '1.0.0',
+596 silly pickManifestFromRegistryMetadata   '1.1.0',
+596 silly pickManifestFromRegistryMetadata   '1.1.1',
+596 silly pickManifestFromRegistryMetadata   '1.2.0',
+596 silly pickManifestFromRegistryMetadata   '1.2.1',
+596 silly pickManifestFromRegistryMetadata   '1.2.2',
+596 silly pickManifestFromRegistryMetadata   '1.2.3',
+596 silly pickManifestFromRegistryMetadata   '1.2.4',
+596 silly pickManifestFromRegistryMetadata   '1.3.0',
+596 silly pickManifestFromRegistryMetadata   '1.3.1',
+596 silly pickManifestFromRegistryMetadata   '1.3.2',
+596 silly pickManifestFromRegistryMetadata   '1.4.0',
+596 silly pickManifestFromRegistryMetadata   '1.4.1',
+596 silly pickManifestFromRegistryMetadata   '2.0.0',
+596 silly pickManifestFromRegistryMetadata   '2.0.1',
+596 silly pickManifestFromRegistryMetadata   '2.1.0',
+596 silly pickManifestFromRegistryMetadata   '2.1.1',
+596 silly pickManifestFromRegistryMetadata   '2.2.0',
+596 silly pickManifestFromRegistryMetadata   '2.2.2',
+596 silly pickManifestFromRegistryMetadata   '2.3.0',
+596 silly pickManifestFromRegistryMetadata   '2.3.1' ]
+597 silly resolveWithNewModule punycode@2.3.1 checking installable status
+598 silly cache add args [ 'punycode@^2.3.0', null ]
+599 verbose cache add spec punycode@^2.3.0
+600 silly cache add parsed spec Result {
+600 silly cache add   raw: 'punycode@^2.3.0',
+600 silly cache add   scope: null,
+600 silly cache add   escapedName: 'punycode',
+600 silly cache add   name: 'punycode',
+600 silly cache add   rawSpec: '^2.3.0',
+600 silly cache add   spec: '>=2.3.0 <3.0.0',
+600 silly cache add   type: 'range' }
+601 silly addNamed punycode@>=2.3.0 <3.0.0
+602 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for punycode
+603 silly addNameRange { name: 'punycode', range: '>=2.3.0 <3.0.0', hasData: false }
+604 silly mapToRegistry name punycode
+605 silly mapToRegistry using default registry
+606 silly mapToRegistry registry https://registry.npmjs.org/
+607 silly mapToRegistry data Result {
+607 silly mapToRegistry   raw: 'punycode',
+607 silly mapToRegistry   scope: null,
+607 silly mapToRegistry   escapedName: 'punycode',
+607 silly mapToRegistry   name: 'punycode',
+607 silly mapToRegistry   rawSpec: '',
+607 silly mapToRegistry   spec: 'latest',
+607 silly mapToRegistry   type: 'tag' }
+608 silly mapToRegistry uri https://registry.npmjs.org/punycode
+609 verbose addNameRange registry:https://registry.npmjs.org/punycode not in flight; fetching
+610 verbose get https://registry.npmjs.org/punycode not expired, no request
+611 silly addNameRange number 2 { name: 'punycode', range: '>=2.3.0 <3.0.0', hasData: true }
+612 silly addNameRange versions [ 'punycode',
+612 silly addNameRange   [ '0.0.1',
+612 silly addNameRange     '0.0.2',
+612 silly addNameRange     '0.0.1337',
+612 silly addNameRange     '0.1.0',
+612 silly addNameRange     '0.1.1',
+612 silly addNameRange     '0.1.2',
+612 silly addNameRange     '0.2.0',
+612 silly addNameRange     '0.2.1',
+612 silly addNameRange     '0.2.2',
+612 silly addNameRange     '0.3.0',
+612 silly addNameRange     '1.0.0',
+612 silly addNameRange     '1.1.0',
+612 silly addNameRange     '1.1.1',
+612 silly addNameRange     '1.2.0',
+612 silly addNameRange     '1.2.1',
+612 silly addNameRange     '1.2.2',
+612 silly addNameRange     '1.2.3',
+612 silly addNameRange     '1.2.4',
+612 silly addNameRange     '1.3.0',
+612 silly addNameRange     '1.3.1',
+612 silly addNameRange     '1.3.2',
+612 silly addNameRange     '1.4.0',
+612 silly addNameRange     '1.4.1',
+612 silly addNameRange     '2.0.0',
+612 silly addNameRange     '2.0.1',
+612 silly addNameRange     '2.1.0',
+612 silly addNameRange     '2.1.1',
+612 silly addNameRange     '2.2.0',
+612 silly addNameRange     '2.2.2',
+612 silly addNameRange     '2.3.0',
+612 silly addNameRange     '2.3.1' ] ]
+613 silly pickManifestFromRegistryMetadata spec >=2.3.0 <3.0.0 tag latest versions [ '0.0.1',
+613 silly pickManifestFromRegistryMetadata   '0.0.2',
+613 silly pickManifestFromRegistryMetadata   '0.0.1337',
+613 silly pickManifestFromRegistryMetadata   '0.1.0',
+613 silly pickManifestFromRegistryMetadata   '0.1.1',
+613 silly pickManifestFromRegistryMetadata   '0.1.2',
+613 silly pickManifestFromRegistryMetadata   '0.2.0',
+613 silly pickManifestFromRegistryMetadata   '0.2.1',
+613 silly pickManifestFromRegistryMetadata   '0.2.2',
+613 silly pickManifestFromRegistryMetadata   '0.3.0',
+613 silly pickManifestFromRegistryMetadata   '1.0.0',
+613 silly pickManifestFromRegistryMetadata   '1.1.0',
+613 silly pickManifestFromRegistryMetadata   '1.1.1',
+613 silly pickManifestFromRegistryMetadata   '1.2.0',
+613 silly pickManifestFromRegistryMetadata   '1.2.1',
+613 silly pickManifestFromRegistryMetadata   '1.2.2',
+613 silly pickManifestFromRegistryMetadata   '1.2.3',
+613 silly pickManifestFromRegistryMetadata   '1.2.4',
+613 silly pickManifestFromRegistryMetadata   '1.3.0',
+613 silly pickManifestFromRegistryMetadata   '1.3.1',
+613 silly pickManifestFromRegistryMetadata   '1.3.2',
+613 silly pickManifestFromRegistryMetadata   '1.4.0',
+613 silly pickManifestFromRegistryMetadata   '1.4.1',
+613 silly pickManifestFromRegistryMetadata   '2.0.0',
+613 silly pickManifestFromRegistryMetadata   '2.0.1',
+613 silly pickManifestFromRegistryMetadata   '2.1.0',
+613 silly pickManifestFromRegistryMetadata   '2.1.1',
+613 silly pickManifestFromRegistryMetadata   '2.2.0',
+613 silly pickManifestFromRegistryMetadata   '2.2.2',
+613 silly pickManifestFromRegistryMetadata   '2.3.0',
+613 silly pickManifestFromRegistryMetadata   '2.3.1' ]
+614 silly addNamed punycode@latest
+615 verbose addNamed "latest" is being treated as a dist-tag for punycode
+616 info addNameTag [ 'punycode', 'latest' ]
+617 silly mapToRegistry name punycode
+618 silly mapToRegistry using default registry
+619 silly mapToRegistry registry https://registry.npmjs.org/
+620 silly mapToRegistry data Result {
+620 silly mapToRegistry   raw: 'punycode',
+620 silly mapToRegistry   scope: null,
+620 silly mapToRegistry   escapedName: 'punycode',
+620 silly mapToRegistry   name: 'punycode',
+620 silly mapToRegistry   rawSpec: '',
+620 silly mapToRegistry   spec: 'latest',
+620 silly mapToRegistry   type: 'tag' }
+621 silly mapToRegistry uri https://registry.npmjs.org/punycode
+622 verbose addNameTag registry:https://registry.npmjs.org/punycode already in flight; waiting
+623 silly addNameTag next cb for punycode with tag latest
+624 silly addNamed punycode@2.3.1
+625 verbose addNamed "2.3.1" is a plain semver version for punycode
+626 silly cache afterAdd punycode@2.3.1
+627 verbose afterAdd /Users/grahambass/.npm/punycode/2.3.1/package/package.json not in flight; writing
+628 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+629 verbose afterAdd /Users/grahambass/.npm/punycode/2.3.1/package/package.json written
+630 silly fetchNamedPackageData fsevents
+631 silly mapToRegistry name fsevents
+632 silly mapToRegistry using default registry
+633 silly mapToRegistry registry https://registry.npmjs.org/
+634 silly mapToRegistry data Result {
+634 silly mapToRegistry   raw: 'fsevents',
+634 silly mapToRegistry   scope: null,
+634 silly mapToRegistry   escapedName: 'fsevents',
+634 silly mapToRegistry   name: 'fsevents',
+634 silly mapToRegistry   rawSpec: '',
+634 silly mapToRegistry   spec: 'latest',
+634 silly mapToRegistry   type: 'tag' }
+635 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+636 verbose request uri https://registry.npmjs.org/fsevents
+637 verbose request no auth needed
+638 info attempt registry request try #1 at 10:24:26 PM
+639 verbose etag W/"f5138f87e80ddfba9e647e1f0c30f217"
+640 verbose lastModified Mon, 21 Aug 2023 16:24:25 GMT
+641 http request GET https://registry.npmjs.org/fsevents
+642 http 304 https://registry.npmjs.org/fsevents
+643 verbose headers { date: 'Tue, 11 Jun 2024 02:20:52 GMT',
+643 verbose headers   connection: 'keep-alive',
+643 verbose headers   'cf-ray': '891e1fd93ba41811-EWR',
+643 verbose headers   'cf-cache-status': 'HIT',
+643 verbose headers   'access-control-allow-origin': '*',
+643 verbose headers   age: '75',
+643 verbose headers   'cache-control': 'public, max-age=300',
+643 verbose headers   etag: '"f5138f87e80ddfba9e647e1f0c30f217"',
+643 verbose headers   'last-modified': 'Mon, 21 Aug 2023 16:24:25 GMT',
+643 verbose headers   vary: 'Accept-Encoding',
+643 verbose headers   server: 'cloudflare' }
+644 silly get cb [ 304,
+644 silly get   { date: 'Tue, 11 Jun 2024 02:20:52 GMT',
+644 silly get     connection: 'keep-alive',
+644 silly get     'cf-ray': '891e1fd93ba41811-EWR',
+644 silly get     'cf-cache-status': 'HIT',
+644 silly get     'access-control-allow-origin': '*',
+644 silly get     age: '75',
+644 silly get     'cache-control': 'public, max-age=300',
+644 silly get     etag: '"f5138f87e80ddfba9e647e1f0c30f217"',
+644 silly get     'last-modified': 'Mon, 21 Aug 2023 16:24:25 GMT',
+644 silly get     vary: 'Accept-Encoding',
+644 silly get     server: 'cloudflare' } ]
+645 verbose etag https://registry.npmjs.org/fsevents from cache
+646 verbose get saving fsevents to /Users/grahambass/.npm/registry.npmjs.org/fsevents/.cache.json
+647 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+648 silly pickManifestFromRegistryMetadata spec >=2.3.2 <2.4.0 tag latest versions [ '0.1.1',
+648 silly pickManifestFromRegistryMetadata   '0.1.3',
+648 silly pickManifestFromRegistryMetadata   '0.1.4',
+648 silly pickManifestFromRegistryMetadata   '0.1.5',
+648 silly pickManifestFromRegistryMetadata   '0.1.6',
+648 silly pickManifestFromRegistryMetadata   '0.2.0',
+648 silly pickManifestFromRegistryMetadata   '0.3.0',
+648 silly pickManifestFromRegistryMetadata   '0.3.1',
+648 silly pickManifestFromRegistryMetadata   '0.3.2',
+648 silly pickManifestFromRegistryMetadata   '0.3.3',
+648 silly pickManifestFromRegistryMetadata   '0.3.4',
+648 silly pickManifestFromRegistryMetadata   '0.3.5',
+648 silly pickManifestFromRegistryMetadata   '0.3.6',
+648 silly pickManifestFromRegistryMetadata   '0.3.7',
+648 silly pickManifestFromRegistryMetadata   '0.3.8',
+648 silly pickManifestFromRegistryMetadata   '1.0.0',
+648 silly pickManifestFromRegistryMetadata   '1.0.1',
+648 silly pickManifestFromRegistryMetadata   '1.0.2',
+648 silly pickManifestFromRegistryMetadata   '1.0.3',
+648 silly pickManifestFromRegistryMetadata   '1.0.4',
+648 silly pickManifestFromRegistryMetadata   '1.0.5',
+648 silly pickManifestFromRegistryMetadata   '1.0.6',
+648 silly pickManifestFromRegistryMetadata   '1.0.7',
+648 silly pickManifestFromRegistryMetadata   '1.0.8',
+648 silly pickManifestFromRegistryMetadata   '1.0.9',
+648 silly pickManifestFromRegistryMetadata   '1.0.10',
+648 silly pickManifestFromRegistryMetadata   '1.0.11',
+648 silly pickManifestFromRegistryMetadata   '1.0.12',
+648 silly pickManifestFromRegistryMetadata   '1.0.14',
+648 silly pickManifestFromRegistryMetadata   '1.0.15',
+648 silly pickManifestFromRegistryMetadata   '1.0.17',
+648 silly pickManifestFromRegistryMetadata   '1.0.18-0',
+648 silly pickManifestFromRegistryMetadata   '1.1.0',
+648 silly pickManifestFromRegistryMetadata   '1.1.1',
+648 silly pickManifestFromRegistryMetadata   '1.1.2',
+648 silly pickManifestFromRegistryMetadata   '1.1.3',
+648 silly pickManifestFromRegistryMetadata   '1.2.0',
+648 silly pickManifestFromRegistryMetadata   '1.2.2',
+648 silly pickManifestFromRegistryMetadata   '1.2.3',
+648 silly pickManifestFromRegistryMetadata   '1.2.4',
+648 silly pickManifestFromRegistryMetadata   '2.0.0',
+648 silly pickManifestFromRegistryMetadata   '2.0.1',
+648 silly pickManifestFromRegistryMetadata   '2.0.2-pre-1',
+648 silly pickManifestFromRegistryMetadata   '1.2.6',
+648 silly pickManifestFromRegistryMetadata   '1.2.7',
+648 silly pickManifestFromRegistryMetadata   '2.0.3',
+648 silly pickManifestFromRegistryMetadata   '2.0.4',
+648 silly pickManifestFromRegistryMetadata   '1.2.8',
+648 silly pickManifestFromRegistryMetadata   '2.0.5',
+648 silly pickManifestFromRegistryMetadata   '2.0.6',
+648 silly pickManifestFromRegistryMetadata   '1.2.9',
+648 silly pickManifestFromRegistryMetadata   '2.0.7',
+648 silly pickManifestFromRegistryMetadata   '2.1.0',
+648 silly pickManifestFromRegistryMetadata   '2.1.1',
+648 silly pickManifestFromRegistryMetadata   '2.1.2',
+648 silly pickManifestFromRegistryMetadata   '1.2.10',
+648 silly pickManifestFromRegistryMetadata   '1.2.11',
+648 silly pickManifestFromRegistryMetadata   '1.2.12',
+648 silly pickManifestFromRegistryMetadata   '2.1.3',
+648 silly pickManifestFromRegistryMetadata   '1.2.13',
+648 silly pickManifestFromRegistryMetadata   '2.2.0',
+648 silly pickManifestFromRegistryMetadata   '2.2.1',
+648 silly pickManifestFromRegistryMetadata   '2.2.2',
+648 silly pickManifestFromRegistryMetadata   '2.3.0',
+648 silly pickManifestFromRegistryMetadata   '2.3.1',
+648 silly pickManifestFromRegistryMetadata   '2.3.2',
+648 silly pickManifestFromRegistryMetadata   '2.3.3' ]
+649 silly resolveWithNewModule fsevents@2.3.3 checking installable status
+650 silly cache add args [ 'fsevents@~2.3.2', null ]
+651 verbose cache add spec fsevents@~2.3.2
+652 silly cache add parsed spec Result {
+652 silly cache add   raw: 'fsevents@~2.3.2',
+652 silly cache add   scope: null,
+652 silly cache add   escapedName: 'fsevents',
+652 silly cache add   name: 'fsevents',
+652 silly cache add   rawSpec: '~2.3.2',
+652 silly cache add   spec: '>=2.3.2 <2.4.0',
+652 silly cache add   type: 'range' }
+653 silly addNamed fsevents@>=2.3.2 <2.4.0
+654 verbose addNamed ">=2.3.2 <2.4.0" is a valid semver range for fsevents
+655 silly addNameRange { name: 'fsevents', range: '>=2.3.2 <2.4.0', hasData: false }
+656 silly mapToRegistry name fsevents
+657 silly mapToRegistry using default registry
+658 silly mapToRegistry registry https://registry.npmjs.org/
+659 silly mapToRegistry data Result {
+659 silly mapToRegistry   raw: 'fsevents',
+659 silly mapToRegistry   scope: null,
+659 silly mapToRegistry   escapedName: 'fsevents',
+659 silly mapToRegistry   name: 'fsevents',
+659 silly mapToRegistry   rawSpec: '',
+659 silly mapToRegistry   spec: 'latest',
+659 silly mapToRegistry   type: 'tag' }
+660 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+661 verbose addNameRange registry:https://registry.npmjs.org/fsevents not in flight; fetching
+662 verbose get https://registry.npmjs.org/fsevents not expired, no request
+663 silly addNameRange number 2 { name: 'fsevents', range: '>=2.3.2 <2.4.0', hasData: true }
+664 silly addNameRange versions [ 'fsevents',
+664 silly addNameRange   [ '0.1.1',
+664 silly addNameRange     '0.1.3',
+664 silly addNameRange     '0.1.4',
+664 silly addNameRange     '0.1.5',
+664 silly addNameRange     '0.1.6',
+664 silly addNameRange     '0.2.0',
+664 silly addNameRange     '0.3.0',
+664 silly addNameRange     '0.3.1',
+664 silly addNameRange     '0.3.2',
+664 silly addNameRange     '0.3.3',
+664 silly addNameRange     '0.3.4',
+664 silly addNameRange     '0.3.5',
+664 silly addNameRange     '0.3.6',
+664 silly addNameRange     '0.3.7',
+664 silly addNameRange     '0.3.8',
+664 silly addNameRange     '1.0.0',
+664 silly addNameRange     '1.0.1',
+664 silly addNameRange     '1.0.2',
+664 silly addNameRange     '1.0.3',
+664 silly addNameRange     '1.0.4',
+664 silly addNameRange     '1.0.5',
+664 silly addNameRange     '1.0.6',
+664 silly addNameRange     '1.0.7',
+664 silly addNameRange     '1.0.8',
+664 silly addNameRange     '1.0.9',
+664 silly addNameRange     '1.0.10',
+664 silly addNameRange     '1.0.11',
+664 silly addNameRange     '1.0.12',
+664 silly addNameRange     '1.0.14',
+664 silly addNameRange     '1.0.15',
+664 silly addNameRange     '1.0.17',
+664 silly addNameRange     '1.0.18-0',
+664 silly addNameRange     '1.1.0',
+664 silly addNameRange     '1.1.1',
+664 silly addNameRange     '1.1.2',
+664 silly addNameRange     '1.1.3',
+664 silly addNameRange     '1.2.0',
+664 silly addNameRange     '1.2.2',
+664 silly addNameRange     '1.2.3',
+664 silly addNameRange     '1.2.4',
+664 silly addNameRange     '2.0.0',
+664 silly addNameRange     '2.0.1',
+664 silly addNameRange     '2.0.2-pre-1',
+664 silly addNameRange     '1.2.6',
+664 silly addNameRange     '1.2.7',
+664 silly addNameRange     '2.0.3',
+664 silly addNameRange     '2.0.4',
+664 silly addNameRange     '1.2.8',
+664 silly addNameRange     '2.0.5',
+664 silly addNameRange     '2.0.6',
+664 silly addNameRange     '1.2.9',
+664 silly addNameRange     '2.0.7',
+664 silly addNameRange     '2.1.0',
+664 silly addNameRange     '2.1.1',
+664 silly addNameRange     '2.1.2',
+664 silly addNameRange     '1.2.10',
+664 silly addNameRange     '1.2.11',
+664 silly addNameRange     '1.2.12',
+664 silly addNameRange     '2.1.3',
+664 silly addNameRange     '1.2.13',
+664 silly addNameRange     '2.2.0',
+664 silly addNameRange     '2.2.1',
+664 silly addNameRange     '2.2.2',
+664 silly addNameRange     '2.3.0',
+664 silly addNameRange     '2.3.1',
+664 silly addNameRange     '2.3.2',
+664 silly addNameRange     '2.3.3' ] ]
+665 silly pickManifestFromRegistryMetadata spec >=2.3.2 <2.4.0 tag latest versions [ '0.1.1',
+665 silly pickManifestFromRegistryMetadata   '0.1.3',
+665 silly pickManifestFromRegistryMetadata   '0.1.4',
+665 silly pickManifestFromRegistryMetadata   '0.1.5',
+665 silly pickManifestFromRegistryMetadata   '0.1.6',
+665 silly pickManifestFromRegistryMetadata   '0.2.0',
+665 silly pickManifestFromRegistryMetadata   '0.3.0',
+665 silly pickManifestFromRegistryMetadata   '0.3.1',
+665 silly pickManifestFromRegistryMetadata   '0.3.2',
+665 silly pickManifestFromRegistryMetadata   '0.3.3',
+665 silly pickManifestFromRegistryMetadata   '0.3.4',
+665 silly pickManifestFromRegistryMetadata   '0.3.5',
+665 silly pickManifestFromRegistryMetadata   '0.3.6',
+665 silly pickManifestFromRegistryMetadata   '0.3.7',
+665 silly pickManifestFromRegistryMetadata   '0.3.8',
+665 silly pickManifestFromRegistryMetadata   '1.0.0',
+665 silly pickManifestFromRegistryMetadata   '1.0.1',
+665 silly pickManifestFromRegistryMetadata   '1.0.2',
+665 silly pickManifestFromRegistryMetadata   '1.0.3',
+665 silly pickManifestFromRegistryMetadata   '1.0.4',
+665 silly pickManifestFromRegistryMetadata   '1.0.5',
+665 silly pickManifestFromRegistryMetadata   '1.0.6',
+665 silly pickManifestFromRegistryMetadata   '1.0.7',
+665 silly pickManifestFromRegistryMetadata   '1.0.8',
+665 silly pickManifestFromRegistryMetadata   '1.0.9',
+665 silly pickManifestFromRegistryMetadata   '1.0.10',
+665 silly pickManifestFromRegistryMetadata   '1.0.11',
+665 silly pickManifestFromRegistryMetadata   '1.0.12',
+665 silly pickManifestFromRegistryMetadata   '1.0.14',
+665 silly pickManifestFromRegistryMetadata   '1.0.15',
+665 silly pickManifestFromRegistryMetadata   '1.0.17',
+665 silly pickManifestFromRegistryMetadata   '1.0.18-0',
+665 silly pickManifestFromRegistryMetadata   '1.1.0',
+665 silly pickManifestFromRegistryMetadata   '1.1.1',
+665 silly pickManifestFromRegistryMetadata   '1.1.2',
+665 silly pickManifestFromRegistryMetadata   '1.1.3',
+665 silly pickManifestFromRegistryMetadata   '1.2.0',
+665 silly pickManifestFromRegistryMetadata   '1.2.2',
+665 silly pickManifestFromRegistryMetadata   '1.2.3',
+665 silly pickManifestFromRegistryMetadata   '1.2.4',
+665 silly pickManifestFromRegistryMetadata   '2.0.0',
+665 silly pickManifestFromRegistryMetadata   '2.0.1',
+665 silly pickManifestFromRegistryMetadata   '2.0.2-pre-1',
+665 silly pickManifestFromRegistryMetadata   '1.2.6',
+665 silly pickManifestFromRegistryMetadata   '1.2.7',
+665 silly pickManifestFromRegistryMetadata   '2.0.3',
+665 silly pickManifestFromRegistryMetadata   '2.0.4',
+665 silly pickManifestFromRegistryMetadata   '1.2.8',
+665 silly pickManifestFromRegistryMetadata   '2.0.5',
+665 silly pickManifestFromRegistryMetadata   '2.0.6',
+665 silly pickManifestFromRegistryMetadata   '1.2.9',
+665 silly pickManifestFromRegistryMetadata   '2.0.7',
+665 silly pickManifestFromRegistryMetadata   '2.1.0',
+665 silly pickManifestFromRegistryMetadata   '2.1.1',
+665 silly pickManifestFromRegistryMetadata   '2.1.2',
+665 silly pickManifestFromRegistryMetadata   '1.2.10',
+665 silly pickManifestFromRegistryMetadata   '1.2.11',
+665 silly pickManifestFromRegistryMetadata   '1.2.12',
+665 silly pickManifestFromRegistryMetadata   '2.1.3',
+665 silly pickManifestFromRegistryMetadata   '1.2.13',
+665 silly pickManifestFromRegistryMetadata   '2.2.0',
+665 silly pickManifestFromRegistryMetadata   '2.2.1',
+665 silly pickManifestFromRegistryMetadata   '2.2.2',
+665 silly pickManifestFromRegistryMetadata   '2.3.0',
+665 silly pickManifestFromRegistryMetadata   '2.3.1',
+665 silly pickManifestFromRegistryMetadata   '2.3.2',
+665 silly pickManifestFromRegistryMetadata   '2.3.3' ]
+666 silly addNamed fsevents@latest
+667 verbose addNamed "latest" is being treated as a dist-tag for fsevents
+668 info addNameTag [ 'fsevents', 'latest' ]
+669 silly mapToRegistry name fsevents
+670 silly mapToRegistry using default registry
+671 silly mapToRegistry registry https://registry.npmjs.org/
+672 silly mapToRegistry data Result {
+672 silly mapToRegistry   raw: 'fsevents',
+672 silly mapToRegistry   scope: null,
+672 silly mapToRegistry   escapedName: 'fsevents',
+672 silly mapToRegistry   name: 'fsevents',
+672 silly mapToRegistry   rawSpec: '',
+672 silly mapToRegistry   spec: 'latest',
+672 silly mapToRegistry   type: 'tag' }
+673 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+674 verbose addNameTag registry:https://registry.npmjs.org/fsevents already in flight; waiting
+675 silly addNameTag next cb for fsevents with tag latest
+676 silly addNamed fsevents@2.3.3
+677 verbose addNamed "2.3.3" is a plain semver version for fsevents
+678 silly cache afterAdd fsevents@2.3.3
+679 verbose afterAdd /Users/grahambass/.npm/fsevents/2.3.3/package/package.json not in flight; writing
+680 verbose correctMkdir /Users/grahambass/.npm correctMkdir not in flight; initializing
+681 verbose afterAdd /Users/grahambass/.npm/fsevents/2.3.3/package/package.json written
+682 silly loadAllDepsIntoIdealTree Finishing
+683 silly loadIdealTree Finishing
+684 silly currentTree ui-project@1.0.0
+684 silly currentTree ├── accepts@1.3.8
+684 silly currentTree ├── anymatch@3.1.3
+684 silly currentTree ├── array-flatten@1.1.1
+684 silly currentTree ├── balanced-match@1.0.2
+684 silly currentTree ├── binary-extensions@2.3.0
+684 silly currentTree ├── body-parser@1.20.2
+684 silly currentTree ├── brace-expansion@1.1.11
+684 silly currentTree ├── braces@3.0.3
+684 silly currentTree ├── bytes@3.1.2
+684 silly currentTree ├── call-bind@1.0.7
+684 silly currentTree ├── chokidar@3.6.0
+684 silly currentTree ├── concat-map@0.0.1
+684 silly currentTree ├── content-disposition@0.5.4
+684 silly currentTree ├── content-type@1.0.5
+684 silly currentTree ├── cookie-signature@1.0.6
+684 silly currentTree ├── cookie@0.6.0
+684 silly currentTree ├── debug@2.6.9
+684 silly currentTree ├── define-data-property@1.1.4
+684 silly currentTree ├── depd@2.0.0
+684 silly currentTree ├── destroy@1.2.0
+684 silly currentTree ├── dotenv@16.4.5
+684 silly currentTree ├── ee-first@1.1.1
+684 silly currentTree ├── encodeurl@1.0.2
+684 silly currentTree ├── es-define-property@1.0.0
+684 silly currentTree ├── es-errors@1.3.0
+684 silly currentTree ├── escape-html@1.0.3
+684 silly currentTree ├── etag@1.8.1
+684 silly currentTree ├── express@4.19.2
+684 silly currentTree ├── fill-range@7.1.1
+684 silly currentTree ├── finalhandler@1.2.0
+684 silly currentTree ├── forwarded@0.2.0
+684 silly currentTree ├── fresh@0.5.2
+684 silly currentTree ├── function-bind@1.1.2
+684 silly currentTree ├── get-intrinsic@1.2.4
+684 silly currentTree ├── glob-parent@5.1.2
+684 silly currentTree ├── gopd@1.0.1
+684 silly currentTree ├── has-flag@3.0.0
+684 silly currentTree ├── has-property-descriptors@1.0.2
+684 silly currentTree ├── has-proto@1.0.3
+684 silly currentTree ├── has-symbols@1.0.3
+684 silly currentTree ├── hasown@2.0.2
+684 silly currentTree ├── http-errors@2.0.0
+684 silly currentTree ├── iconv-lite@0.4.24
+684 silly currentTree ├── ignore-by-default@1.0.1
+684 silly currentTree ├── inherits@2.0.4
+684 silly currentTree ├── ipaddr.js@1.9.1
+684 silly currentTree ├── is-binary-path@2.1.0
+684 silly currentTree ├── is-extglob@2.1.1
+684 silly currentTree ├── is-glob@4.0.3
+684 silly currentTree ├── is-number@7.0.0
+684 silly currentTree ├── media-typer@0.3.0
+684 silly currentTree ├── merge-descriptors@1.0.1
+684 silly currentTree ├── methods@1.1.2
+684 silly currentTree ├── mime-db@1.52.0
+684 silly currentTree ├── mime-types@2.1.35
+684 silly currentTree ├── mime@1.6.0
+684 silly currentTree ├── minimatch@3.1.2
+684 silly currentTree ├── ms@2.0.0
+684 silly currentTree ├── negotiator@0.6.3
+684 silly currentTree ├─┬ nodemon@3.1.3
+684 silly currentTree │ ├── debug@4.3.5
+684 silly currentTree │ └── ms@2.1.2
+684 silly currentTree ├── normalize-path@3.0.0
+684 silly currentTree ├── object-inspect@1.13.1
+684 silly currentTree ├── on-finished@2.4.1
+684 silly currentTree ├── parseurl@1.3.3
+684 silly currentTree ├── path-to-regexp@0.1.7
+684 silly currentTree ├── picomatch@2.3.1
+684 silly currentTree ├── proxy-addr@2.0.7
+684 silly currentTree ├── pstree.remy@1.1.8
+684 silly currentTree ├── qs@6.11.0
+684 silly currentTree ├── range-parser@1.2.1
+684 silly currentTree ├── raw-body@2.5.2
+684 silly currentTree ├── readdirp@3.6.0
+684 silly currentTree ├── safe-buffer@5.2.1
+684 silly currentTree ├── safer-buffer@2.1.2
+684 silly currentTree ├── semver@7.6.2
+684 silly currentTree ├─┬ send@0.18.0
+684 silly currentTree │ └── ms@2.1.3
+684 silly currentTree ├── serve-static@1.15.0
+684 silly currentTree ├── set-function-length@1.2.2
+684 silly currentTree ├── setprototypeof@1.2.0
+684 silly currentTree ├── side-channel@1.0.6
+684 silly currentTree ├── simple-update-notifier@2.0.0
+684 silly currentTree ├── statuses@2.0.1
+684 silly currentTree ├── supports-color@5.5.0
+684 silly currentTree ├── to-regex-range@5.0.1
+684 silly currentTree ├── toidentifier@1.0.1
+684 silly currentTree ├── touch@3.1.1
+684 silly currentTree ├── type-is@1.6.18
+684 silly currentTree ├── undefsafe@2.0.5
+684 silly currentTree ├── unpipe@1.0.0
+684 silly currentTree ├── utils-merge@1.0.1
+684 silly currentTree └── vary@1.1.2
+685 silly idealTree ui-project@1.0.0
+685 silly idealTree ├── @mongodb-js/saslprep@1.1.7
+685 silly idealTree ├── @types/webidl-conversions@7.0.3
+685 silly idealTree ├── @types/whatwg-url@11.0.5
+685 silly idealTree ├── accepts@1.3.8
+685 silly idealTree ├── anymatch@3.1.3
+685 silly idealTree ├── array-flatten@1.1.1
+685 silly idealTree ├── balanced-match@1.0.2
+685 silly idealTree ├── binary-extensions@2.3.0
+685 silly idealTree ├── body-parser@1.20.2
+685 silly idealTree ├── brace-expansion@1.1.11
+685 silly idealTree ├── braces@3.0.3
+685 silly idealTree ├── bson@6.7.0
+685 silly idealTree ├── bytes@3.1.2
+685 silly idealTree ├── call-bind@1.0.7
+685 silly idealTree ├── chokidar@3.6.0
+685 silly idealTree ├── concat-map@0.0.1
+685 silly idealTree ├── content-disposition@0.5.4
+685 silly idealTree ├── content-type@1.0.5
+685 silly idealTree ├── cookie-signature@1.0.6
+685 silly idealTree ├── cookie@0.6.0
+685 silly idealTree ├── debug@2.6.9
+685 silly idealTree ├── define-data-property@1.1.4
+685 silly idealTree ├── depd@2.0.0
+685 silly idealTree ├── destroy@1.2.0
+685 silly idealTree ├── dotenv@16.4.5
+685 silly idealTree ├── ee-first@1.1.1
+685 silly idealTree ├── encodeurl@1.0.2
+685 silly idealTree ├── es-define-property@1.0.0
+685 silly idealTree ├── es-errors@1.3.0
+685 silly idealTree ├── escape-html@1.0.3
+685 silly idealTree ├── etag@1.8.1
+685 silly idealTree ├── express@4.19.2
+685 silly idealTree ├── fill-range@7.1.1
+685 silly idealTree ├── finalhandler@1.2.0
+685 silly idealTree ├── forwarded@0.2.0
+685 silly idealTree ├── fresh@0.5.2
+685 silly idealTree ├── fsevents@2.3.3
+685 silly idealTree ├── function-bind@1.1.2
+685 silly idealTree ├── get-intrinsic@1.2.4
+685 silly idealTree ├── glob-parent@5.1.2
+685 silly idealTree ├── gopd@1.0.1
+685 silly idealTree ├── has-flag@3.0.0
+685 silly idealTree ├── has-property-descriptors@1.0.2
+685 silly idealTree ├── has-proto@1.0.3
+685 silly idealTree ├── has-symbols@1.0.3
+685 silly idealTree ├── hasown@2.0.2
+685 silly idealTree ├── http-errors@2.0.0
+685 silly idealTree ├── iconv-lite@0.4.24
+685 silly idealTree ├── ignore-by-default@1.0.1
+685 silly idealTree ├── inherits@2.0.4
+685 silly idealTree ├── ipaddr.js@1.9.1
+685 silly idealTree ├── is-binary-path@2.1.0
+685 silly idealTree ├── is-extglob@2.1.1
+685 silly idealTree ├── is-glob@4.0.3
+685 silly idealTree ├── is-number@7.0.0
+685 silly idealTree ├── media-typer@0.3.0
+685 silly idealTree ├── memory-pager@1.5.0
+685 silly idealTree ├── merge-descriptors@1.0.1
+685 silly idealTree ├── methods@1.1.2
+685 silly idealTree ├── mime-db@1.52.0
+685 silly idealTree ├── mime-types@2.1.35
+685 silly idealTree ├── mime@1.6.0
+685 silly idealTree ├── minimatch@3.1.2
+685 silly idealTree ├── mongodb-connection-string-url@3.0.1
+685 silly idealTree ├── mongodb@6.7.0
+685 silly idealTree ├── ms@2.0.0
+685 silly idealTree ├── negotiator@0.6.3
+685 silly idealTree ├─┬ nodemon@3.1.3
+685 silly idealTree │ ├── debug@4.3.5
+685 silly idealTree │ └── ms@2.1.2
+685 silly idealTree ├── normalize-path@3.0.0
+685 silly idealTree ├── object-inspect@1.13.1
+685 silly idealTree ├── on-finished@2.4.1
+685 silly idealTree ├── parseurl@1.3.3
+685 silly idealTree ├── path-to-regexp@0.1.7
+685 silly idealTree ├── picomatch@2.3.1
+685 silly idealTree ├── proxy-addr@2.0.7
+685 silly idealTree ├── pstree.remy@1.1.8
+685 silly idealTree ├── punycode@2.3.1
+685 silly idealTree ├── qs@6.11.0
+685 silly idealTree ├── range-parser@1.2.1
+685 silly idealTree ├── raw-body@2.5.2
+685 silly idealTree ├── readdirp@3.6.0
+685 silly idealTree ├── safe-buffer@5.2.1
+685 silly idealTree ├── safer-buffer@2.1.2
+685 silly idealTree ├── semver@7.6.2
+685 silly idealTree ├─┬ send@0.18.0
+685 silly idealTree │ └── ms@2.1.3
+685 silly idealTree ├── serve-static@1.15.0
+685 silly idealTree ├── set-function-length@1.2.2
+685 silly idealTree ├── setprototypeof@1.2.0
+685 silly idealTree ├── side-channel@1.0.6
+685 silly idealTree ├── simple-update-notifier@2.0.0
+685 silly idealTree ├── sparse-bitfield@3.0.3
+685 silly idealTree ├── statuses@2.0.1
+685 silly idealTree ├── supports-color@5.5.0
+685 silly idealTree ├── to-regex-range@5.0.1
+685 silly idealTree ├── toidentifier@1.0.1
+685 silly idealTree ├── touch@3.1.1
+685 silly idealTree ├── tr46@4.1.1
+685 silly idealTree ├── type-is@1.6.18
+685 silly idealTree ├── undefsafe@2.0.5
+685 silly idealTree ├── unpipe@1.0.0
+685 silly idealTree ├── utils-merge@1.0.1
+685 silly idealTree ├── vary@1.1.2
+685 silly idealTree ├── webidl-conversions@7.0.0
+685 silly idealTree └── whatwg-url@13.0.0
+686 silly generateActionsToTake Starting
+687 silly install generateActionsToTake
+688 silly generateActionsToTake Finishing
+689 silly diffTrees action count 13
+690 silly diffTrees add @types/webidl-conversions@7.0.3
+691 silly diffTrees add @types/whatwg-url@11.0.5
+692 silly diffTrees add fsevents@2.3.3
+693 silly diffTrees add memory-pager@1.5.0
+694 silly diffTrees add punycode@2.3.1
+695 silly diffTrees add sparse-bitfield@3.0.3
+696 silly diffTrees add tr46@4.1.1
+697 silly diffTrees add webidl-conversions@7.0.0
+698 silly diffTrees add whatwg-url@13.0.0
+699 silly diffTrees add @mongodb-js/saslprep@1.1.7
+700 silly diffTrees add bson@6.7.0
+701 silly diffTrees add mongodb-connection-string-url@3.0.1
+702 silly diffTrees add mongodb@6.7.0
+703 silly decomposeActions action count 104
+704 silly decomposeActions fetch @types/webidl-conversions@7.0.3
+705 silly decomposeActions extract @types/webidl-conversions@7.0.3
+706 silly decomposeActions test @types/webidl-conversions@7.0.3
+707 silly decomposeActions preinstall @types/webidl-conversions@7.0.3
+708 silly decomposeActions build @types/webidl-conversions@7.0.3
+709 silly decomposeActions install @types/webidl-conversions@7.0.3
+710 silly decomposeActions postinstall @types/webidl-conversions@7.0.3
+711 silly decomposeActions finalize @types/webidl-conversions@7.0.3
+712 silly decomposeActions fetch @types/whatwg-url@11.0.5
+713 silly decomposeActions extract @types/whatwg-url@11.0.5
+714 silly decomposeActions test @types/whatwg-url@11.0.5
+715 silly decomposeActions preinstall @types/whatwg-url@11.0.5
+716 silly decomposeActions build @types/whatwg-url@11.0.5
+717 silly decomposeActions install @types/whatwg-url@11.0.5
+718 silly decomposeActions postinstall @types/whatwg-url@11.0.5
+719 silly decomposeActions finalize @types/whatwg-url@11.0.5
+720 silly decomposeActions fetch fsevents@2.3.3
+721 silly decomposeActions extract fsevents@2.3.3
+722 silly decomposeActions test fsevents@2.3.3
+723 silly decomposeActions preinstall fsevents@2.3.3
+724 silly decomposeActions build fsevents@2.3.3
+725 silly decomposeActions install fsevents@2.3.3
+726 silly decomposeActions postinstall fsevents@2.3.3
+727 silly decomposeActions finalize fsevents@2.3.3
+728 silly decomposeActions fetch memory-pager@1.5.0
+729 silly decomposeActions extract memory-pager@1.5.0
+730 silly decomposeActions test memory-pager@1.5.0
+731 silly decomposeActions preinstall memory-pager@1.5.0
+732 silly decomposeActions build memory-pager@1.5.0
+733 silly decomposeActions install memory-pager@1.5.0
+734 silly decomposeActions postinstall memory-pager@1.5.0
+735 silly decomposeActions finalize memory-pager@1.5.0
+736 silly decomposeActions fetch punycode@2.3.1
+737 silly decomposeActions extract punycode@2.3.1
+738 silly decomposeActions test punycode@2.3.1
+739 silly decomposeActions preinstall punycode@2.3.1
+740 silly decomposeActions build punycode@2.3.1
+741 silly decomposeActions install punycode@2.3.1
+742 silly decomposeActions postinstall punycode@2.3.1
+743 silly decomposeActions finalize punycode@2.3.1
+744 silly decomposeActions fetch sparse-bitfield@3.0.3
+745 silly decomposeActions extract sparse-bitfield@3.0.3
+746 silly decomposeActions test sparse-bitfield@3.0.3
+747 silly decomposeActions preinstall sparse-bitfield@3.0.3
+748 silly decomposeActions build sparse-bitfield@3.0.3
+749 silly decomposeActions install sparse-bitfield@3.0.3
+750 silly decomposeActions postinstall sparse-bitfield@3.0.3
+751 silly decomposeActions finalize sparse-bitfield@3.0.3
+752 silly decomposeActions fetch tr46@4.1.1
+753 silly decomposeActions extract tr46@4.1.1
+754 silly decomposeActions test tr46@4.1.1
+755 silly decomposeActions preinstall tr46@4.1.1
+756 silly decomposeActions build tr46@4.1.1
+757 silly decomposeActions install tr46@4.1.1
+758 silly decomposeActions postinstall tr46@4.1.1
+759 silly decomposeActions finalize tr46@4.1.1
+760 silly decomposeActions fetch webidl-conversions@7.0.0
+761 silly decomposeActions extract webidl-conversions@7.0.0
+762 silly decomposeActions test webidl-conversions@7.0.0
+763 silly decomposeActions preinstall webidl-conversions@7.0.0
+764 silly decomposeActions build webidl-conversions@7.0.0
+765 silly decomposeActions install webidl-conversions@7.0.0
+766 silly decomposeActions postinstall webidl-conversions@7.0.0
+767 silly decomposeActions finalize webidl-conversions@7.0.0
+768 silly decomposeActions fetch whatwg-url@13.0.0
+769 silly decomposeActions extract whatwg-url@13.0.0
+770 silly decomposeActions test whatwg-url@13.0.0
+771 silly decomposeActions preinstall whatwg-url@13.0.0
+772 silly decomposeActions build whatwg-url@13.0.0
+773 silly decomposeActions install whatwg-url@13.0.0
+774 silly decomposeActions postinstall whatwg-url@13.0.0
+775 silly decomposeActions finalize whatwg-url@13.0.0
+776 silly decomposeActions fetch @mongodb-js/saslprep@1.1.7
+777 silly decomposeActions extract @mongodb-js/saslprep@1.1.7
+778 silly decomposeActions test @mongodb-js/saslprep@1.1.7
+779 silly decomposeActions preinstall @mongodb-js/saslprep@1.1.7
+780 silly decomposeActions build @mongodb-js/saslprep@1.1.7
+781 silly decomposeActions install @mongodb-js/saslprep@1.1.7
+782 silly decomposeActions postinstall @mongodb-js/saslprep@1.1.7
+783 silly decomposeActions finalize @mongodb-js/saslprep@1.1.7
+784 silly decomposeActions fetch bson@6.7.0
+785 silly decomposeActions extract bson@6.7.0
+786 silly decomposeActions test bson@6.7.0
+787 silly decomposeActions preinstall bson@6.7.0
+788 silly decomposeActions build bson@6.7.0
+789 silly decomposeActions install bson@6.7.0
+790 silly decomposeActions postinstall bson@6.7.0
+791 silly decomposeActions finalize bson@6.7.0
+792 silly decomposeActions fetch mongodb-connection-string-url@3.0.1
+793 silly decomposeActions extract mongodb-connection-string-url@3.0.1
+794 silly decomposeActions test mongodb-connection-string-url@3.0.1
+795 silly decomposeActions preinstall mongodb-connection-string-url@3.0.1
+796 silly decomposeActions build mongodb-connection-string-url@3.0.1
+797 silly decomposeActions install mongodb-connection-string-url@3.0.1
+798 silly decomposeActions postinstall mongodb-connection-string-url@3.0.1
+799 silly decomposeActions finalize mongodb-connection-string-url@3.0.1
+800 silly decomposeActions fetch mongodb@6.7.0
+801 silly decomposeActions extract mongodb@6.7.0
+802 silly decomposeActions test mongodb@6.7.0
+803 silly decomposeActions preinstall mongodb@6.7.0
+804 silly decomposeActions build mongodb@6.7.0
+805 silly decomposeActions install mongodb@6.7.0
+806 silly decomposeActions postinstall mongodb@6.7.0
+807 silly decomposeActions finalize mongodb@6.7.0
+808 silly runTopLevelLifecycles Starting
+809 silly executeActions Starting
+810 silly install executeActions
+811 silly doSerial global-install 0
+812 silly doParallel fetch 13
+813 verbose correctMkdir /Users/grahambass/.npm/_locks correctMkdir not in flight; initializing
+814 verbose lock using /Users/grahambass/.npm/_locks/staging-84dee528142d1af8.lock for /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging
+815 silly doParallel extract 13
+816 silly extract @types/webidl-conversions@7.0.3
+817 silly extract @types/whatwg-url@11.0.5
+818 silly extract fsevents@2.3.3
+819 silly extract memory-pager@1.5.0
+820 silly extract punycode@2.3.1
+821 silly extract sparse-bitfield@3.0.3
+822 silly extract tr46@4.1.1
+823 silly extract webidl-conversions@7.0.0
+824 silly extract whatwg-url@13.0.0
+825 silly extract @mongodb-js/saslprep@1.1.7
+826 silly extract bson@6.7.0
+827 silly extract mongodb-connection-string-url@3.0.1
+828 silly extract mongodb@6.7.0
+829 verbose unbuild node_modules/.staging/@types/webidl-conversions-05186ec6
+830 verbose unbuild node_modules/.staging/fsevents-c17e9325
+831 verbose unbuild node_modules/.staging/@types/whatwg-url-84e4128b
+832 verbose unbuild node_modules/.staging/memory-pager-f77a024f
+833 verbose unbuild node_modules/.staging/punycode-167ca77a
+834 verbose unbuild node_modules/.staging/sparse-bitfield-39eadcdb
+835 verbose unbuild node_modules/.staging/tr46-182f511c
+836 verbose unbuild node_modules/.staging/whatwg-url-14a23f8b
+837 verbose unbuild node_modules/.staging/webidl-conversions-c2ccd5f1
+838 verbose unbuild node_modules/.staging/@mongodb-js/saslprep-c88a9d07
+839 verbose unbuild node_modules/.staging/bson-32df71f3
+840 verbose unbuild node_modules/.staging/mongodb-connection-string-url-aad64f98
+841 verbose unbuild node_modules/.staging/mongodb-63f3f17d
+842 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+843 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6
+844 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+845 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325
+846 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/whatwg-url-84e4128b is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+847 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/whatwg-url-84e4128b
+848 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+849 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f
+850 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+851 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a
+852 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+853 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb
+854 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+855 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c
+856 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+857 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b
+858 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+859 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1
+860 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+861 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07
+862 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+863 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3
+864 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98 is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+865 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98
+866 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d is being purged from base /Users/grahambass/Desktop/UI-Programming-Project
+867 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d
+868 verbose tar unpack /Users/grahambass/.npm/@types/webidl-conversions/7.0.3/package.tgz
+869 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6
+870 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6 is being purged
+871 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6
+872 verbose tar unpack /Users/grahambass/.npm/fsevents/2.3.3/package.tgz
+873 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325
+874 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325 is being purged
+875 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325
+876 verbose tar unpack /Users/grahambass/.npm/@types/whatwg-url/11.0.5/package.tgz
+877 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/whatwg-url-84e4128b
+878 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/whatwg-url-84e4128b is being purged
+879 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/whatwg-url-84e4128b
+880 verbose tar unpack /Users/grahambass/.npm/memory-pager/1.5.0/package.tgz
+881 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f
+882 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f is being purged
+883 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f
+884 verbose tar unpack /Users/grahambass/.npm/punycode/2.3.1/package.tgz
+885 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a
+886 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a is being purged
+887 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a
+888 verbose tar unpack /Users/grahambass/.npm/sparse-bitfield/3.0.3/package.tgz
+889 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb
+890 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb is being purged
+891 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb
+892 verbose tar unpack /Users/grahambass/.npm/tr46/4.1.1/package.tgz
+893 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c
+894 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c is being purged
+895 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c
+896 verbose tar unpack /Users/grahambass/.npm/whatwg-url/13.0.0/package.tgz
+897 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b
+898 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b is being purged
+899 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b
+900 verbose tar unpack /Users/grahambass/.npm/webidl-conversions/7.0.0/package.tgz
+901 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1
+902 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1 is being purged
+903 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1
+904 verbose tar unpack /Users/grahambass/.npm/@mongodb-js/saslprep/1.1.7/package.tgz
+905 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07
+906 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07 is being purged
+907 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07
+908 verbose tar unpack /Users/grahambass/.npm/bson/6.7.0/package.tgz
+909 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3
+910 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3 is being purged
+911 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3
+912 verbose tar unpack /Users/grahambass/.npm/mongodb-connection-string-url/3.0.1/package.tgz
+913 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98
+914 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98 is being purged
+915 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98
+916 verbose tar unpack /Users/grahambass/.npm/mongodb/6.7.0/package.tgz
+917 verbose tar unpacking to /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d
+918 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d is being purged
+919 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d
+920 silly gunzTarPerm modes [ '755', '644' ]
+921 silly gunzTarPerm modes [ '755', '644' ]
+922 silly gunzTarPerm modes [ '755', '644' ]
+923 silly gunzTarPerm modes [ '755', '644' ]
+924 silly gunzTarPerm modes [ '755', '644' ]
+925 silly gunzTarPerm modes [ '755', '644' ]
+926 silly gunzTarPerm modes [ '755', '644' ]
+927 silly gunzTarPerm modes [ '755', '644' ]
+928 silly gunzTarPerm modes [ '755', '644' ]
+929 silly gunzTarPerm modes [ '755', '644' ]
+930 silly gunzTarPerm modes [ '755', '644' ]
+931 silly gunzTarPerm modes [ '755', '644' ]
+932 silly gunzTarPerm modes [ '755', '644' ]
+933 silly gunzTarPerm extractEntry
+934 silly gunzTarPerm extractEntry LICENSE
+935 silly gunzTarPerm extractEntry LICENSE
+936 silly gunzTarPerm extractEntry
+937 silly gunzTarPerm extractEntry package.json
+938 silly gunzTarPerm extractEntry package.json
+939 silly gunzTarPerm extractEntry index.js
+940 silly gunzTarPerm extractEntry lib/encoding.js
+941 silly gunzTarPerm extractEntry lib/index.js
+942 silly gunzTarPerm extractEntry lib/bson.cjs
+943 silly gunzTarPerm extractEntry LICENSE
+944 silly gunzTarPerm extractEntry punycode.es6.js
+945 silly gunzTarPerm extractEntry lib/cursor/abstract_cursor.js
+946 silly gunzTarPerm extractEntry package.json
+947 silly gunzTarPerm extractEntry LICENSE.md
+948 silly gunzTarPerm extractEntry dist/browser.js
+949 silly gunzTarPerm extractEntry dist/code-points-data-browser.js
+950 silly gunzTarPerm extractEntry
+951 silly gunzTarPerm extractEntry
+952 silly gunzTarPerm extractEntry
+953 silly gunzTarPerm extractEntry fsevents.js
+954 silly gunzTarPerm extractEntry package.json
+955 silly gunzTarPerm extractEntry .travis.yml
+956 silly gunzTarPerm extractEntry index.js
+957 silly gunzTarPerm extractEntry .npmignore
+958 silly gunzTarPerm extractEntry README.md
+959 silly gunzTarPerm extractEntry lib/Function.js
+960 silly gunzTarPerm extractEntry index.js
+961 silly gunzTarPerm extractEntry lib/regexes.js
+962 silly gunzTarPerm extractEntry lib/statusMapping.js
+963 silly gunzTarPerm extractEntry punycode.js
+964 silly gunzTarPerm extractEntry package.json
+965 silly gunzTarPerm extractEntry README.md
+966 silly gunzTarPerm extractEntry LICENSE-MIT.txt
+967 silly gunzTarPerm extractEntry lib/index.js
+968 silly gunzTarPerm extractEntry lib/redact.js
+969 silly gunzTarPerm extractEntry package.json
+970 silly gunzTarPerm extractEntry lib/index.js.map
+971 silly gunzTarPerm extractEntry lib/redact.js.map
+972 silly gunzTarPerm extractEntry README.md
+973 silly gunzTarPerm extractEntry .esm-wrapper.mjs
+974 silly gunzTarPerm extractEntry lib/index.d.ts
+975 silly gunzTarPerm extractEntry lib/redact.d.ts
+976 silly gunzTarPerm extractEntry
+977 silly gunzTarPerm extractEntry
+978 silly gunzTarPerm extractEntry
+979 silly gunzTarPerm extractEntry lib/admin.js
+980 silly gunzTarPerm extractEntry
+981 silly gunzTarPerm extractEntry
+982 silly gunzTarPerm extractEntry
+983 silly gunzTarPerm extractEntry lib/mappingTable.json
+984 silly gunzTarPerm extractEntry package.json
+985 silly gunzTarPerm extractEntry LICENSE
+986 silly gunzTarPerm extractEntry README.md
+987 silly gunzTarPerm extractEntry LICENSE
+988 silly gunzTarPerm extractEntry index.js
+989 silly gunzTarPerm extractEntry README.md
+990 silly gunzTarPerm extractEntry fsevents.node
+991 silly gunzTarPerm extractEntry LICENSE.md
+992 silly gunzTarPerm extractEntry lib/infra.js
+993 silly gunzTarPerm extractEntry lib/percent-encoding.js
+994 silly gunzTarPerm extractEntry README.md
+995 silly gunzTarPerm extractEntry README.md
+996 silly gunzTarPerm extractEntry lib/bson.rn.cjs
+997 silly gunzTarPerm extractEntry test.js
+998 silly gunzTarPerm extractEntry test.js
+999 silly gunzTarPerm extractEntry .travis.yml
+1000 silly gunzTarPerm extractEntry
+1001 silly gunzTarPerm extractEntry
+1002 silly gunzTarPerm extractEntry lib/operations/aggregate.js
+1003 silly gunzTarPerm extractEntry lib/cursor/aggregation_cursor.js
+1004 silly gunzTarPerm extractEntry vendor/base64/base64.js
+1005 silly gunzTarPerm extractEntry fsevents.d.ts
+1006 silly gunzTarPerm extractEntry lib/URL-impl.js
+1007 silly gunzTarPerm extractEntry lib/url-state-machine.js
+1008 silly gunzTarPerm extractEntry lib/URL.js
+1009 silly gunzTarPerm extractEntry lib/urlencoded.js
+1010 silly gunzTarPerm extractEntry lib/URLSearchParams-impl.js
+1011 silly gunzTarPerm extractEntry lib/URLSearchParams.js
+1012 silly gunzTarPerm extractEntry lib/utils.js
+1013 silly gunzTarPerm extractEntry lib/VoidFunction.js
+1014 silly gunzTarPerm extractEntry webidl2js-wrapper.js
+1015 silly gunzTarPerm extractEntry package.json
+1016 silly gunzTarPerm extractEntry README.md
+1017 silly gunzTarPerm extractEntry LICENSE.txt
+1018 silly gunzTarPerm extractEntry lib/bson.bundle.js
+1019 silly gunzTarPerm extractEntry
+1020 silly gunzTarPerm extractEntry
+1021 silly gunzTarPerm extractEntry
+1022 silly gunzTarPerm extractEntry lib/cmap/auth/auth_provider.js
+1023 silly gunzTarPerm extractEntry lib/client-side-encryption/auto_encrypter.js
+1024 silly gunzTarPerm extractEntry vendor/text-encoding/lib/encoding-indexes.js
+1025 silly gunzTarPerm extractEntry dist/code-points-data.js
+1026 silly gunzTarPerm extractEntry dist/code-points-src.js
+1027 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/automated_callback_workflow.js
+1028 silly gunzTarPerm extractEntry lib/cmap/auth/aws_temporary_credentials.js
+1029 silly gunzTarPerm extractEntry dist/generate-code-points.js
+1030 silly gunzTarPerm extractEntry dist/index.js
+1031 silly gunzTarPerm extractEntry dist/memory-code-points.js
+1032 silly gunzTarPerm extractEntry dist/node.js
+1033 silly gunzTarPerm extractEntry dist/util.js
+1034 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/aws.js
+1035 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/azure_machine_workflow.js
+1036 silly gunzTarPerm extractEntry package.json
+1037 silly gunzTarPerm extractEntry dist/browser.d.ts.map
+1038 silly gunzTarPerm extractEntry dist/browser.js.map
+1039 silly gunzTarPerm extractEntry dist/code-points-data-browser.d.ts.map
+1040 silly gunzTarPerm extractEntry dist/code-points-data-browser.js.map
+1041 silly gunzTarPerm extractEntry dist/code-points-data.d.ts.map
+1042 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/azure.js
+1043 silly gunzTarPerm extractEntry lib/bson.js
+1044 silly gunzTarPerm extractEntry dist/code-points-data.js.map
+1045 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1/node_modules is being purged
+1046 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/webidl-conversions-c2ccd5f1/node_modules
+1047 silly gunzTarPerm extractEntry dist/code-points-src.d.ts.map
+1048 silly gunzTarPerm extractEntry dist/code-points-src.js.map
+1049 silly gunzTarPerm extractEntry dist/generate-code-points.d.ts.map
+1050 silly gunzTarPerm extractEntry vendor/text-encoding/lib/encoding.js
+1051 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a/node_modules is being purged
+1052 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/punycode-167ca77a/node_modules
+1053 silly gunzTarPerm extractEntry dist/generate-code-points.js.map
+1054 silly gunzTarPerm extractEntry lib/operations/bulk_write.js
+1055 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/callback_workflow.js
+1056 silly gunzTarPerm extractEntry dist/index.d.ts.map
+1057 silly gunzTarPerm extractEntry dist/index.js.map
+1058 silly gunzTarPerm extractEntry vendor/text-encoding/index.js
+1059 silly gunzTarPerm extractEntry dist/memory-code-points.d.ts.map
+1060 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f/node_modules is being purged
+1061 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/memory-pager-f77a024f/node_modules
+1062 silly gunzTarPerm extractEntry etc/prepare.js
+1063 silly gunzTarPerm extractEntry dist/memory-code-points.js.map
+1064 silly gunzTarPerm extractEntry package.json
+1065 silly gunzTarPerm extractEntry dist/node.d.ts.map
+1066 silly gunzTarPerm extractEntry vendor/base64/package.json
+1067 silly gunzTarPerm extractEntry dist/node.js.map
+1068 silly gunzTarPerm extractEntry lib/cursor/change_stream_cursor.js
+1069 silly gunzTarPerm extractEntry lib/change_stream.js
+1070 silly gunzTarPerm extractEntry vendor/text-encoding/package.json
+1071 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb/node_modules is being purged
+1072 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/sparse-bitfield-39eadcdb/node_modules
+1073 silly gunzTarPerm extractEntry dist/util.d.ts.map
+1074 silly gunzTarPerm extractEntry lib/bson.bundle.js.map
+1075 silly gunzTarPerm extractEntry dist/util.js.map
+1076 silly gunzTarPerm extractEntry readme.md
+1077 silly gunzTarPerm extractEntry lib/bson.cjs.map
+1078 silly gunzTarPerm extractEntry dist/.esm-wrapper.mjs
+1079 silly gunzTarPerm extractEntry lib/client-side-encryption/client_encryption.js
+1080 silly gunzTarPerm extractEntry lib/cmap/handshake/client_metadata.js
+1081 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325/node_modules is being purged
+1082 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/fsevents-c17e9325/node_modules
+1083 silly gunzTarPerm extractEntry lib/bson.mjs.map
+1084 silly gunzTarPerm extractEntry dist/browser.d.ts
+1085 silly gunzTarPerm extractEntry dist/code-points-data-browser.d.ts
+1086 silly gunzTarPerm extractEntry lib/collection.js
+1087 silly gunzTarPerm extractEntry lib/operations/collections.js
+1088 silly gunzTarPerm extractEntry dist/code-points-data.d.ts
+1089 silly gunzTarPerm extractEntry dist/code-points-src.d.ts
+1090 silly gunzTarPerm extractEntry dist/generate-code-points.d.ts
+1091 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/command_builders.js
+1092 silly gunzTarPerm extractEntry lib/cmap/command_monitoring_events.js
+1093 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c/node_modules is being purged
+1094 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/tr46-182f511c/node_modules
+1095 silly gunzTarPerm extractEntry dist/index.d.ts
+1096 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98/node_modules is being purged
+1097 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-connection-string-url-aad64f98/node_modules
+1098 silly gunzTarPerm extractEntry lib/bson.rn.cjs.map
+1099 silly gunzTarPerm extractEntry lib/operations/command.js
+1100 silly gunzTarPerm extractEntry lib/cmap/commands.js
+1101 silly gunzTarPerm extractEntry dist/memory-code-points.d.ts
+1102 silly gunzTarPerm extractEntry dist/node.d.ts
+1103 silly gunzTarPerm extractEntry LICENSE.md
+1104 silly gunzTarPerm extractEntry vendor/text-encoding/LICENSE.md
+1105 silly gunzTarPerm extractEntry lib/bulk/common.js
+1106 silly gunzTarPerm extractEntry lib/sdam/common.js
+1107 silly gunzTarPerm extractEntry dist/util.d.ts
+1108 silly gunzTarPerm extractEntry README.md
+1109 silly gunzTarPerm extractEntry vendor/base64/README.md
+1110 silly gunzTarPerm extractEntry vendor/text-encoding/README.md
+1111 silly gunzTarPerm extractEntry lib/bson.mjs
+1112 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/compression.js
+1113 silly gunzTarPerm extractEntry lib/cmap/connect.js
+1114 silly gunzTarPerm extractEntry src/binary.ts
+1115 silly gunzTarPerm extractEntry src/bson_value.ts
+1116 silly gunzTarPerm extractEntry lib/cmap/connection_pool_events.js
+1117 silly gunzTarPerm extractEntry lib/cmap/connection_pool.js
+1118 silly gunzTarPerm extractEntry bson.d.ts
+1119 silly gunzTarPerm extractEntry src/bson.ts
+1120 silly gunzTarPerm extractEntry src/utils/byte_utils.ts
+1121 silly gunzTarPerm extractEntry lib/connection_string.js
+1122 silly gunzTarPerm extractEntry src/parser/calculate_size.ts
+1123 silly gunzTarPerm extractEntry lib/cmap/connection.js
+1124 silly gunzTarPerm extractEntry src/code.ts
+1125 silly gunzTarPerm extractEntry src/constants.ts
+1126 silly gunzTarPerm extractEntry src/db_ref.ts
+1127 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/constants.js
+1128 silly gunzTarPerm extractEntry lib/constants.js
+1129 silly gunzTarPerm extractEntry lib/operations/count_documents.js
+1130 silly gunzTarPerm extractEntry src/decimal128.ts
+1131 silly gunzTarPerm extractEntry lib/operations/count.js
+1132 silly gunzTarPerm extractEntry src/parser/deserializer.ts
+1133 silly gunzTarPerm extractEntry lib/operations/create_collection.js
+1134 silly gunzTarPerm extractEntry lib/operations/search_indexes/create.js
+1135 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b/node_modules is being purged
+1136 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/whatwg-url-14a23f8b/node_modules
+1137 silly gunzTarPerm extractEntry src/double.ts
+1138 silly gunzTarPerm extractEntry src/error.ts
+1139 silly gunzTarPerm extractEntry src/extended_json.ts
+1140 silly gunzTarPerm extractEntry src/index.ts
+1141 silly gunzTarPerm extractEntry src/parser/on_demand/index.ts
+1142 silly gunzTarPerm extractEntry src/int_32.ts
+1143 silly gunzTarPerm extractEntry lib/client-side-encryption/crypto_callbacks.js
+1144 silly gunzTarPerm extractEntry lib/db.js
+1145 silly gunzTarPerm extractEntry lib/operations/delete.js
+1146 silly gunzTarPerm extractEntry src/utils/latin.ts
+1147 silly gunzTarPerm extractEntry lib/deps.js
+1148 silly gunzTarPerm extractEntry src/long.ts
+1149 silly gunzTarPerm extractEntry lib/operations/distinct.js
+1150 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/on_demand/document.js
+1151 silly gunzTarPerm extractEntry src/max_key.ts
+1152 silly gunzTarPerm extractEntry src/min_key.ts
+1153 silly gunzTarPerm extractEntry lib/gridfs/download.js
+1154 silly gunzTarPerm extractEntry lib/operations/drop.js
+1155 silly gunzTarPerm extractEntry src/utils/node_byte_utils.ts
+1156 silly gunzTarPerm extractEntry src/utils/number_utils.ts
+1157 silly gunzTarPerm extractEntry lib/operations/search_indexes/drop.js
+1158 silly gunzTarPerm extractEntry lib/encrypter.js
+1159 silly gunzTarPerm extractEntry src/objectid.ts
+1160 silly gunzTarPerm extractEntry src/parser/on_demand/parse_to_elements.ts
+1161 silly gunzTarPerm extractEntry lib/error.js
+1162 silly gunzTarPerm extractEntry lib/client-side-encryption/errors.js
+1163 silly gunzTarPerm extractEntry src/parse_utf8.ts
+1164 silly gunzTarPerm extractEntry src/regexp.ts
+1165 silly gunzTarPerm extractEntry lib/cmap/errors.js
+1166 silly gunzTarPerm extractEntry lib/operations/estimated_document_count.js
+1167 silly gunzTarPerm extractEntry lib/sdam/events.js
+1168 silly gunzTarPerm extractEntry src/parser/serializer.ts
+1169 silly gunzTarPerm extractEntry src/utils/string_utils.ts
+1170 silly gunzTarPerm extractEntry lib/operations/execute_operation.js
+1171 silly gunzTarPerm extractEntry lib/explain.js
+1172 silly gunzTarPerm extractEntry lib/operations/find_and_modify.js
+1173 silly gunzTarPerm extractEntry lib/cursor/find_cursor.js
+1174 silly gunzTarPerm extractEntry src/symbol.ts
+1175 silly gunzTarPerm extractEntry src/timestamp.ts
+1176 silly gunzTarPerm extractEntry src/parser/utils.ts
+1177 silly gunzTarPerm extractEntry lib/operations/find.js
+1178 silly gunzTarPerm extractEntry src/utils/web_byte_utils.ts
+1179 silly gunzTarPerm extractEntry vendor/base64/LICENSE-MIT.txt
+1180 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/gcp_machine_workflow.js
+1181 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/gcp.js
+1182 silly gunzTarPerm extractEntry lib/operations/get_more.js
+1183 silly gunzTarPerm extractEntry lib/cmap/auth/gssapi.js
+1184 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/human_callback_workflow.js
+1185 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/index.js
+1186 silly gunzTarPerm extractEntry lib/gridfs/index.js
+1187 silly gunzTarPerm extractEntry lib/index.js
+1188 silly gunzTarPerm extractEntry lib/operations/indexes.js
+1189 silly gunzTarPerm extractEntry lib/operations/insert.js
+1190 silly gunzTarPerm extractEntry lib/operations/is_capped.js
+1191 silly gunzTarPerm extractEntry lib/operations/kill_cursors.js
+1192 silly gunzTarPerm extractEntry lib/cursor/list_collections_cursor.js
+1193 silly gunzTarPerm extractEntry lib/operations/list_collections.js
+1194 silly gunzTarPerm extractEntry lib/operations/list_databases.js
+1195 silly gunzTarPerm extractEntry lib/cursor/list_indexes_cursor.js
+1196 silly gunzTarPerm extractEntry lib/cursor/list_search_indexes_cursor.js
+1197 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/machine_workflow.js
+1198 silly gunzTarPerm extractEntry lib/cmap/metrics.js
+1199 silly gunzTarPerm extractEntry lib/mongo_client_auth_providers.js
+1200 silly gunzTarPerm extractEntry lib/mongo_client.js
+1201 silly gunzTarPerm extractEntry lib/cmap/auth/mongo_credentials.js
+1202 silly gunzTarPerm extractEntry lib/mongo_logger.js
+1203 silly gunzTarPerm extractEntry lib/mongo_types.js
+1204 silly gunzTarPerm extractEntry lib/cmap/auth/mongocr.js
+1205 silly gunzTarPerm extractEntry lib/client-side-encryption/mongocryptd_manager.js
+1206 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_aws.js
+1207 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc.js
+1208 silly gunzTarPerm extractEntry lib/sdam/monitor.js
+1209 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/on_data.js
+1210 silly gunzTarPerm extractEntry lib/operations/operation.js
+1211 silly gunzTarPerm extractEntry lib/operations/options_operation.js
+1212 silly gunzTarPerm extractEntry lib/bulk/ordered.js
+1213 silly gunzTarPerm extractEntry lib/cmap/auth/plain.js
+1214 silly gunzTarPerm extractEntry etc/prepare.js
+1215 silly gunzTarPerm extractEntry lib/operations/profiling_level.js
+1216 silly gunzTarPerm extractEntry lib/cmap/auth/providers.js
+1217 silly gunzTarPerm extractEntry lib/read_concern.js
+1218 silly gunzTarPerm extractEntry lib/read_preference.js
+1219 silly gunzTarPerm extractEntry lib/operations/remove_user.js
+1220 silly gunzTarPerm extractEntry lib/operations/rename.js
+1221 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/responses.js
+1222 silly gunzTarPerm extractEntry lib/cursor/run_command_cursor.js
+1223 silly gunzTarPerm extractEntry lib/operations/run_command.js
+1224 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07/node_modules is being purged
+1225 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@mongodb-js/saslprep-c88a9d07/node_modules
+1226 silly gunzTarPerm extractEntry lib/cmap/auth/scram.js
+1227 silly gunzTarPerm extractEntry lib/sdam/server_description.js
+1228 silly gunzTarPerm extractEntry lib/sdam/server_selection_events.js
+1229 silly gunzTarPerm extractEntry lib/sdam/server_selection.js
+1230 silly gunzTarPerm extractEntry lib/sdam/server.js
+1231 silly gunzTarPerm extractEntry lib/sessions.js
+1232 silly gunzTarPerm extractEntry lib/operations/set_profiling_level.js
+1233 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/shared.js
+1234 silly gunzTarPerm extractEntry lib/sort.js
+1235 silly gunzTarPerm extractEntry lib/sdam/srv_polling.js
+1236 silly gunzTarPerm extractEntry lib/client-side-encryption/state_machine.js
+1237 silly gunzTarPerm extractEntry lib/operations/stats.js
+1238 silly gunzTarPerm extractEntry lib/cmap/stream_description.js
+1239 silly gunzTarPerm extractEntry lib/timeout.js
+1240 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/token_cache.js
+1241 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/token_machine_workflow.js
+1242 silly gunzTarPerm extractEntry lib/sdam/topology_description.js
+1243 silly gunzTarPerm extractEntry lib/sdam/topology.js
+1244 silly gunzTarPerm extractEntry lib/transactions.js
+1245 silly gunzTarPerm extractEntry lib/bulk/unordered.js
+1246 silly gunzTarPerm extractEntry lib/operations/search_indexes/update.js
+1247 silly gunzTarPerm extractEntry lib/operations/update.js
+1248 silly gunzTarPerm extractEntry lib/gridfs/upload.js
+1249 silly gunzTarPerm extractEntry lib/utils.js
+1250 silly gunzTarPerm extractEntry lib/operations/validate_collection.js
+1251 silly gunzTarPerm extractEntry lib/write_concern.js
+1252 silly gunzTarPerm extractEntry lib/cmap/auth/x509.js
+1253 silly gunzTarPerm extractEntry package.json
+1254 silly gunzTarPerm extractEntry tsconfig.json
+1255 silly gunzTarPerm extractEntry lib/cursor/abstract_cursor.js.map
+1256 silly gunzTarPerm extractEntry lib/admin.js.map
+1257 silly gunzTarPerm extractEntry lib/operations/aggregate.js.map
+1258 silly gunzTarPerm extractEntry lib/cursor/aggregation_cursor.js.map
+1259 silly gunzTarPerm extractEntry lib/cmap/auth/auth_provider.js.map
+1260 silly gunzTarPerm extractEntry lib/client-side-encryption/auto_encrypter.js.map
+1261 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/automated_callback_workflow.js.map
+1262 silly gunzTarPerm extractEntry lib/cmap/auth/aws_temporary_credentials.js.map
+1263 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/aws.js.map
+1264 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/azure_machine_workflow.js.map
+1265 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/azure.js.map
+1266 silly gunzTarPerm extractEntry lib/bson.js.map
+1267 silly gunzTarPerm extractEntry lib/operations/bulk_write.js.map
+1268 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/callback_workflow.js.map
+1269 silly gunzTarPerm extractEntry lib/cursor/change_stream_cursor.js.map
+1270 silly gunzTarPerm extractEntry lib/change_stream.js.map
+1271 silly gunzTarPerm extractEntry lib/client-side-encryption/client_encryption.js.map
+1272 silly gunzTarPerm extractEntry lib/cmap/handshake/client_metadata.js.map
+1273 silly gunzTarPerm extractEntry lib/collection.js.map
+1274 silly gunzTarPerm extractEntry lib/operations/collections.js.map
+1275 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/command_builders.js.map
+1276 silly gunzTarPerm extractEntry lib/cmap/command_monitoring_events.js.map
+1277 silly gunzTarPerm extractEntry lib/operations/command.js.map
+1278 silly gunzTarPerm extractEntry lib/cmap/commands.js.map
+1279 silly gunzTarPerm extractEntry lib/bulk/common.js.map
+1280 silly gunzTarPerm extractEntry lib/sdam/common.js.map
+1281 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/compression.js.map
+1282 silly gunzTarPerm extractEntry lib/cmap/connect.js.map
+1283 silly gunzTarPerm extractEntry lib/cmap/connection_pool_events.js.map
+1284 silly gunzTarPerm extractEntry lib/cmap/connection_pool.js.map
+1285 silly gunzTarPerm extractEntry lib/connection_string.js.map
+1286 silly gunzTarPerm extractEntry lib/cmap/connection.js.map
+1287 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/constants.js.map
+1288 silly gunzTarPerm extractEntry lib/constants.js.map
+1289 silly gunzTarPerm extractEntry lib/operations/count_documents.js.map
+1290 silly gunzTarPerm extractEntry lib/operations/count.js.map
+1291 silly gunzTarPerm extractEntry lib/operations/create_collection.js.map
+1292 silly gunzTarPerm extractEntry lib/operations/search_indexes/create.js.map
+1293 silly gunzTarPerm extractEntry lib/client-side-encryption/crypto_callbacks.js.map
+1294 silly gunzTarPerm extractEntry lib/db.js.map
+1295 silly gunzTarPerm extractEntry lib/operations/delete.js.map
+1296 silly gunzTarPerm extractEntry lib/deps.js.map
+1297 silly gunzTarPerm extractEntry lib/operations/distinct.js.map
+1298 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/on_demand/document.js.map
+1299 silly gunzTarPerm extractEntry lib/gridfs/download.js.map
+1300 silly gunzTarPerm extractEntry lib/operations/drop.js.map
+1301 silly gunzTarPerm extractEntry lib/operations/search_indexes/drop.js.map
+1302 silly gunzTarPerm extractEntry lib/encrypter.js.map
+1303 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3/node_modules is being purged
+1304 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/bson-32df71f3/node_modules
+1305 silly gunzTarPerm extractEntry lib/error.js.map
+1306 silly gunzTarPerm extractEntry lib/client-side-encryption/errors.js.map
+1307 silly gunzTarPerm extractEntry lib/cmap/errors.js.map
+1308 silly gunzTarPerm extractEntry lib/operations/estimated_document_count.js.map
+1309 silly gunzTarPerm extractEntry lib/sdam/events.js.map
+1310 silly gunzTarPerm extractEntry lib/operations/execute_operation.js.map
+1311 silly gunzTarPerm extractEntry lib/explain.js.map
+1312 silly gunzTarPerm extractEntry lib/operations/find_and_modify.js.map
+1313 silly gunzTarPerm extractEntry lib/cursor/find_cursor.js.map
+1314 silly gunzTarPerm extractEntry lib/operations/find.js.map
+1315 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/gcp_machine_workflow.js.map
+1316 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/gcp.js.map
+1317 silly gunzTarPerm extractEntry lib/operations/get_more.js.map
+1318 silly gunzTarPerm extractEntry lib/cmap/auth/gssapi.js.map
+1319 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/human_callback_workflow.js.map
+1320 silly gunzTarPerm extractEntry lib/client-side-encryption/providers/index.js.map
+1321 silly gunzTarPerm extractEntry lib/gridfs/index.js.map
+1322 silly gunzTarPerm extractEntry lib/index.js.map
+1323 silly gunzTarPerm extractEntry lib/operations/indexes.js.map
+1324 silly gunzTarPerm extractEntry lib/operations/insert.js.map
+1325 silly gunzTarPerm extractEntry lib/operations/is_capped.js.map
+1326 silly gunzTarPerm extractEntry lib/operations/kill_cursors.js.map
+1327 silly gunzTarPerm extractEntry lib/cursor/list_collections_cursor.js.map
+1328 silly gunzTarPerm extractEntry lib/operations/list_collections.js.map
+1329 silly gunzTarPerm extractEntry lib/operations/list_databases.js.map
+1330 silly gunzTarPerm extractEntry lib/cursor/list_indexes_cursor.js.map
+1331 silly gunzTarPerm extractEntry lib/cursor/list_search_indexes_cursor.js.map
+1332 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/machine_workflow.js.map
+1333 silly gunzTarPerm extractEntry lib/cmap/metrics.js.map
+1334 silly gunzTarPerm extractEntry lib/mongo_client_auth_providers.js.map
+1335 silly gunzTarPerm extractEntry lib/mongo_client.js.map
+1336 silly gunzTarPerm extractEntry lib/cmap/auth/mongo_credentials.js.map
+1337 silly gunzTarPerm extractEntry lib/mongo_logger.js.map
+1338 silly gunzTarPerm extractEntry lib/mongo_types.js.map
+1339 silly gunzTarPerm extractEntry lib/cmap/auth/mongocr.js.map
+1340 silly gunzTarPerm extractEntry lib/client-side-encryption/mongocryptd_manager.js.map
+1341 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_aws.js.map
+1342 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc.js.map
+1343 silly gunzTarPerm extractEntry lib/sdam/monitor.js.map
+1344 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/on_data.js.map
+1345 silly gunzTarPerm extractEntry lib/operations/operation.js.map
+1346 silly gunzTarPerm extractEntry lib/operations/options_operation.js.map
+1347 silly gunzTarPerm extractEntry lib/bulk/ordered.js.map
+1348 silly gunzTarPerm extractEntry lib/cmap/auth/plain.js.map
+1349 silly gunzTarPerm extractEntry lib/operations/profiling_level.js.map
+1350 silly gunzTarPerm extractEntry lib/cmap/auth/providers.js.map
+1351 silly gunzTarPerm extractEntry lib/read_concern.js.map
+1352 silly gunzTarPerm extractEntry lib/read_preference.js.map
+1353 silly gunzTarPerm extractEntry lib/operations/remove_user.js.map
+1354 silly gunzTarPerm extractEntry lib/operations/rename.js.map
+1355 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/responses.js.map
+1356 silly gunzTarPerm extractEntry lib/cursor/run_command_cursor.js.map
+1357 silly gunzTarPerm extractEntry lib/operations/run_command.js.map
+1358 silly gunzTarPerm extractEntry lib/cmap/auth/scram.js.map
+1359 silly gunzTarPerm extractEntry lib/sdam/server_description.js.map
+1360 silly gunzTarPerm extractEntry lib/sdam/server_selection_events.js.map
+1361 silly gunzTarPerm extractEntry lib/sdam/server_selection.js.map
+1362 silly gunzTarPerm extractEntry lib/sdam/server.js.map
+1363 silly gunzTarPerm extractEntry lib/sessions.js.map
+1364 silly gunzTarPerm extractEntry lib/operations/set_profiling_level.js.map
+1365 silly gunzTarPerm extractEntry lib/cmap/wire_protocol/shared.js.map
+1366 silly gunzTarPerm extractEntry lib/sort.js.map
+1367 silly gunzTarPerm extractEntry lib/sdam/srv_polling.js.map
+1368 silly gunzTarPerm extractEntry lib/client-side-encryption/state_machine.js.map
+1369 silly gunzTarPerm extractEntry lib/operations/stats.js.map
+1370 silly gunzTarPerm extractEntry lib/cmap/stream_description.js.map
+1371 silly gunzTarPerm extractEntry lib/timeout.js.map
+1372 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/token_cache.js.map
+1373 silly gunzTarPerm extractEntry lib/cmap/auth/mongodb_oidc/token_machine_workflow.js.map
+1374 silly gunzTarPerm extractEntry lib/sdam/topology_description.js.map
+1375 silly gunzTarPerm extractEntry lib/sdam/topology.js.map
+1376 silly gunzTarPerm extractEntry lib/transactions.js.map
+1377 silly gunzTarPerm extractEntry lib/bulk/unordered.js.map
+1378 silly gunzTarPerm extractEntry lib/operations/search_indexes/update.js.map
+1379 silly gunzTarPerm extractEntry lib/operations/update.js.map
+1380 silly gunzTarPerm extractEntry lib/gridfs/upload.js.map
+1381 silly gunzTarPerm extractEntry lib/utils.js.map
+1382 silly gunzTarPerm extractEntry lib/operations/validate_collection.js.map
+1383 silly gunzTarPerm extractEntry lib/write_concern.js.map
+1384 silly gunzTarPerm extractEntry lib/cmap/auth/x509.js.map
+1385 silly gunzTarPerm extractEntry LICENSE.md
+1386 silly gunzTarPerm extractEntry README.md
+1387 silly gunzTarPerm extractEntry src/cursor/abstract_cursor.ts
+1388 silly gunzTarPerm extractEntry src/admin.ts
+1389 silly gunzTarPerm extractEntry src/operations/aggregate.ts
+1390 silly gunzTarPerm extractEntry src/cursor/aggregation_cursor.ts
+1391 silly gunzTarPerm extractEntry src/cmap/auth/auth_provider.ts
+1392 silly gunzTarPerm extractEntry src/client-side-encryption/auto_encrypter.ts
+1393 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/automated_callback_workflow.ts
+1394 silly gunzTarPerm extractEntry src/cmap/auth/aws_temporary_credentials.ts
+1395 silly gunzTarPerm extractEntry src/client-side-encryption/providers/aws.ts
+1396 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/azure_machine_workflow.ts
+1397 silly gunzTarPerm extractEntry src/client-side-encryption/providers/azure.ts
+1398 silly gunzTarPerm extractEntry src/bson.ts
+1399 silly gunzTarPerm extractEntry src/operations/bulk_write.ts
+1400 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/callback_workflow.ts
+1401 silly gunzTarPerm extractEntry src/cursor/change_stream_cursor.ts
+1402 silly gunzTarPerm extractEntry src/change_stream.ts
+1403 silly gunzTarPerm extractEntry src/client-side-encryption/client_encryption.ts
+1404 silly gunzTarPerm extractEntry src/cmap/handshake/client_metadata.ts
+1405 silly gunzTarPerm extractEntry src/collection.ts
+1406 silly gunzTarPerm extractEntry src/operations/collections.ts
+1407 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/command_builders.ts
+1408 silly gunzTarPerm extractEntry src/cmap/command_monitoring_events.ts
+1409 silly gunzTarPerm extractEntry src/operations/command.ts
+1410 silly gunzTarPerm extractEntry src/cmap/commands.ts
+1411 silly gunzTarPerm extractEntry src/bulk/common.ts
+1412 silly gunzTarPerm extractEntry src/sdam/common.ts
+1413 silly gunzTarPerm extractEntry src/cmap/wire_protocol/compression.ts
+1414 silly gunzTarPerm extractEntry src/cmap/connect.ts
+1415 silly gunzTarPerm extractEntry src/cmap/connection_pool_events.ts
+1416 silly gunzTarPerm extractEntry src/cmap/connection_pool.ts
+1417 silly gunzTarPerm extractEntry src/connection_string.ts
+1418 silly gunzTarPerm extractEntry src/cmap/connection.ts
+1419 silly gunzTarPerm extractEntry src/cmap/wire_protocol/constants.ts
+1420 silly gunzTarPerm extractEntry src/constants.ts
+1421 silly gunzTarPerm extractEntry src/operations/count_documents.ts
+1422 silly gunzTarPerm extractEntry src/operations/count.ts
+1423 silly gunzTarPerm extractEntry src/operations/create_collection.ts
+1424 silly gunzTarPerm extractEntry src/operations/search_indexes/create.ts
+1425 silly gunzTarPerm extractEntry src/client-side-encryption/crypto_callbacks.ts
+1426 silly gunzTarPerm extractEntry src/db.ts
+1427 silly gunzTarPerm extractEntry src/operations/delete.ts
+1428 silly gunzTarPerm extractEntry src/deps.ts
+1429 silly gunzTarPerm extractEntry src/operations/distinct.ts
+1430 silly gunzTarPerm extractEntry src/cmap/wire_protocol/on_demand/document.ts
+1431 silly gunzTarPerm extractEntry src/gridfs/download.ts
+1432 silly gunzTarPerm extractEntry src/operations/drop.ts
+1433 silly gunzTarPerm extractEntry src/operations/search_indexes/drop.ts
+1434 silly gunzTarPerm extractEntry src/encrypter.ts
+1435 silly gunzTarPerm extractEntry src/error.ts
+1436 silly gunzTarPerm extractEntry src/client-side-encryption/errors.ts
+1437 silly gunzTarPerm extractEntry src/cmap/errors.ts
+1438 silly gunzTarPerm extractEntry src/operations/estimated_document_count.ts
+1439 silly gunzTarPerm extractEntry src/sdam/events.ts
+1440 silly gunzTarPerm extractEntry src/operations/execute_operation.ts
+1441 silly gunzTarPerm extractEntry src/explain.ts
+1442 silly gunzTarPerm extractEntry src/operations/find_and_modify.ts
+1443 silly gunzTarPerm extractEntry src/cursor/find_cursor.ts
+1444 silly gunzTarPerm extractEntry src/operations/find.ts
+1445 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/gcp_machine_workflow.ts
+1446 silly gunzTarPerm extractEntry src/client-side-encryption/providers/gcp.ts
+1447 silly gunzTarPerm extractEntry src/operations/get_more.ts
+1448 silly gunzTarPerm extractEntry src/cmap/auth/gssapi.ts
+1449 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/human_callback_workflow.ts
+1450 silly gunzTarPerm extractEntry src/client-side-encryption/providers/index.ts
+1451 silly gunzTarPerm extractEntry src/gridfs/index.ts
+1452 silly gunzTarPerm extractEntry src/index.ts
+1453 silly gunzTarPerm extractEntry src/operations/indexes.ts
+1454 silly gunzTarPerm extractEntry src/operations/insert.ts
+1455 silly gunzTarPerm extractEntry src/operations/is_capped.ts
+1456 silly gunzTarPerm extractEntry src/operations/kill_cursors.ts
+1457 silly gunzTarPerm extractEntry src/cursor/list_collections_cursor.ts
+1458 silly gunzTarPerm extractEntry src/operations/list_collections.ts
+1459 silly gunzTarPerm extractEntry src/operations/list_databases.ts
+1460 silly gunzTarPerm extractEntry src/cursor/list_indexes_cursor.ts
+1461 silly gunzTarPerm extractEntry src/cursor/list_search_indexes_cursor.ts
+1462 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/machine_workflow.ts
+1463 silly gunzTarPerm extractEntry src/cmap/metrics.ts
+1464 silly gunzTarPerm extractEntry src/mongo_client_auth_providers.ts
+1465 silly gunzTarPerm extractEntry src/mongo_client.ts
+1466 silly gunzTarPerm extractEntry src/cmap/auth/mongo_credentials.ts
+1467 silly gunzTarPerm extractEntry src/mongo_logger.ts
+1468 silly gunzTarPerm extractEntry src/mongo_types.ts
+1469 silly gunzTarPerm extractEntry src/cmap/auth/mongocr.ts
+1470 silly gunzTarPerm extractEntry src/client-side-encryption/mongocryptd_manager.ts
+1471 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_aws.ts
+1472 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc.ts
+1473 silly gunzTarPerm extractEntry mongodb.d.ts
+1474 silly gunzTarPerm extractEntry src/sdam/monitor.ts
+1475 silly gunzTarPerm extractEntry src/cmap/wire_protocol/on_data.ts
+1476 silly gunzTarPerm extractEntry src/operations/operation.ts
+1477 silly gunzTarPerm extractEntry src/operations/options_operation.ts
+1478 silly gunzTarPerm extractEntry src/bulk/ordered.ts
+1479 silly gunzTarPerm extractEntry src/cmap/auth/plain.ts
+1480 silly gunzTarPerm extractEntry src/operations/profiling_level.ts
+1481 silly gunzTarPerm extractEntry src/cmap/auth/providers.ts
+1482 silly gunzTarPerm extractEntry src/read_concern.ts
+1483 silly gunzTarPerm extractEntry src/read_preference.ts
+1484 silly gunzTarPerm extractEntry src/operations/remove_user.ts
+1485 silly gunzTarPerm extractEntry src/operations/rename.ts
+1486 silly gunzTarPerm extractEntry src/cmap/wire_protocol/responses.ts
+1487 silly gunzTarPerm extractEntry src/cursor/run_command_cursor.ts
+1488 silly gunzTarPerm extractEntry src/operations/run_command.ts
+1489 silly gunzTarPerm extractEntry src/cmap/auth/scram.ts
+1490 silly gunzTarPerm extractEntry src/sdam/server_description.ts
+1491 silly gunzTarPerm extractEntry src/sdam/server_selection_events.ts
+1492 silly gunzTarPerm extractEntry src/sdam/server_selection.ts
+1493 silly gunzTarPerm extractEntry src/sdam/server.ts
+1494 silly gunzTarPerm extractEntry src/sessions.ts
+1495 silly gunzTarPerm extractEntry src/operations/set_profiling_level.ts
+1496 silly gunzTarPerm extractEntry src/cmap/wire_protocol/shared.ts
+1497 silly gunzTarPerm extractEntry src/sort.ts
+1498 silly gunzTarPerm extractEntry src/sdam/srv_polling.ts
+1499 silly gunzTarPerm extractEntry src/client-side-encryption/state_machine.ts
+1500 silly gunzTarPerm extractEntry src/operations/stats.ts
+1501 silly gunzTarPerm extractEntry src/cmap/stream_description.ts
+1502 silly gunzTarPerm extractEntry src/timeout.ts
+1503 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/token_cache.ts
+1504 silly gunzTarPerm extractEntry src/cmap/auth/mongodb_oidc/token_machine_workflow.ts
+1505 silly gunzTarPerm extractEntry src/sdam/topology_description.ts
+1506 silly gunzTarPerm extractEntry src/sdam/topology.ts
+1507 silly gunzTarPerm extractEntry src/transactions.ts
+1508 silly gunzTarPerm extractEntry src/bulk/unordered.ts
+1509 silly gunzTarPerm extractEntry src/operations/search_indexes/update.ts
+1510 silly gunzTarPerm extractEntry src/operations/update.ts
+1511 silly gunzTarPerm extractEntry src/gridfs/upload.ts
+1512 silly gunzTarPerm extractEntry src/utils.ts
+1513 silly gunzTarPerm extractEntry src/operations/validate_collection.ts
+1514 silly gunzTarPerm extractEntry src/write_concern.ts
+1515 silly gunzTarPerm extractEntry src/cmap/auth/x509.ts
+1516 silly gentlyRm /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d/node_modules is being purged
+1517 verbose gentlyRm don't care about contents; nuking /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/mongodb-63f3f17d/node_modules
+1518 verbose unlock done using /Users/grahambass/.npm/_locks/staging-84dee528142d1af8.lock for /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging
+1519 silly rollbackFailedOptional Starting
+1520 silly rollbackFailedOptional Finishing
+1521 silly runTopLevelLifecycles Finishing
+1522 silly install printInstalled
+1523 warn mongodb@6.7.0 requires a peer of socks@^2.7.1 but none was installed.
+1524 verbose If you need help, you may report this error at:
+1524 verbose     <https://github.com/npm/npm/issues>
+1525 warn mongodb@6.7.0 requires a peer of snappy@^7.2.2 but none was installed.
+1526 verbose If you need help, you may report this error at:
+1526 verbose     <https://github.com/npm/npm/issues>
+1527 warn mongodb@6.7.0 requires a peer of kerberos@^2.0.1 but none was installed.
+1528 verbose If you need help, you may report this error at:
+1528 verbose     <https://github.com/npm/npm/issues>
+1529 warn mongodb@6.7.0 requires a peer of gcp-metadata@^5.2.0 but none was installed.
+1530 verbose If you need help, you may report this error at:
+1530 verbose     <https://github.com/npm/npm/issues>
+1531 warn mongodb@6.7.0 requires a peer of @mongodb-js/zstd@^1.1.0 but none was installed.
+1532 verbose If you need help, you may report this error at:
+1532 verbose     <https://github.com/npm/npm/issues>
+1533 warn mongodb@6.7.0 requires a peer of mongodb-client-encryption@>=6.0.0 <7 but none was installed.
+1534 verbose If you need help, you may report this error at:
+1534 verbose     <https://github.com/npm/npm/issues>
+1535 warn mongodb@6.7.0 requires a peer of @aws-sdk/credential-providers@^3.188.0 but none was installed.
+1536 verbose If you need help, you may report this error at:
+1536 verbose     <https://github.com/npm/npm/issues>
+1537 verbose stack Error: ENOTDIR: not a directory, open '/Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6/package.json'
+1538 verbose cwd /Users/grahambass/Desktop/UI-Programming-Project
+1539 error Darwin 17.7.0
+1540 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "mongodb"
+1541 error node v7.7.4
+1542 error npm  v4.1.2
+1543 error path /Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6/package.json
+1544 error code ENOTDIR
+1545 error errno -20
+1546 error syscall open
+1547 error ENOTDIR: not a directory, open '/Users/grahambass/Desktop/UI-Programming-Project/node_modules/.staging/@types/webidl-conversions-05186ec6/package.json'
+1548 error If you need help, you may report this error at:
+1548 error     <https://github.com/npm/npm/issues>
+1549 verbose exit [ -20, true ]

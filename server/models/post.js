@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const postSchema = new mongoose.Schema({
     userId: Number,
     postContent: String,
-    postLikes: [String],
+    postLikes: [Number],
     edited: Boolean
 });
 
@@ -21,13 +21,12 @@ async function createPost(userId, postContent) {
 }
 
 async function editPost(id, editedContent) {
-    const post = await Post.updateOne({ "_id": id }, { $set: { postContent: editedContent }, edited: true });
+    const post = await Post.updateOne({ "_id": id }, { $set: { postContent: editedContent, edited: true } });
     return post;
 }
 
 async function likePost(postId, userId) {
-    const post = await Post.findOne({ "_id": postId });
-    post.postLikes.push(userId);
+    const post = await Post.updateOne({ "_id": id }, { $push: { postLikes: userId } });
     return post;
 }
 

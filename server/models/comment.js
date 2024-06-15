@@ -4,7 +4,7 @@ const commentSchema = new mongoose.Schema({
     userId: Number,
     postId: Number,
     commentContent: String,
-    commentLikes: [String],
+    commentLikes: [Number],
     edited: Boolean
 });
 
@@ -13,7 +13,7 @@ const Comment = mongoose.model("Comment", commentSchema);
 async function addComment(userId, postId, commentContent) {
     const comment = await Comment.create({
         userId: userId,
-        postId: comment
+        postId: postId
         commentContent: commentContent,
         commentLikes: [],
         edited: false
@@ -28,8 +28,7 @@ async function editComment(id, editedContent) {
 }
 
 async function likeComment(commentId, userId) {
-    const comment = await Comment.findOne({ "_id": commentId });
-    comment.commentLikes.push(userId);
+    const comment = await Comment.updateOne({ "_id": commentId }, { $push: { commentLikes: userId });
     return comment;
 }
 

@@ -10,16 +10,16 @@ router
         } catch (error) {
             res.status(401).send({ message: error.message });
         }
-    });
+    })
 
     .post('/register', async (req, res) => {
-    try {
-        const user = await User.register(req.body.username, req.body.password);
-        res.send({ ...user, password: undefined })
-    } catch (error) {
-        res.status(401).send({ message: error.message })
-    }
-})
+        try {
+            const user = await User.register(req.body.username, req.body.password);
+            res.send({ ...user, password: undefined })
+        } catch (error) {
+            res.status(401).send({ message: error.message })
+        }
+    })
 
     .put('/update', async (req, res) => {
         try {
@@ -37,6 +37,6 @@ router
         } catch (error) {
             res.status(401).send({ message: error.message })
         }
-    })
+    });
 
 module.exports = router;

@@ -1,12 +1,12 @@
 const express = require('express');
-const Post = require('../models/post');
+const Comment = require('../models/comment');
 const router = express.Router();
 
 router
     .post('/create', async (req, res) => {
         try {
-            const post = await Post.createPost(req.body.userId, req.body.postContent);
-            res.send(post);
+            const comment = await Comment.createComment(req.body.userId, req.body.postId, req.body.commentContent);
+            res.send(comment);
         } catch (error) {
             res.status(401).send({ message: error.message });
         }
@@ -14,8 +14,8 @@ router
 
     .put('/update', async (req, res) => {
         try {
-            const post = await Post.editPost(req.body.id, req.body.editedContent);
-            res.send(post)
+            const comment = await Comment.editComment(req.body.id, req.body.editedContent);
+            res.send(comment)
         } catch (error) {
             res.status(401).send({ message: error.message })
         }
@@ -23,8 +23,8 @@ router
 
     .put('/like', async (req, res) => {
         try {
-            const post = await Post.likePost(req.body.id, req.body.userId);
-            res.send(post);
+            const comment = await Comment.likeComment(req.body.id, req.body.userId);
+            res.send(comment);
         } catch (error) {
             res.status(401).send({ message: error.message })
         }
@@ -32,8 +32,8 @@ router
 
     .delete('/delete', async (req, res) => {
         try {
-            await Post.deletePost(req.body.id);
-            res.send({ success: "Post deleted" })
+            await Comment.deleteComment(req.body.id);
+            res.send({ success: "Comment deleted" })
         } catch (error) {
             res.status(401).send({ message: error.message })
         }
